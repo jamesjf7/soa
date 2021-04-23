@@ -30,6 +30,6 @@ class Database {
     }
 }
 
-let db = new Database(config.database);
+const db = new Database(config.database);
 
 module.exports = db;
