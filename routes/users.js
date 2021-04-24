@@ -9,7 +9,6 @@ const router = express.Router();
 // model
 const userModel = require("../models/UserModel");
 const UserModel = require("../models/UserModel");
-const { authenticate } = require("../middlewares/middlewares");
 
 router.use(express.json());
 router.use(express.urlencoded({ extended: true }));

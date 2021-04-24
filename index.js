@@ -6,8 +6,12 @@ const moment = require("moment");
 const app = express();
 
 const users = require("./routes/users");
+const recipes = require("./routes/recipes");
 
 require("dotenv").config();
+
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 app.use(cors());
 app.use(
@@ -23,6 +27,7 @@ app.use(
 
 /* routes */
 app.use("/api/users", users);
+app.use("/api/recipes", recipes);
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
