@@ -44,7 +44,7 @@ router.post("/", [authenticate, inputValidation], async (req, res) => {
 /* delete */
 router.delete(
     "/:id",
-    [ inputValidation],
+    [authenticate, inputValidation],
     async (req, res) => {
         let plans = await planModel.delete(req.params);
         res.status(200).send({
