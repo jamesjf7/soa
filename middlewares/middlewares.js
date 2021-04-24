@@ -42,4 +42,5 @@ module.exports = {
                     );
         };
     },
+    apihit: (req, res, next) => {},
 };

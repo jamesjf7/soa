@@ -30,7 +30,11 @@ router.get("/:id", [authenticate, inputValidation], async (req, res) => {
 router.get(
     "/recommendation",
     [authenticate, inputValidation],
-    async (req, res) => {}
+    async (req, res) => {
+        let recipes = await recipeModel.recommendation(req.query);
+
+        res.status(200).send(recipes);
+    }
 );
 
 module.exports = router;
