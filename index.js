@@ -7,6 +7,7 @@ const app = express();
 
 const users = require("./routes/users");
 const recipes = require("./routes/recipes");
+const plans = require("./routes/plans");
 
 require("dotenv").config();
 
@@ -28,6 +29,7 @@ app.use(
 /* routes */
 app.use("/api/users", users);
 app.use("/api/recipes", recipes);
+app.use("/api/plans", plans);
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
