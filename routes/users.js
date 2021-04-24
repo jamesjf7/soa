@@ -9,6 +9,7 @@ const router = express.Router();
 // model
 const userModel = require("../models/UserModel");
 const UserModel = require("../models/UserModel");
+const { authenticate } = require("../middlewares/middlewares");
 
 router.use(express.json());
 router.use(express.urlencoded({ extended: true }));
@@ -18,30 +19,63 @@ const storage = multer.diskStorage({
         cb(null, "./uploads");
     },
     filename: (req, file, cb) => {
-        let filename = req.body.id;
-        let extension = file.originalname.split(".").slice(-1)[0];
-        cb(null, new Date() + "." + extension);
+        console.log(file);
+        if (file != null) {
+            let filename = req.body.id;
+            let extension = file.originalname.split(".").slice(-1)[0];
+            cb(null, new Date() + "." + extension);
+        }
     },
     fileFilter: function (req, file, callback) {
-        let extension = path.extname(file.originalname);
-        if (
-            extension !== ".png" &&
-            extension !== ".jpg" &&
-            extension !== ".gif" &&
-            extension !== ".jpeg"
-        ) {
-            return callback(new Error("Only images are allowed"));
+        console.log(file);
+        if (file != null) {
+            let extension = path.extname(file.originalname);
+            if (
+                extension !== ".png" &&
+                extension !== ".jpg" &&
+                extension !== ".gif" &&
+                extension !== ".jpeg"
+            ) {
+                return callback(new Error("Only images are allowed"));
+            }
+            callback(null, true);
         }
-        callback(null, true);
     },
 });
 
 const upload = multer({ storage: storage });
 
-/* testing */
-router.get("/", (req, res) => {
-    return res.status(200).send("Hellow World!");
-});
+/* view all users */
+/* eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluMUBhZG1pbi5jb20iLCJ1c2VybmFtZSI6ImFkbWluMSIsInBhc3N3b3JkIjoiYWRtaW4xIiwicm9sZSI6IjAiLCJpYXQiOjE2MTkyNDQ1Njd9.f6ShyIAVFSwY9-loZIsSoO9AJx1kTwaHj43DXYKmZgs */
+router.get(
+    "/",
+    [middlewares.authenticate, middlewares.authorize([0])],
+    async (req, res) => {
+        let users = await userModel.select();
+        if (users.length == 0)
+            return res.status(404).send({ message: "no user found!" });
+        users = users.map(({ name, username, email, role }) => ({
+            name,
+            username,
+            email,
+            role,
+        }));
+        return res.status(200).send(users);
+    }
+);
+
+/* view user detail */
+router.get(
+    "/:id",
+    [middlewares.authenticate, middlewares.authorize([0])],
+    async (req, res) => {
+        let users = await userModel.select(`where id = ${req.params.id}`);
+        if (users.length == 0)
+            return res.status(404).send({ message: "no user found!" });
+        let user = users[0];
+        return res.status(200).send(user);
+    }
+);
 
 /* login */
 router.post(
@@ -150,7 +184,8 @@ router.post(
             username: username,
             password: password,
             token: token,
-            image: "/uploads/" + req.file.originalname,
+            image:
+                req.file == null ? null : "/uploads/" + req.file.originalname,
             age: age,
             role: role,
             balance: 0,

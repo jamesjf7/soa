@@ -1,4 +1,5 @@
-const { check, validationResult } = require("express-validator");
+const { validationResult } = require("express-validator");
+const jwt = require("jsonwebtoken");
 
 module.exports = {
     inputValidation: (req, res, next) => {
@@ -30,7 +31,7 @@ module.exports = {
     authorize: (roles) => {
         return async function (req, res, next) {
             let user = req.user;
-            if (roles.includes(user.role)) {
+            if (roles.includes(parseInt(user.role))) {
                 req.user = user;
                 next();
             } else
