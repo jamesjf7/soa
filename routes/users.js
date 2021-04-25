@@ -3,7 +3,12 @@ const path = require("path");
 const multer = require("multer");
 const jwt = require("jsonwebtoken");
 const fs = require("fs");
-const middlewares = require("../middlewares/middlewares");
+const {
+    authenticate,
+    authorize,
+    apihit,
+    inputValidation,
+} = require("../middlewares/middlewares");
 const { check } = require("express-validator");
 const router = express.Router();
 // model
@@ -46,35 +51,27 @@ const upload = multer({ storage: storage });
 
 /* view all users */
 /* eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluMUBhZG1pbi5jb20iLCJ1c2VybmFtZSI6ImFkbWluMSIsInBhc3N3b3JkIjoiYWRtaW4xIiwicm9sZSI6IjAiLCJpYXQiOjE2MTkyNDQ1Njd9.f6ShyIAVFSwY9-loZIsSoO9AJx1kTwaHj43DXYKmZgs */
-router.get(
-    "/",
-    [middlewares.authenticate, middlewares.authorize([0])],
-    async (req, res) => {
-        let users = await userModel.select();
-        if (users.length == 0)
-            return res.status(404).send({ message: "no user found!" });
-        users = users.map(({ name, username, email, role }) => ({
-            name,
-            username,
-            email,
-            role,
-        }));
-        return res.status(200).send(users);
-    }
-);
+router.get("/", [authenticate, authorize([0])], async (req, res) => {
+    let users = await userModel.select();
+    if (users.length == 0)
+        return res.status(404).send({ message: "no user found!" });
+    users = users.map(({ name, username, email, role }) => ({
+        name,
+        username,
+        email,
+        role,
+    }));
+    return res.status(200).send(users);
+});
 
 /* view user detail */
-router.get(
-    "/:id",
-    [middlewares.authenticate, middlewares.authorize([0])],
-    async (req, res) => {
-        let users = await userModel.select(`where id = ${req.params.id}`);
-        if (users.length == 0)
-            return res.status(404).send({ message: "no user found!" });
-        let user = users[0];
-        return res.status(200).send(user);
-    }
-);
+router.get("/:id", [authenticate, authorize([0])], async (req, res) => {
+    let users = await userModel.select(`where id = ${req.params.id}`);
+    if (users.length == 0)
+        return res.status(404).send({ message: "no user found!" });
+    let user = users[0];
+    return res.status(200).send(user);
+});
 
 /* login */
 router.post(
@@ -84,7 +81,7 @@ router.post(
             check("username").notEmpty().trim().escape(),
             check("password").notEmpty().trim().escape(),
         ],
-        middlewares.inputValidation,
+        inputValidation,
     ],
     async (req, res) => {
         let { username, password } = req.body;
@@ -162,7 +159,7 @@ router.post(
                 .trim()
                 .escape(), // role 0 admin, 1 user;
         ],
-        middlewares.inputValidation,
+        inputValidation,
     ],
     async (req, res) => {
         let { name, email, username, password, age, role } = req.body;

@@ -1,6 +1,5 @@
 const url = require("url");
 const axios = require("axios");
-const chalk = require("chalk");
 
 const apiKey = ["335fd33838774c4baec2166c8b06dec2"];
 

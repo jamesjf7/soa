@@ -26,7 +26,9 @@ app.use(
     })
 );
 
-/* routes */
+/**
+ * Routes
+ * */
 app.use("/api/users", users);
 app.use("/api/recipes", recipes);
 app.use("/api/plans", plans);

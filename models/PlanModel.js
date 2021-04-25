@@ -1,6 +1,5 @@
 const url = require("url");
 const axios = require("axios");
-const chalk = require("chalk");
 
 // database
 const db = require("../database/database");
