@@ -7,15 +7,15 @@ const router = express.Router();
 // model
 const planModel = require("../models/PlanModel");
 
-/* view all plans */
+/* view all transactions */
 router.get("/", [authenticate, inputValidation], async (req, res) => {
-    let plans = await planModel.select();
-    plans = plans.map((plan) => {
+    let transactions = await planModel.select();
+    transactions = transactions.map((plan) => {
         var o = Object.assign({}, plan);
         o.duration_unit = 'days';
         return o;
     })
-    res.status(200).send(plans);
+    res.status(200).send(transactions);
 });
 
 /* create */
@@ -46,7 +46,7 @@ router.delete(
     "/:id",
     [authenticate, inputValidation],
     async (req, res) => {
-        let plans = await planModel.delete(req.params);
+        let transactions = await planModel.delete(req.params);
         res.status(200).send({
             message: "Delete success",
         });

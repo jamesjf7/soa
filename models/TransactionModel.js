@@ -1,6 +1,3 @@
-const url = require("url");
-const axios = require("axios");
-
 // database
 const db = require("../database/database");
 
@@ -8,8 +5,12 @@ module.exports = {
     select: async (condition = "") => {
         try {
             let result = await db.query(`
-            SELECT *
-            FROM plans
+            SELECT *, users.name as user_name, plans.name as plan_name
+            FROM transactions
+            JOIN plans
+            ON plans.id = transactions.plan_id
+            JOIN users
+            ON users.id = transactions.user_id
             ${condition}
             `);
             return result;
@@ -19,19 +20,8 @@ module.exports = {
     },
     insert: async function (data) {
         try {
-            let result = await db.query(`insert into plans set ?`, data);
+            let result = await db.query(`insert into transactions set ?`, data);
             if (result.affectedRows > 0) return result;
-            else return null;
-        } catch (err) {
-            return err;
-        }
-    },
-    delete: async function (data) {
-        try {
-            let result = await db.query(
-                `delete from plans where id = '${data.id}'`
-            );
-            if (result.affectedRows > 0) return data;
             else return null;
         } catch (err) {
             return err;
