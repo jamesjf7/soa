@@ -18,10 +18,10 @@ module.exports = {
             return err;
         }
     },
-    update: async function (data) {
+    update: async function (data, id) {
         try {
             let result = await db.query(
-                `update users set ${data} where id = '${data.id}'`
+                `update users set ${data} where id = '${id}'`
             );
             if (result.affectedRows > 0) return data;
             else return null;
