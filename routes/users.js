@@ -22,14 +22,14 @@ const storage = multer.diskStorage({
     destination: (req, file, cb) => {
         cb(null, "./uploads");
     },
-    filename: (req, file, cb) => {
-        console.log(file);
-        if (file != null) {
-            let filename = req.body.id;
-            let extension = file.originalname.split(".").slice(-1)[0];
-            cb(null, new Date() + "." + extension);
-        }
-    },
+    // filename: (req, file, cb) => {
+    //     console.log(file);
+    //     if (file != null) {
+    //         let filename = req.body.id;
+    //         let extension = file.originalname.split(".").slice(-1)[0];
+    //         cb(null, new Date() + "." + extension);
+    //     }
+    // },
     fileFilter: function (req, file, callback) {
         console.log(file);
         if (file != null) {
