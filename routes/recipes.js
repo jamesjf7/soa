@@ -1,35 +1,54 @@
 const express = require("express");
-const path = require("path");
-const multer = require("multer");
 const { authenticate, inputValidation } = require("../middlewares/middlewares");
 const { check } = require("express-validator");
 const router = express.Router();
 // model
-const planModel = require("../models/PlanModel");
 
 /* view user detail */
-router.get("/", [authenticate, inputValidation], async (req, res) => {
-    let plans = await planModel.search({
-        search: req.query.search,
-        number: req.query.number,
-    });
+router.get(
+    "/",
+    [
+        [
+            check("search").notEmpty().trim().escape(),
+            check("number").toInt().trim().escape(),
+        ],
+        authenticate,
+        inputValidation,
+    ],
+    async (req, res) => {
+        let plans = await planModel.search({
+            search: req.query.search,
+            number: req.query.number,
+        });
 
-    res.status(200).send(plans);
-});
+        res.status(200).send(plans);
+    }
+);
 
-/* login */
-router.get("/:id", [authenticate, inputValidation], async (req, res) => {
-    let { id } = req.params;
+/* recipe's detail */
+router.get(
+    "/:id",
+    [[check("id").trim().escape()], authenticate, inputValidation],
+    async (req, res) => {
+        let { id } = req.params;
 
-    let plans = await planModel.detail(id);
+        let plans = await planModel.detail(id);
 
-    res.status(200).send(plans);
-});
+        res.status(200).send(plans);
+    }
+);
 
-/* register */
+/* recommendation */
 router.get(
     "/recommendation",
-    [authenticate, inputValidation],
+    [
+        [
+            check("minFat").toInt().trim().escape(),
+            check("maxFat").toInt().trim().escape(),
+        ],
+        authenticate,
+        inputValidation,
+    ],
     async (req, res) => {
         let plans = await planModel.recommendation(req.query);
 
