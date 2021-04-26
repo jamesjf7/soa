@@ -8,13 +8,13 @@ const router = express.Router();
 const planModel = require("../models/PlanModel");
 
 /* view all plans */
-router.get("/", [authenticate, inputValidation], async (req, res) => {
+router.get("/", [[], authenticate, inputValidation], async (req, res) => {
     let plans = await planModel.select();
     plans = plans.map((plan) => {
         var o = Object.assign({}, plan);
-        o.duration_unit = 'days';
+        o.duration_unit = "days";
         return o;
-    })
+    });
     res.status(200).send(plans);
 });
 
@@ -42,15 +42,11 @@ router.post("/", [authenticate, inputValidation], async (req, res) => {
 });
 
 /* delete */
-router.delete(
-    "/:id",
-    [authenticate, inputValidation],
-    async (req, res) => {
-        let plans = await planModel.delete(req.params);
-        res.status(200).send({
-            message: "Delete success",
-        });
-    }
-);
+router.delete("/:id", [authenticate, inputValidation], async (req, res) => {
+    let plans = await planModel.delete(req.params);
+    res.status(200).send({
+        message: "Delete success",
+    });
+});
 
 module.exports = router;

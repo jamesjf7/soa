@@ -28,13 +28,6 @@ CREATE TABLE `plans` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 
-/*Data for the table `plans` */
-
-insert  into `plans`(`id`,`name`,`price`,`duration`) values 
-(1,'SILVER',100000,30),
-(2,'GOLD',150000,60),
-(3,'DIAMOND',200000,90);
-
 /*Table structure for table `transactions` */
 
 DROP TABLE IF EXISTS `transactions`;
@@ -47,8 +40,6 @@ CREATE TABLE `transactions` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
-/*Data for the table `transactions` */
-
 /*Table structure for table `users` */
 
 DROP TABLE IF EXISTS `users`;
@@ -56,17 +47,18 @@ DROP TABLE IF EXISTS `users`;
 CREATE TABLE `users` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(255) DEFAULT NULL,
+  `email` varchar(255) DEFAULT NULL,
+  `username` varchar(255) DEFAULT NULL,
+  `password` varchar(255) DEFAULT NULL,
+  `token` varchar(255) DEFAULT NULL,
+  `image` varchar(255) DEFAULT NULL,
   `age` int(11) DEFAULT NULL,
-  `weight` int(11) DEFAULT NULL COMMENT 'kg',
-  `fat` int(3) DEFAULT NULL COMMENT '0 s/d 100',
   `role` int(1) DEFAULT NULL COMMENT '0 = admin, 1 = user',
   `balance` int(11) DEFAULT NULL,
   `is_active` int(1) DEFAULT 1 COMMENT '0 = tidak aktif, 1 = aktif',
   `api_hit` int(11) DEFAULT 0,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
-/*Data for the table `users` */
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
