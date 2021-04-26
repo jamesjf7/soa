@@ -28,6 +28,13 @@ CREATE TABLE `plans` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 
+/*Data for the table `plans` */
+
+insert  into `plans`(`id`,`name`,`price`,`duration`) values 
+(1,'SILVER',100000,30),
+(2,'GOLD',150000,60),
+(3,'DIAMOND',200000,90);
+
 /*Table structure for table `transactions` */
 
 DROP TABLE IF EXISTS `transactions`;
@@ -39,6 +46,8 @@ CREATE TABLE `transactions` (
   `created_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+/*Data for the table `transactions` */
 
 /*Table structure for table `users` */
 
@@ -59,6 +68,11 @@ CREATE TABLE `users` (
   `api_hit` int(11) DEFAULT 0,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+/*Data for the table `users` */
+
+insert  into `users`(`id`,`name`,`email`,`username`,`password`,`token`,`image`,`age`,`role`,`balance`,`is_active`,`api_hit`) values 
+(1,'admin1','admin1@admin.com','admin1','admin1','eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluMUBhZG1pbi5jb20iLCJ1c2VybmFtZSI6ImFkbWluMSIsInBhc3N3b3JkIjoiYWRtaW4xIiwicm9sZSI6IjAiLCJpYXQiOjE2MTkyNDQ2MzF9.N8yr95LJ-OwNEjwKYJhL0Nhjx96RqVZFW2_cWGKvMsU',NULL,21,0,0,1,0);
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
