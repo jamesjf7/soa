@@ -164,22 +164,12 @@ router.post(
     async (req, res) => {
         let { name, email, username, password, age, role } = req.body;
 
-        let token = jwt.sign(
-            {
-                email: email,
-                username: username,
-                password: password,
-                role: role,
-            },
-            process.env.SECRET
-        );
-
         let user = {
             name: name,
             email: email,
             username: username,
             password: password,
-            token: token,
+            token: "",
             image:
                 req.file == null ? null : "/uploads/" + req.file.originalname,
             age: age,
@@ -191,6 +181,18 @@ router.post(
         if (result.affectedRows == 0) {
             return res.status(400).json(result);
         } else {
+            user.token = jwt.sign(
+                {
+                    id: result.insertId,
+                    email: email,
+                    username: username,
+                    password: password,
+                    role: role,
+                },
+                process.env.SECRET
+            );
+            await userModel.update(user, result.insertId);
+
             return res.status(201).json({
                 name: user.name,
                 email: user.email,
