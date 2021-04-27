@@ -121,7 +121,7 @@ router.post(
                     );
                     if (result.length > 0) return Promise.reject();
                 })
-                .withMessage(),
+                .withMessage("email is not available"),
             check("username").notEmpty().trim().escape(),
             check("username", "username is not available").custom(
                 async (value) => {
@@ -175,6 +175,7 @@ router.post(
             age: age,
             role: role,
             balance: 0,
+            api_hit: 100,
         };
 
         let result = await userModel.insert(user);
@@ -184,14 +185,17 @@ router.post(
             user.token = jwt.sign(
                 {
                     id: result.insertId,
-                    email: email,
-                    username: username,
-                    password: password,
+                    // email: email,
+                    // username: username,
+                    // password: password,
                     role: role,
                 },
                 process.env.SECRET
             );
-            await userModel.update(user, result.insertId);
+
+            // console.log(user);
+            let update = await userModel.update(user, result.insertId);
+            // console.log(update);
 
             return res.status(201).json({
                 name: user.name,

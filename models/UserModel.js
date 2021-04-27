@@ -12,7 +12,7 @@ module.exports = {
     insert: async function (data) {
         try {
             let result = await db.query(`insert into users set ?`, data);
-            if (result.affectedRows > 0) return data;
+            if (result.affectedRows > 0) return result;
             else return null;
         } catch (err) {
             return err;
@@ -21,7 +21,8 @@ module.exports = {
     update: async function (data, id) {
         try {
             let result = await db.query(
-                `update users set ${data} where id = '${id}'`
+                `update users set ? where id = '${id}'`,
+                data
             );
             if (result.affectedRows > 0) return data;
             else return null;
