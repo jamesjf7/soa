@@ -186,7 +186,7 @@ router.post(
                 {
                     id: result.insertId,
                     // email: email,
-                    // username: username,
+                    username: username,
                     // password: password,
                     role: role,
                 },
