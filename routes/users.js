@@ -12,7 +12,6 @@ const {
 const { check } = require("express-validator");
 const router = express.Router();
 // model
-const userModel = require("../models/UserModel");
 const UserModel = require("../models/UserModel");
 
 router.use(express.json());
@@ -52,7 +51,7 @@ const upload = multer({ storage: storage });
 /* view all users */
 /* eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluMUBhZG1pbi5jb20iLCJ1c2VybmFtZSI6ImFkbWluMSIsInBhc3N3b3JkIjoiYWRtaW4xIiwicm9sZSI6IjAiLCJpYXQiOjE2MTkyNDQ1Njd9.f6ShyIAVFSwY9-loZIsSoO9AJx1kTwaHj43DXYKmZgs */
 router.get("/", [authenticate, authorize([0])], async (req, res) => {
-    let users = await userModel.select();
+    let users = await UserModel.select();
     if (users.length == 0)
         return res.status(404).send({ message: "no user found!" });
     users = users.map(({ name, username, email, role }) => ({
@@ -66,7 +65,7 @@ router.get("/", [authenticate, authorize([0])], async (req, res) => {
 
 /* view user detail */
 router.get("/:id", [authenticate, authorize([0])], async (req, res) => {
-    let users = await userModel.select(`where id = ${req.params.id}`);
+    let users = await UserModel.select(`where id = ${req.params.id}`);
     if (users.length == 0)
         return res.status(404).send({ message: "no user found!" });
     let user = users[0];
@@ -85,7 +84,7 @@ router.post(
     ],
     async (req, res) => {
         let { username, password } = req.body;
-        let users = await userModel.select(
+        let users = await UserModel.select(
             `where username = '${username}' and password = '${password}'`
         );
         if (users.length == 0) {
@@ -96,6 +95,7 @@ router.post(
             let user = users[0];
             return res.status(200).json({
                 message: "Welcome, " + user.name,
+                token: user.token,
             });
         }
     }
@@ -178,7 +178,7 @@ router.post(
             api_hit: 100,
         };
 
-        let result = await userModel.insert(user);
+        let result = await UserModel.insert(user);
         if (result.affectedRows == 0) {
             return res.status(400).json(result);
         } else {
@@ -194,7 +194,7 @@ router.post(
             );
 
             // console.log(user);
-            let update = await userModel.update(user, result.insertId);
+            let update = await UserModel.update(user, result.insertId);
             // console.log(update);
 
             return res.status(201).json({

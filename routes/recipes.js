@@ -1,10 +1,11 @@
 const express = require("express");
 const { authenticate, inputValidation } = require("../middlewares/middlewares");
 const { check } = require("express-validator");
+const RecipeModel = require("../models/RecipeModel");
 const router = express.Router();
 // model
 
-/* view user detail */
+/* search recipes */
 router.get(
     "/",
     [
@@ -16,14 +17,21 @@ router.get(
         inputValidation,
     ],
     async (req, res) => {
-        let plans = await planModel.search({
+        let recipes = await RecipeModel.search({
             search: req.query.search,
-            number: req.query.number,
+            number: req.query.number || 5,
         });
 
-        res.status(200).send(plans);
+        return res.status(200).send(recipes);
     }
 );
+
+/* recommendation */
+router.get("/recommendation", async (req, res) => {
+    let recipes = await RecipeModel.recommendation(req.query);
+
+    return res.status(200).send(recipes);
+});
 
 /* recipe's detail */
 router.get(
@@ -32,27 +40,9 @@ router.get(
     async (req, res) => {
         let { id } = req.params;
 
-        let plans = await planModel.detail(id);
+        let recipes = await RecipeModel.detail(id);
 
-        res.status(200).send(plans);
-    }
-);
-
-/* recommendation */
-router.get(
-    "/recommendation",
-    [
-        [
-            check("minFat").toInt().trim().escape(),
-            check("maxFat").toInt().trim().escape(),
-        ],
-        authenticate,
-        inputValidation,
-    ],
-    async (req, res) => {
-        let plans = await planModel.recommendation(req.query);
-
-        res.status(200).send(plans);
+        return res.status(200).send(recipes);
     }
 );
 

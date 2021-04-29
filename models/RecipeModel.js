@@ -14,7 +14,7 @@ module.exports = {
 
         try {
             let result = await axios.get(
-                `https://api.spoonacular.com/recipes/complexSearch?${params}`
+                `https://api.spoonacular.com/recipes/complexSearch?${params.toString()}`
             );
             return result.data;
         } catch (e) {
@@ -29,7 +29,7 @@ module.exports = {
         try {
             let [result] = await Promise.all([
                 axios.get(
-                    `https://api.spoonacular.com/recipes/${id}/information?${params}`
+                    `https://api.spoonacular.com/recipes/${id}/information?${params.toString()}`
                 ),
             ]);
             return result.data;
@@ -40,14 +40,18 @@ module.exports = {
     recommendation: async (data) => {
         const params = new url.URLSearchParams({
             number: data.number,
-            ignorePantry: true,
+            minFat: data.minFat,
+            maxFat: data.maxFat,
+            minCarbs: data.minCarbs,
+            maxCarbs: data.maxCarbs,
             apiKey: apiKey[0],
         });
 
         try {
             let result = await axios.get(
-                `https://api.spoonacular.com/recipes/findByIngredients?${params}`
+                `https://api.spoonacular.com/recipes/complexSearch?${params.toString()}`
             );
+
             return result.data;
         } catch (e) {
             console.error(e);
