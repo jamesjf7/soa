@@ -30,3 +30,5 @@
 ::1 - - [30/Apr/2021:10:09:29 +0000] "GET /api/transactions HTTP/1.1" 200 114
 ::1 - - [30/Apr/2021:10:10:22 +0000] "GET /api/transactions HTTP/1.1" 200 116
 ::1 - - [30/Apr/2021:10:10:32 +0000] "GET /api/transactions HTTP/1.1" 401 47
+Method:GET; URL:/api/plans; Status:-; Message:-; DateTime:h30/04/2021; ResponseTime:- ms
+Method:GET; URL:/api/plans; Status:200; Message:OK; DateTime:h30/04/2021; ResponseTime:1230.747 ms

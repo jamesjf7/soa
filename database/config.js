@@ -1,4 +1,4 @@
-const config = {
+const local = {
     database: {
         host: "localhost",
         user: "root",
@@ -7,4 +7,15 @@ const config = {
     },
 };
 
-module.exports = config;
+const production = {
+    database: {
+        host: "remotemysql.com",
+        user: "iVp5wJZ4S2",
+        password: "TcuZjcJjrD",
+        database: "iVp5wJZ4S2",
+        port: 3306,
+    },
+};
+
+// module.exports = local;
+module.exports = production;
