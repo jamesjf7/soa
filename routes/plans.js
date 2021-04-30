@@ -1,7 +1,7 @@
 const express = require("express");
 const path = require("path");
 const multer = require("multer");
-const { authenticate, inputValidation } = require("../middlewares/middlewares");
+const { authenticate, inputValidation, authorize } = require("../middlewares/middlewares");
 const { check } = require("express-validator");
 const router = express.Router();
 // model
@@ -19,7 +19,7 @@ router.get("/", [[], authenticate, inputValidation], async (req, res) => {
 });
 
 /* create */
-router.post("/", [authenticate, inputValidation], async (req, res) => {
+router.post("/", [authenticate, inputValidation, authorize([0])], async (req, res) => {
     let { name, price, duration } = req.body;
 
     let plan = {
@@ -27,7 +27,6 @@ router.post("/", [authenticate, inputValidation], async (req, res) => {
         price,
         duration,
     };
-
     let result = await planModel.insert(plan);
     if (result.affectedRows == 0) {
         return res.status(400).json(result);
@@ -42,7 +41,7 @@ router.post("/", [authenticate, inputValidation], async (req, res) => {
 });
 
 /* delete */
-router.delete("/:id", [authenticate, inputValidation], async (req, res) => {
+router.delete("/:id", [authenticate, inputValidation, authorize([0])], async (req, res) => {
     let plans = await planModel.delete(req.params);
     res.status(200).send({
         message: "Delete success",
