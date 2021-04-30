@@ -36,9 +36,10 @@ app.use(
  * Routes
  * */
 app.get("/", (req, res) => {
-    let path = __dirname + "README.md";
-    let file = fs.readFileSync(path, "utf8");
-    return res.send(marked(file.toString()));
+    return res.status(200).send("OK");
+    // let path = __dirname + "README.md";
+    // let file = fs.readFileSync(path, "utf8");
+    // return res.send(marked(file.toString()));
 });
 
 app.use("/api/users", users);
