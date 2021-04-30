@@ -16,15 +16,20 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use(cors());
+morgan.token("message", (req, res) => res.statusMessage);
+morgan.token("datetime", () => moment().format("DD/MM/yyyy"));
 app.use(
-    morgan("common", {
-        stream: fs.createWriteStream(
-            `./logs/${moment().format("Y.MM.D")}.log`,
-            {
-                flags: "a",
-            }
-        ),
-    })
+    morgan(
+        "Method::method; URL::url; Status::status; Message::message; DateTime:h:datetime; ResponseTime::response-time ms",
+        {
+            stream: fs.createWriteStream(
+                `./logs/${moment().format("Y.MM.D")}.log`,
+                {
+                    flags: "a",
+                }
+            ),
+        }
+    )
 );
 
 /**
@@ -36,4 +41,4 @@ app.use("/api/plans", plans);
 app.use("/api/transactions", transactions);
 
 const port = process.env.PORT || 3000;
-app.listen(port, () => console.log(`Example app listening on port ${port}!`));
+app.listen(port, () => console.log(`app listening on port ${port}!`));

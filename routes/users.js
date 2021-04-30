@@ -77,8 +77,16 @@ router.post(
     "/login",
     [
         [
-            check("username").notEmpty().trim().escape(),
-            check("password").notEmpty().trim().escape(),
+            check("username")
+                .notEmpty()
+                .withMessage("username can not be empty")
+                .trim()
+                .escape(),
+            check("password")
+                .notEmpty()
+                .withMessage("password can not be empty")
+                .trim()
+                .escape(),
         ],
         inputValidation,
     ],
@@ -88,8 +96,8 @@ router.post(
             `where username = '${username}' and password = '${password}'`
         );
         if (users.length == 0) {
-            return res.status(404).json({
-                message: "No user found!",
+            return res.status(401).json({
+                message: "Wrong username or password!",
             });
         } else {
             let user = users[0];
@@ -203,7 +211,7 @@ router.post(
                 username: user.username,
                 token: user.token,
                 age: user.age,
-                role: user.role === 1 ? "user" : "admin",
+                role: parseInt(user.role) === 1 ? "user" : "admin",
                 balance: 0,
             });
         }

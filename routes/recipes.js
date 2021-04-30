@@ -27,11 +27,14 @@ router.get(
 );
 
 /* recommendation */
-router.get("/recommendation", async (req, res) => {
-    let recipes = await RecipeModel.recommendation(req.query);
-
-    return res.status(200).send(recipes);
-});
+router.get(
+    "/recommendation",
+    [[check("number").toInt().trim().escape()], authenticate, inputValidation],
+    async (req, res) => {
+        let recipes = await RecipeModel.recommendation(req.query);
+        return res.status(200).send(recipes);
+    }
+);
 
 /* recipe's detail */
 router.get(
@@ -39,9 +42,7 @@ router.get(
     [[check("id").trim().escape()], authenticate, inputValidation],
     async (req, res) => {
         let { id } = req.params;
-
         let recipes = await RecipeModel.detail(id);
-
         return res.status(200).send(recipes);
     }
 );
