@@ -1,7 +1,7 @@
 const express = require("express");
 const path = require("path");
 const multer = require("multer");
-const { authenticate, inputValidation } = require("../middlewares/middlewares");
+const { authenticate, inputValidation, authorize } = require("../middlewares/middlewares");
 const { check } = require("express-validator");
 const router = express.Router();
 // model
@@ -13,27 +13,40 @@ const userModel = require("../models/UserModel");
 router.get("/", [authenticate, inputValidation], async (req, res) => {
     let transactions = [];
     let user = await userModel.select(`WHERE username = '${req.user.username}'`); user = user[0];
-    if(req.user.role == 1) {
+    
+    if(user.role == 1) {
         transactions = await transactionModel.select(`WHERE user_id = ${user.id}`);
         transactions = transactions.map((transaction) => {
             let time = new Date(transaction.created_at);
+            Date.prototype.addDays = function(days) {
+                var date = new Date(this.valueOf());
+                date.setDate(date.getDate() + days);
+                return date;
+            }
             return {
-                name: transaction.name,
+                plan: transaction.plan_name,
                 price: transaction.price,
                 duration: transaction.duration + " Days",
                 time: time.toLocaleString(),
+                end: time.addDays(transaction.duration).toLocaleString(),
             };
         });
     } else {
         transactions = await transactionModel.select();
         transactions = transactions.map((transaction) => {
             let time = new Date(transaction.created_at);
+            Date.prototype.addDays = function(days) {
+                var date = new Date(this.valueOf());
+                date.setDate(date.getDate() + days);
+                return date;
+            }
             return {
                 user: transaction.user_name,
-                name: transaction.plan_name,
+                plan: transaction.plan_name,
                 price: transaction.price,
                 duration: transaction.duration + " Days",
-                time: time.toLocaleString(),
+                start: time.toLocaleString(),
+                end: time.addDays(transaction.duration).toLocaleString(),
             };
         });
     }
@@ -42,17 +55,12 @@ router.get("/", [authenticate, inputValidation], async (req, res) => {
 });
 
 /* create */
-router.post("/", [authenticate, inputValidation], async (req, res) => {
+router.post("/", [authenticate, inputValidation, authorize([1])], async (req, res) => {
     let { plan_id } = req.body;
 
     let found_plan = await planModel.select(`WHERE id = ${plan_id}`); found_plan = found_plan[0];
     if(!found_plan) return res.status(400).json({ message: "PLAN NOT FOUND" });
     let user = await userModel.select(`WHERE username = '${req.user.username}'`); user = user[0];
-    if(user.role == 0) {
-        return res.status(400).json({
-            message: "ADMIN IS NOT ALLOWED TO JOIN PLAN"
-        });
-    }
     if(found_plan.price >= user.balance) {
         return res.status(400).json({
             message: "YOUR BALANCE IS NOT ENOUGH"
