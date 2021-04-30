@@ -12,6 +12,10 @@ const transactions = require("./routes/transactions");
 
 require("dotenv").config();
 
+app.set("views", "./views");
+app.set("view engine", "ejs");
+app.use(express.static(__dirname + '/views'));
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
@@ -36,7 +40,10 @@ app.use(
  * Routes
  * */
 app.get("/", (req, res) => {
-    return res.status(200).send("OK");
+    // return res.status(200).send("OK");
+
+    return res.render('index');
+
     // let path = __dirname + "README.md";
     // let file = fs.readFileSync(path, "utf8");
     // return res.send(marked(file.toString()));
