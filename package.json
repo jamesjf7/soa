@@ -1,17 +1,23 @@
 {
   "name": "soa",
   "version": "1.0.0",
-  "description": "",
+  "description": "soa",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jamesjf7/soa.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "James, Kevin & Richard",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jamesjf7/soa/issues"
