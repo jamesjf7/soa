@@ -211,7 +211,7 @@ router.post(
                 username: user.username,
                 token: user.token,
                 age: user.age,
-                role: user.role === 1 ? "user" : "admin",
+                role: parseInt(user.role) === 1 ? "user" : "admin",
                 balance: 0,
             });
         }
