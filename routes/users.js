@@ -218,4 +218,107 @@ router.post(
     }
 );
 
+/* update profile */
+router.put(
+    "/profile",
+    [
+        upload.single("image"), authenticate, authorize([1]),
+        [
+            check("name", "name is empty").notEmpty().trim().escape(),
+            check("password")
+                .notEmpty()
+                .withMessage("password is empty")
+                .trim()
+                .escape()
+                .isLength({ min: 5 })
+                .withMessage("password must be at least 5 chars long")
+                .matches(/\d/)
+                .withMessage("password must contain a number"),
+            check("age")
+                .notEmpty()
+                .withMessage("age is empty")
+                .isInt()
+                .withMessage("age must be number")
+                .trim()
+                .escape()
+        ],
+        inputValidation,
+    ],
+    async (req, res) => {
+        let { name, age, password } = req.body;
+
+        let user = {
+            name: name,
+            image:
+                req.file == null ? null : "/uploads/" + req.file.originalname,
+            password: password,
+            age: age
+        };
+
+        let result = await UserModel.update(user, req.user.id);
+        if (result.affectedRows == 0) {
+            return res.status(400).json(result);
+        } else {
+            return res.status(200).send(user);
+        }
+    }
+);
+
+/* tambah saldo user */
+router.put(
+    "/balance",
+    [
+        authenticate, authorize([1]),
+        [
+            check("balance")
+                .notEmpty()
+                .withMessage("balance is empty")
+                .isInt()
+                .withMessage("balance must be number")
+                .trim()
+                .escape()
+        ],
+        inputValidation,
+    ],
+    async (req, res) => {
+        let { balance } = req.body;
+
+        let user = {
+            balance: balance
+        };
+
+        let result = await UserModel.update(user, req.user.id);
+        if (result.affectedRows == 0) {
+            return res.status(400).json(result);
+        } else {
+            return res.status(200).send(user);
+        }
+    }
+);
+
+/* reset api hit user */
+router.put("/plans", async (req, res) => {
+    // let { username, password } = req.body;
+    // let reset_api_hit  = [100, 200, 300];
+
+    // let user = await UserModel.select(
+    //     `where username = '${username}' and password = '${password}'`
+    // );
+    // if (users.length == 0) {
+    //     return res.status(401).json({
+    //         message: "Wrong username or password!",
+    //     });
+    // } else {
+    //     let user = users[0];
+    //     return res.status(200).json({
+    //         message: "Welcome, " + user.name,
+    //         token: user.token,
+    //     });
+    // }
+    return res.status(200).json({
+        message: "Welcome, ",
+        token: "test",
+    });
+});
+
 module.exports = router;
