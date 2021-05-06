@@ -1,0 +1,97 @@
+Method:GET; URL:/; Status:200; Message:OK; DateTime:h06/05/2021; ResponseTime:10.449 ms
+Method:GET; URL:/images/favicon.ico; Status:404; Message:Not Found; DateTime:h06/05/2021; ResponseTime:1.052 ms
+Method:GET; URL:/images/favicon-32x32.png; Status:404; Message:Not Found; DateTime:h06/05/2021; ResponseTime:0.475 ms
+Method:GET; URL:/images/favicon-16x16.png; Status:404; Message:Not Found; DateTime:h06/05/2021; ResponseTime:0.161 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:2.943 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.765 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.352 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.787 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.685 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.731 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.570 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.235 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.208 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.160 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.073 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.424 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.419 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.835 ms
+Method:GET; URL:/; Status:200; Message:OK; DateTime:h06/05/2021; ResponseTime:1.632 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.729 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.932 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.272 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.209 ms
+Method:GET; URL:/; Status:200; Message:OK; DateTime:h06/05/2021; ResponseTime:2.134 ms
+Method:GET; URL:/; Status:200; Message:OK; DateTime:h06/05/2021; ResponseTime:2.270 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:7.790 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.920 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.744 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.397 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.506 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.293 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.289 ms
+Method:GET; URL:/; Status:200; Message:OK; DateTime:h06/05/2021; ResponseTime:2.039 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:2.059 ms
+Method:GET; URL:/; Status:200; Message:OK; DateTime:h06/05/2021; ResponseTime:2.773 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:2.571 ms
+Method:GET; URL:/; Status:200; Message:OK; DateTime:h06/05/2021; ResponseTime:1.569 ms
+Method:GET; URL:/; Status:200; Message:OK; DateTime:h06/05/2021; ResponseTime:2.306 ms
+Method:GET; URL:/; Status:200; Message:OK; DateTime:h06/05/2021; ResponseTime:1.867 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.608 ms
+Method:GET; URL:/; Status:200; Message:OK; DateTime:h06/05/2021; ResponseTime:2.311 ms
+Method:GET; URL:/demo_icon.gif; Status:404; Message:Not Found; DateTime:h06/05/2021; ResponseTime:1.462 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.637 ms
+Method:GET; URL:/; Status:200; Message:OK; DateTime:h06/05/2021; ResponseTime:1.750 ms
+Method:GET; URL:/; Status:200; Message:OK; DateTime:h06/05/2021; ResponseTime:2.896 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:2.154 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.176 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.240 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.185 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.269 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.744 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.287 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.311 ms
+Method:GET; URL:/js/popper.min.js.map; Status:404; Message:Not Found; DateTime:h06/05/2021; ResponseTime:0.734 ms
+Method:GET; URL:/js/bootstrap.min.js.map; Status:404; Message:Not Found; DateTime:h06/05/2021; ResponseTime:0.193 ms
+Method:GET; URL:/css/bootstrap.min.css.map; Status:404; Message:Not Found; DateTime:h06/05/2021; ResponseTime:0.181 ms
+Method:GET; URL:/; Status:200; Message:OK; DateTime:h06/05/2021; ResponseTime:2.323 ms
+Method:GET; URL:/js/popper.min.js.map; Status:404; Message:Not Found; DateTime:h06/05/2021; ResponseTime:0.216 ms
+Method:GET; URL:/js/bootstrap.min.js.map; Status:404; Message:Not Found; DateTime:h06/05/2021; ResponseTime:0.163 ms
+Method:GET; URL:/css/bootstrap.min.css.map; Status:404; Message:Not Found; DateTime:h06/05/2021; ResponseTime:0.174 ms
+Method:GET; URL:/; Status:200; Message:OK; DateTime:h06/05/2021; ResponseTime:1.655 ms
+Method:GET; URL:/css/bootstrap.min.css.map; Status:404; Message:Not Found; DateTime:h06/05/2021; ResponseTime:0.142 ms
+Method:GET; URL:/js/popper.min.js.map; Status:404; Message:Not Found; DateTime:h06/05/2021; ResponseTime:0.213 ms
+Method:GET; URL:/js/bootstrap.min.js.map; Status:404; Message:Not Found; DateTime:h06/05/2021; ResponseTime:0.227 ms
+Method:GET; URL:/; Status:200; Message:OK; DateTime:h06/05/2021; ResponseTime:2.138 ms
+Method:GET; URL:/css/bootstrap.min.css.map; Status:404; Message:Not Found; DateTime:h06/05/2021; ResponseTime:0.170 ms
+Method:GET; URL:/js/popper.min.js.map; Status:404; Message:Not Found; DateTime:h06/05/2021; ResponseTime:0.149 ms
+Method:GET; URL:/js/bootstrap.min.js.map; Status:404; Message:Not Found; DateTime:h06/05/2021; ResponseTime:0.158 ms
+Method:GET; URL:/views/images/favicon.ico; Status:404; Message:Not Found; DateTime:h06/05/2021; ResponseTime:0.188 ms
+Method:GET; URL:/views/images/favicon-32x32.png; Status:404; Message:Not Found; DateTime:h06/05/2021; ResponseTime:0.165 ms
+Method:GET; URL:/views/images/favicon-16x16.png; Status:404; Message:Not Found; DateTime:h06/05/2021; ResponseTime:0.165 ms
+Method:GET; URL:/; Status:200; Message:OK; DateTime:h06/05/2021; ResponseTime:1.634 ms
+Method:GET; URL:/css/bootstrap.min.css.map; Status:404; Message:Not Found; DateTime:h06/05/2021; ResponseTime:0.244 ms
+Method:GET; URL:/js/popper.min.js.map; Status:404; Message:Not Found; DateTime:h06/05/2021; ResponseTime:0.148 ms
+Method:GET; URL:/js/bootstrap.min.js.map; Status:404; Message:Not Found; DateTime:h06/05/2021; ResponseTime:0.131 ms
+Method:GET; URL:/; Status:200; Message:OK; DateTime:h06/05/2021; ResponseTime:2.285 ms
+Method:GET; URL:/css/bootstrap.min.css.map; Status:404; Message:Not Found; DateTime:h06/05/2021; ResponseTime:0.294 ms
+Method:GET; URL:/js/popper.min.js.map; Status:404; Message:Not Found; DateTime:h06/05/2021; ResponseTime:0.185 ms
+Method:GET; URL:/js/bootstrap.min.js.map; Status:404; Message:Not Found; DateTime:h06/05/2021; ResponseTime:0.197 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:2.141 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.253 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.434 ms
+Method:GET; URL:/; Status:200; Message:OK; DateTime:h06/05/2021; ResponseTime:1.992 ms
+Method:GET; URL:/images/fit4u.jpg; Status:404; Message:Not Found; DateTime:h06/05/2021; ResponseTime:0.174 ms
+Method:GET; URL:/; Status:200; Message:OK; DateTime:h06/05/2021; ResponseTime:2.351 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.817 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.720 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.545 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.235 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.589 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.739 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.530 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.696 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.431 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:2.210 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.246 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.225 ms
