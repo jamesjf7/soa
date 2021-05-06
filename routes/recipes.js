@@ -1,5 +1,9 @@
 const express = require("express");
-const { authenticate, inputValidation } = require("../middlewares/middlewares");
+const {
+    authenticate,
+    inputValidation,
+    apihit,
+} = require("../middlewares/middlewares");
 const { check } = require("express-validator");
 const RecipeModel = require("../models/RecipeModel");
 const router = express.Router();
@@ -15,6 +19,7 @@ router.get(
         ],
         authenticate,
         inputValidation,
+        apihit([5]),
     ],
     async (req, res) => {
         let recipes = await RecipeModel.search({
@@ -29,7 +34,12 @@ router.get(
 /* recommendation */
 router.get(
     "/recommendation",
-    [[check("number").toInt().trim().escape()], authenticate, inputValidation],
+    [
+        [check("number").toInt().trim().escape()],
+        authenticate,
+        inputValidation,
+        apihit([5]),
+    ],
     async (req, res) => {
         let recipes = await RecipeModel.recommendation(req.query);
         return res.status(200).send(recipes);
@@ -39,7 +49,7 @@ router.get(
 /* recipe's detail */
 router.get(
     "/:id",
-    [[check("id").trim().escape()], authenticate, inputValidation],
+    [[check("id").trim().escape()], authenticate, inputValidation, apihit([5])],
     async (req, res) => {
         let { id } = req.params;
         let recipes = await RecipeModel.detail(id);

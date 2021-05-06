@@ -1,5 +1,6 @@
 const { validationResult } = require("express-validator");
 const jwt = require("jsonwebtoken");
+const db = require("../database/database");
 
 module.exports = {
     inputValidation: (req, res, next) => {
@@ -29,18 +30,32 @@ module.exports = {
         next();
     },
     authorize: (roles) => {
-        return async function (req, res, next) {
+        return async (req, res, next) => {
             let user = req.user;
             if (roles.includes(parseInt(user.role))) {
-                req.user = user;
                 next();
             } else
-                return res
-                    .status(403)
-                    .send(
-                        "Access Denied: You don't have correct privilege to perform this operation"
-                    );
+                return res.status(403).json({
+                    message:
+                        "Access Denied: You don't have correct privilege to perform this operation",
+                });
         };
     },
-    apihit: (req, res, next) => {},
+    apihit: (api_hit) => {
+        return async (req, res, next) => {
+            let user = (
+                await db.query(`select * from users where id = ${req.user.id}`)
+            )[0];
+            if (user.api_hit - api_hit > 0) {
+                await db.query(
+                    `update users set api_hit = api_hit - ${api_hit} where id = ${req.user.id}`
+                );
+                next();
+            } else
+                return res.status(429).json({
+                    message:
+                        "Access Denied: Not enough apihit to perform this operation",
+                });
+        };
+    },
 };
