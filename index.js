@@ -29,7 +29,7 @@ app.use(
         {
             stream: fs.createWriteStream(
                 // `./logs/${moment().format("Y.MM.D")}.log`,
-                `.logs/access.log`,
+                `./logs/access.log`,
                 {
                     flags: "a",
                 }
