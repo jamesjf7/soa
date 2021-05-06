@@ -95,3 +95,6 @@ Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; Respo
 Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:2.210 ms
 Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.246 ms
 Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.225 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:8.034 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.781 ms
+Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; ResponseTime:1.400 ms

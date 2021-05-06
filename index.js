@@ -1,9 +1,11 @@
 const express = require("express");
-const fs = require("fs");
+const axios = require("axios");
 const cors = require("cors");
+const fs = require("fs");
+const favicon = require("serve-favicon");
 const morgan = require("morgan");
 const moment = require("moment");
-const axios = require("axios");
+const path = require("path");
 const app = express();
 
 const users = require("./routes/users");
@@ -12,6 +14,8 @@ const plans = require("./routes/plans");
 const transactions = require("./routes/transactions");
 
 require("dotenv").config();
+
+app.use(favicon(path.join(__dirname, "views", "images", "favicon.ico")));
 
 app.set("views", "./views");
 app.set("view engine", "ejs");
