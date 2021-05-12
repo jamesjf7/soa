@@ -50,8 +50,18 @@ router.post("/", [
 
 /* delete */
 router.delete("/:id", [authenticate, inputValidation, authorize([0])], async (req, res) => {
+    if(req.params.id == null) {
+        return res.status(400).send({
+            message: "id is empty",
+        });
+    }
     let plans = await planModel.delete(req.params);
-    res.status(200).send({
+    if(plans == null) {
+        return res.status(400).send({
+            message: "Plan not found",
+        });
+    }
+    return res.status(200).send({
         message: "Delete success",
     });
 });

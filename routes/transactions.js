@@ -55,13 +55,14 @@ router.get("/", [authenticate, inputValidation], async (req, res) => {
 });
 
 /* create */
-router.post("/", [authenticate, inputValidation, authorize([1])], async (req, res) => {
+router.post("/", [[check("plan_id").not().isEmpty().withMessage("plan_id is empty")],authenticate, inputValidation, authorize([1])], async (req, res) => {
     let { plan_id } = req.body;
 
     let found_plan = await planModel.select(`WHERE id = ${plan_id}`); found_plan = found_plan[0];
     if(!found_plan) return res.status(400).json({ message: "PLAN NOT FOUND" });
     let user = await userModel.select(`WHERE username = '${req.user.username}'`); user = user[0];
-    if(found_plan.price >= user.balance) {
+    console.log(user);
+    if(found_plan.price > user.balance) {
         return res.status(400).json({
             message: "YOUR BALANCE IS NOT ENOUGH"
         });
@@ -73,7 +74,8 @@ router.post("/", [authenticate, inputValidation, authorize([1])], async (req, re
     };
 
     let result = await transactionModel.insert(transaction);
-    let result2 = await userModel.update(`balance = (balance - ${found_plan.price})`, user_id);
+    let result2 = await userModel.update(found_plan.price, user_id);
+    console.log(result2);
     if (result.affectedRows == 0) {
         return res.status(400).json(result);
     } else {

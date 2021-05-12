@@ -521,3 +521,1080 @@ Method:POST; URL:/api/plans; Status:403; Message:Forbidden; DateTime:h12/05/2021
 Method:POST; URL:/api/plans; Status:401; Message:Unauthorized; DateTime:h12/05/2021; ResponseTime:1.324 ms
 Method:POST; URL:/api/plans; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:50.324 ms
 Method:POST; URL:/api/plans; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:5.393 ms
+Method:POST; URL:/api/plans; Status:403; Message:Forbidden; DateTime:h12/05/2021; ResponseTime:18.004 ms
+Method:POST; URL:/api/plans; Status:401; Message:Unauthorized; DateTime:h12/05/2021; ResponseTime:1.775 ms
+Method:POST; URL:/api/plans; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:49.664 ms
+Method:POST; URL:/api/plans; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:1.666 ms
+Method:GET; URL:/rgb; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:2.499 ms
+Method:GET; URL:/vendor/fontawesome-free/css/all.min.css; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.203 ms
+Method:GET; URL:/vendor/fontawesome-free/webfonts/fa-solid-900.woff2; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:1.141 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX1U4A; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.539 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX1UZn; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.555 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX1Vfk; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.651 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX1X-C; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.455 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX1ZTh; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.367 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX1b33; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.388 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX1cY4; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.358 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX1e0e; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.429 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX1fUj; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.232 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX1gyi; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.206 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX1iQh; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.223 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX1juX; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.339 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX1lQY; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.399 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX1n0P; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.366 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX1oUY; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.456 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX1pzX; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.485 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX1rRd; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.211 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX1svg; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.207 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX1uNh; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.197 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX1vrl; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.246 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX1xJs; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.222 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX1yag; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.197 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX1zo-; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.195 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX1_1O; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.241 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX20HW; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.401 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX21Vv; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.210 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX22kI; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.197 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX23yf; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.363 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX25B1; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.223 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX26Pc; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.218 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX27dy; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.205 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX28sG; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.205 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2A4d; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.199 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2BI-; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.200 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2CXK; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.265 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2Dll; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.201 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2E-5; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.213 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2GCT; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.207 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2HQr; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.207 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2If9; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.201 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2JtU; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.203 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2L5q; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.248 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2MR_; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.327 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2NwD; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.183 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2POF; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.187 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2QsH; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.360 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2SLC; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.348 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2Tp1; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.175 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2VH4; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.305 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2Wl7; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.372 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2YDB; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.327 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2Zh0; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.184 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2b93; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.210 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2cd3; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.330 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2e4s; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.194 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2fYg; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.186 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2h0t; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.379 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2iUi; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.254 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2jyn; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.191 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2lQp; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.339 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2mud; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.235 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2oMf; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.200 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2pql; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.957 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2rIr; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.299 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2snQ; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.185 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2uFS; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.324 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2vjV; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.183 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2xBY; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.193 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2yfb; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.201 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2-7g; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.237 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX2_bm; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.180 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX313n; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.179 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX32Xp; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.222 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX33_q; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.197 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX35Ts; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.183 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX36xh; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.182 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX38Pk; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.246 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX39tX; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.339 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX3BLa; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.175 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX3Cpe; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.376 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX3EHy; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.303 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX3FmC; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.201 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX3HEC; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.349 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX3IiK; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.402 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX3KA9; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.260 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX3LeB; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.365 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX3N6J; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.186 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX3OaK; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.173 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX3Q2N; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.191 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX3RWR; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.325 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX3S-s; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.318 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX3Uhu; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.183 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX3W9w; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.199 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX3Xdw; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.229 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX3Z5y; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.183 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX3aZ_; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.179 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX3c27; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.566 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX3dX8; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.266 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX3f0N; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.331 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX3gkC; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.334 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX3iCR; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.176 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX3jgW; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.183 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX3l8a; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.224 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX3md2; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.400 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX3o5P; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.288 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX3pZU; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.281 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX3r1c; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.314 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX3sWG; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.496 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX3t-S; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.269 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX3vSZ; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.311 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX3wwp; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.394 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX3ye_; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.282 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX3-79; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.323 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX3_r4; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.194 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX41JG; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.177 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX42nD; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.178 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX44FH; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.204 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX45jc; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.240 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX47C2; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.222 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX48g6; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.342 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4A8T; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.370 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4BcK; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.309 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4D4Y; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.369 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4EYh; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.494 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4G10; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.213 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4HVA; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.339 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4Izl; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.359 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4KRw; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.350 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4LwM; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.276 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4NOI; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.334 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4OsX; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.196 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4QKl; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.308 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4Rp6; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.180 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4TH7; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.286 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4UlD; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.318 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4WDW; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.179 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4XhP; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.346 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4Z9b; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.176 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4adj; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.190 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4c5t; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.326 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4dZh; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.309 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4f1j; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.895 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4gld; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.197 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4iDm; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.178 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4jhp; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.379 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4lA4; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.223 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4meB; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.405 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4o63; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.179 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4pa4; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.340 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4r2G; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.232 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4sWJ; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.179 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4t-M; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.180 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4vSD; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.182 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4wwI; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.218 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4yOT; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.427 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4zwW; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.362 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX4_QM; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.217 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX54bD; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.267 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX56K1; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.179 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX57o6; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.299 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX59GY; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.179 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5Akf; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.380 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5CCj; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.304 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5Dgn; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.318 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5F8q; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.313 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5Gcs; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.288 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5I4z; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.256 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5JYy; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.181 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5L0_; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.315 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5MV8; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.180 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5Nz8; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.171 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5PRE; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.243 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5QvE; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.175 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5SND; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.240 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5Tr1; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.175 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5VIp; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.233 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5Wmg; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.188 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5YEh; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.355 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5Zik; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.344 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5bAi; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.304 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5ces; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.321 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5e6w; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.196 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5fax; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.452 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5h2z; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.178 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5iX0; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.190 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5j_1; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.352 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5lT6; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.263 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5mx4; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.198 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5oPG; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.452 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5ptJ; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.175 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5rLQ; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.292 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5srD; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.424 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5uJO; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.241 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5vnS; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.214 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5xFW; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.171 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5yjW; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.182 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5-BV; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.380 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX5_fe; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.171 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX617T; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.171 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX62bT; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.227 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX643G; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.172 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX65XG; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.444 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX66_K; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.171 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX68TH; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.189 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX69xF; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.176 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6BPN; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.247 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6CtQ; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.186 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6ELQ; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.475 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6FpU; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.191 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6HHV; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.223 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6Ilb; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.170 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6KDd; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.181 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6Lhf; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.442 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6N9i; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.184 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6Odp; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.266 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6Q5m; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.268 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6RK9; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.290 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6SYX; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.186 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6Tms; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.173 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6U_A; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.175 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6WDU; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.174 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6XRp; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.170 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6Yg7; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.191 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6ZuV; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.290 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6b6q; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.162 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6cL8; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.175 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6dZV; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.158 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6enr; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.221 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6g09; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.191 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6hEZ; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.152 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6iSu; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.150 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6jhD; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.205 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6kvY; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.209 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6m7w; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.162 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6nMG; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.150 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6oaZ; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.149 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6pov; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.148 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6r1D; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.152 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6sFZ; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.258 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6tTu; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.174 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6uiL; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.414 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6vwo; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.156 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6x97; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:6.474 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6yO4; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:3.967 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6zcm; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:3.248 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX6-rL; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.681 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX703n; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:8.989 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX71o8; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.431 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX730T; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.748 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX74Ev; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.262 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX75TE; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.247 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX76hZ; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.398 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX77vv; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.286 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX798E; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.283 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7AMb; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.253 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7Bau; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.217 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7CpC; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.262 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7E1Y; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.237 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7FFu; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.375 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7GUI; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.275 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7Hid; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.225 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7Iwx; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.231 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7K9I; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.222 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7LNc; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.207 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7Mbw; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.314 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7NqH; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.249 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7P2d; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.314 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7QGz; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.198 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7RVp; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.203 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7Sk8; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.218 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7TyT; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.203 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7VAn; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.273 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7WP9; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.214 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7XdW; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.198 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7Yrr; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.206 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7a4A; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.187 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7bIV; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.194 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7cWq; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.185 ms
+Method:POST; URL:/api/plans; Status:403; Message:Forbidden; DateTime:h12/05/2021; ResponseTime:14.311 ms
+Method:POST; URL:/api/plans; Status:403; Message:Forbidden; DateTime:h12/05/2021; ResponseTime:1.592 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7dl9; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.216 ms
+Method:POST; URL:/api/plans; Status:401; Message:Unauthorized; DateTime:h12/05/2021; ResponseTime:1.128 ms
+Method:POST; URL:/api/plans; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:51.173 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7ezV; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.232 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7gBz; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.499 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7hQj; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.213 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7if1; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.198 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7jtO; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.339 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7l5r; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.373 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7mKE; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.291 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7nYc; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.239 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7omy; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.326 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7p_K; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.446 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7rDg; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.300 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7sS0; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.189 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7tgL; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.268 ms
+Method:POST; URL:/api/plans; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:2.702 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7uuh; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.209 ms
+Method:POST; URL:/api/plans; Status:403; Message:Forbidden; DateTime:h12/05/2021; ResponseTime:2.086 ms
+Method:POST; URL:/api/plans; Status:401; Message:Unauthorized; DateTime:h12/05/2021; ResponseTime:0.942 ms
+Method:POST; URL:/api/plans; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:8.970 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7w71; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.197 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7xLN; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.191 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7yZi; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.185 ms
+Method:DELETE; URL:/api/plans/6; Status:200; Message:OK; DateTime:h12/05/2021; ResponseTime:2.723 ms
+Method:DELETE; URL:/api/plans/6; Status:200; Message:OK; DateTime:h12/05/2021; ResponseTime:2.441 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7zo5; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.254 ms
+Method:DELETE; URL:/api/plans/6; Status:200; Message:OK; DateTime:h12/05/2021; ResponseTime:12.442 ms
+Method:DELETE; URL:/api/plans/6; Status:200; Message:OK; DateTime:h12/05/2021; ResponseTime:2.558 ms
+Method:DELETE; URL:/api/plans/6; Status:200; Message:OK; DateTime:h12/05/2021; ResponseTime:1.684 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX7_0S; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.208 ms
+Method:DELETE; URL:/api/plans/6; Status:200; Message:OK; DateTime:h12/05/2021; ResponseTime:2.839 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX80Eo; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.194 ms
+Method:DELETE; URL:/api/plans/6; Status:200; Message:OK; DateTime:h12/05/2021; ResponseTime:5.643 ms
+Method:DELETE; URL:/api/plans/6; Status:200; Message:OK; DateTime:h12/05/2021; ResponseTime:2.669 ms
+Method:DELETE; URL:/api/plans/6; Status:200; Message:OK; DateTime:h12/05/2021; ResponseTime:1.871 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX81TD; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.183 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX82hZ; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.318 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX83vy; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.257 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX858L; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.178 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX86Mf; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.255 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX87b0; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.196 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX88pK; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.275 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8A1k; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.196 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8BG4; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:4.823 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8CUr; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.541 ms
+Method:DELETE; URL:/api/plans/6; Status:200; Message:OK; DateTime:h12/05/2021; ResponseTime:54.982 ms
+Method:DELETE; URL:/api/plans/6; Status:200; Message:OK; DateTime:h12/05/2021; ResponseTime:2.717 ms
+Method:DELETE; URL:/api/plans/6; Status:200; Message:OK; DateTime:h12/05/2021; ResponseTime:3.547 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8DjF; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.314 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8Ey0; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.576 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8GAb; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.253 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8HOx; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.287 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8IdG; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.256 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8Jra; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.272 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8L3w; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.370 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8MIF; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.225 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8NWc; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.391 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8Ol0; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.198 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8PzL; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.205 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8RBg; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.505 ms
+Method:DELETE; URL:/api/plans/%7B%7Bid%7D%7D; Status:200; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:66.346 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8SQ0; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:1.673 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8TeS; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.269 ms
+Method:DELETE; URL:/api/plans/%7B%7Bid%7D%7D; Status:200; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:4.307 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8Uso; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.247 ms
+Method:DELETE; URL:/api/plans/%7B%7Bid%7D%7D; Status:200; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:3.148 ms
+Method:DELETE; URL:/api/plans/%7B%7Bid%7D%7D; Status:200; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:2.402 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8W5I; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.668 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8XJh; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.383 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8YY2; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:5.310 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8Zmx; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.359 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8a_I; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.374 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8cDg; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.238 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8dR_; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.350 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8egT; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.304 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8fuo; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.319 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8h7A; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.577 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8iLX; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.267 ms
+Method:DELETE; URL:/api/plans/; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:1.464 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8jZz; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.403 ms
+Method:DELETE; URL:/api/plans/21; Status:200; Message:OK; DateTime:h12/05/2021; ResponseTime:57.499 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8koP; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.213 ms
+Method:DELETE; URL:/api/plans/21; Status:200; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:3.993 ms
+Method:DELETE; URL:/api/plans/21; Status:200; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:2.095 ms
+Method:DELETE; URL:/api/plans/; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.609 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8m0l; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.356 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8nF7; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.215 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8oTT; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.202 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8php; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.214 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8qw8; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.217 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8s8S; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.202 ms
+Method:DELETE; URL:/api/plans/21; Status:200; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:2.189 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8tMn; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.224 ms
+Method:DELETE; URL:/api/plans/21; Status:200; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:1.924 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8ub8; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.217 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8vpS; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.200 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8x1p; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.243 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8yG9; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.200 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8zUT; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.208 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8-iq; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.209 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX8_x8; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.192 ms
+Method:DELETE; URL:/api/plans/; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.353 ms
+Method:POST; URL:/api/plans; Status:403; Message:Forbidden; DateTime:h12/05/2021; ResponseTime:2.108 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX919T; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.563 ms
+Method:POST; URL:/api/plans; Status:401; Message:Unauthorized; DateTime:h12/05/2021; ResponseTime:2.054 ms
+Method:POST; URL:/api/plans; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:5.958 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX92O1; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.192 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX93cN; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.187 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX94qj; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.201 ms
+Method:POST; URL:/api/plans; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:18.312 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9633; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.207 ms
+Method:POST; URL:/api/plans; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:2.274 ms
+Method:POST; URL:/api/plans; Status:403; Message:Forbidden; DateTime:h12/05/2021; ResponseTime:2.793 ms
+Method:POST; URL:/api/plans; Status:401; Message:Unauthorized; DateTime:h12/05/2021; ResponseTime:1.567 ms
+Method:POST; URL:/api/plans; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:6.701 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX97HP; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.297 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX98Vj; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.190 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX99k3; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.195 ms
+Method:DELETE; URL:/api/plans/null; Status:200; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:1.761 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9AyN; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.298 ms
+Method:DELETE; URL:/api/plans/null; Status:200; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:1.665 ms
+Method:DELETE; URL:/api/plans/null; Status:200; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:2.599 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9CAj; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.431 ms
+Method:DELETE; URL:/api/plans/; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.314 ms
+Method:DELETE; URL:/api/plans/23; Status:200; Message:OK; DateTime:h12/05/2021; ResponseTime:4.744 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9DP7; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.203 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9EdT; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.202 ms
+Method:DELETE; URL:/api/plans/23; Status:200; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:2.884 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9Frr; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.494 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9H4L; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.340 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9IIg; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.190 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9JX0; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.257 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9KlL; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.236 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9Lzh; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.313 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9NC1; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.335 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9OQM; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.291 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9Pek; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.187 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9Qt5; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.245 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9S5P; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:3.661 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9TJ-; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.312 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9UYJ; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.373 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9Vmg; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.258 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9W-_; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.385 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9YDM; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.303 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9ZRg; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.278 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9af-; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.253 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9buL; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:5.738 ms
+Method:DELETE; URL:/api/plans/23; Status:200; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:50.932 ms
+Method:DELETE; URL:/api/plans/; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.616 ms
+Method:DELETE; URL:/api/plans/23; Status:200; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:2.275 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9d77; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.498 ms
+Method:DELETE; URL:/api/plans/23; Status:200; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:2.784 ms
+Method:DELETE; URL:/api/plans/23; Status:200; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:1.741 ms
+Method:DELETE; URL:/api/plans/; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:1.096 ms
+Method:DELETE; URL:/api/plans/23; Status:200; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:2.374 ms
+Method:DELETE; URL:/api/plans/23; Status:200; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:12.777 ms
+Method:DELETE; URL:/api/plans/23; Status:200; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:3.400 ms
+Method:DELETE; URL:/api/plans/23; Status:200; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:1.732 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9eLZ; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.310 ms
+Method:DELETE; URL:/api/plans/; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.395 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9fa0; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.240 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9goO; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:4.000 ms
+Method:DELETE; URL:/api/plans/23; Status:200; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:54.756 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9iu4; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.361 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9k6O; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.263 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9lKj; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.255 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9mZ3; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.362 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9nnP; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.313 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9o_l; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:3.324 ms
+Method:DELETE; URL:/api/plans/23; Status:200; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:50.832 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9qEP; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.310 ms
+Method:DELETE; URL:/api/plans/23; Status:200; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:3.963 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9rSj; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.241 ms
+Method:DELETE; URL:/api/plans/; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:3.272 ms
+Method:DELETE; URL:/api/plans/23; Status:200; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:2.931 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9sh9; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.471 ms
+Method:DELETE; URL:/api/plans/23; Status:200; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:6.622 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9tvi; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.261 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9v8H; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.985 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9wMl; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.217 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9xb3; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.237 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9ypN; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.371 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9-1p; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.215 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbX9_GA; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.320 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXA0UZ; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:6.893 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXA1jU; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:3.198 ms
+Method:DELETE; URL:/api/plans/23; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:58.765 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXA3lI; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.583 ms
+Method:DELETE; URL:/api/plans/; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.549 ms
+Method:DELETE; URL:/api/plans/23; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:3.892 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXA4zs; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.481 ms
+Method:DELETE; URL:/api/plans/23; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:4.420 ms
+Method:DELETE; URL:/api/plans/23; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:2.438 ms
+Method:DELETE; URL:/api/plans/; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.629 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXA6CF; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.321 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXA7Qa; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.226 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXA8eu; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.224 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXA9tD; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.226 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXAB5Y; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.221 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXACJs; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.202 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXADYC; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.215 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXAEmX; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.297 ms
+Method:DELETE; URL:/api/plans/23; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:2.640 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXAF-r; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.211 ms
+Method:DELETE; URL:/api/plans/23; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:5.712 ms
+Method:DELETE; URL:/api/plans/23; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:3.558 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXAHD9; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.213 ms
+Method:DELETE; URL:/api/plans/23; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:4.195 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXAIRU; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.245 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXAJft; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.197 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXAKuA; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.269 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXAM6Z; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.188 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXANKt; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.225 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXAOZD; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.259 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXAPnd; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.192 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXAR04; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.350 ms
+Method:DELETE; URL:/api/plans/23; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:3.996 ms
+Method:DELETE; URL:/api/plans/23; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:5.468 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXASEZ; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.260 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXATT1; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.322 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXAUhQ; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:3.210 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXAVw0; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:6.207 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXAXbU; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:3.711 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXAYq8; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:4.489 ms
+Method:DELETE; URL:/api/plans/23; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:89.596 ms
+Method:DELETE; URL:/api/plans/23; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:6.179 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXAa2p; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.499 ms
+Method:DELETE; URL:/api/plans/23; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:4.315 ms
+Method:DELETE; URL:/api/plans/23; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:7.819 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXAbHU; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.550 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXAcW7; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.267 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXAdkT; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.300 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXAeyr; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.260 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXAgBB; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.236 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXAhPU; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.249 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXAidq; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.395 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXAjsB; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.255 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXAl4Y; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.244 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXAmIs; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.221 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXAnXA; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.230 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXAolU; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.243 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXApzo; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.199 ms
+Method:DELETE; URL:/api/plans/23; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:2.832 ms
+Method:DELETE; URL:/api/plans/23; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:3.531 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXArC9; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.801 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXAsQU; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.469 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXAter; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.244 ms
+Method:DELETE; URL:/api/plans/23; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:3.486 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXAutC; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.263 ms
+Method:DELETE; URL:/api/plans/23; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:2.972 ms
+Method:DELETE; URL:/api/plans/0; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:5.395 ms
+Method:DELETE; URL:/api/plans/23; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:6.291 ms
+Method:DELETE; URL:/api/plans/23; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:7.213 ms
+Method:DELETE; URL:/api/plans/23; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:6.040 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXAw5Y; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.329 ms
+Method:DELETE; URL:/api/plans/0; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:6.178 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXAxJx; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.243 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXAyYF; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.321 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXAzmc; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.287 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXA-_0; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.200 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXB0DK; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.892 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXB1Rj; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.200 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXB2g1; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.215 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXB3uM; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.320 ms
+Method:DELETE; URL:/api/plans/23; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:6.259 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXB56l; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.473 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXB6LE; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.189 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXB7Za; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.848 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXB8nv; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.195 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBA0E; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.198 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBBEa; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.309 ms
+Method:DELETE; URL:/api/plans/23; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:6.317 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBCT9; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.224 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBDhS; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.200 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBEvm; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.191 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBG86; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.201 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBHMS; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.216 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBIan; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.197 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBJp7; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.215 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBL1T; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.194 ms
+Method:DELETE; URL:/api/plans/23; Status:401; Message:Unauthorized; DateTime:h12/05/2021; ResponseTime:0.375 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBMFn; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.177 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBNU7; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.179 ms
+Method:DELETE; URL:/api/plans/0; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:4.074 ms
+Method:DELETE; URL:/api/plans/23; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:3.933 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBOiU; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.214 ms
+Method:DELETE; URL:/api/plans/23; Status:403; Message:Forbidden; DateTime:h12/05/2021; ResponseTime:1.740 ms
+Method:DELETE; URL:/api/plans/23; Status:401; Message:Unauthorized; DateTime:h12/05/2021; ResponseTime:0.294 ms
+Method:DELETE; URL:/api/plans/0; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:4.570 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBPwo; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.303 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBR98; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.189 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBSNU; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.183 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBTbo; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.300 ms
+Method:POST; URL:/api/plans; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:14.313 ms
+Method:POST; URL:/api/plans; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:8.859 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBUq9; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.266 ms
+Method:POST; URL:/api/plans; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:2.668 ms
+Method:POST; URL:/api/plans; Status:403; Message:Forbidden; DateTime:h12/05/2021; ResponseTime:3.185 ms
+Method:POST; URL:/api/plans; Status:401; Message:Unauthorized; DateTime:h12/05/2021; ResponseTime:1.629 ms
+Method:POST; URL:/api/plans; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:7.416 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBW2X; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.258 ms
+Method:POST; URL:/api/plans; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:1.087 ms
+Method:POST; URL:/api/plans; Status:403; Message:Forbidden; DateTime:h12/05/2021; ResponseTime:2.204 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBXGs; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.319 ms
+Method:POST; URL:/api/plans; Status:401; Message:Unauthorized; DateTime:h12/05/2021; ResponseTime:1.059 ms
+Method:POST; URL:/api/plans; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:10.530 ms
+Method:POST; URL:/api/plans; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:1.675 ms
+Method:POST; URL:/api/plans; Status:403; Message:Forbidden; DateTime:h12/05/2021; ResponseTime:3.387 ms
+Method:POST; URL:/api/plans; Status:401; Message:Unauthorized; DateTime:h12/05/2021; ResponseTime:0.833 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBYVK; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.491 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBZjj; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.201 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBay3; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.310 ms
+Method:DELETE; URL:/api/plans/null; Status:403; Message:Forbidden; DateTime:h12/05/2021; ResponseTime:1.660 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBcAS; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.180 ms
+Method:DELETE; URL:/api/plans/null; Status:401; Message:Unauthorized; DateTime:h12/05/2021; ResponseTime:0.263 ms
+Method:DELETE; URL:/api/plans/0; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:6.062 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBdOm; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.229 ms
+Method:DELETE; URL:/api/plans/null; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:3.890 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBed9; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.317 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBfrT; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.172 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBh3q; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.171 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBiIA; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.235 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBjWV; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.186 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBkkp; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.298 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBlzB; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.189 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBnBV; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.189 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBoPr; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.191 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBpe9; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.209 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBqsT; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.207 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBs4q; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.192 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBtJB; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.187 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBuXZ; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.365 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBvlu; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.220 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBw-C; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.174 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXByCY; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.187 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXBzQr; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.347 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXB-fM; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.216 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXB_th; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.287 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXC160; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.337 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXC2KK; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.196 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXC3Yg; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.211 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXC4m_; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.189 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXC5_K; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.289 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXC7Dj; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.231 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXC8S2; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.193 ms
+Method:POST; URL:/api/plans; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:11.655 ms
+Method:POST; URL:/api/plans; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:3.092 ms
+Method:POST; URL:/api/plans; Status:403; Message:Forbidden; DateTime:h12/05/2021; ResponseTime:4.673 ms
+Method:POST; URL:/api/plans; Status:401; Message:Unauthorized; DateTime:h12/05/2021; ResponseTime:1.697 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXC9gO; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.274 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCAvc; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.339 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCC82; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.182 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCDMM; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.182 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCEag; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.214 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCFo_; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.182 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCH1J; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.232 ms
+Method:DELETE; URL:/api/plans/27; Status:403; Message:Forbidden; DateTime:h12/05/2021; ResponseTime:2.311 ms
+Method:DELETE; URL:/api/plans/27; Status:401; Message:Unauthorized; DateTime:h12/05/2021; ResponseTime:0.330 ms
+Method:DELETE; URL:/api/plans/0; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:6.192 ms
+Method:DELETE; URL:/api/plans/27; Status:200; Message:OK; DateTime:h12/05/2021; ResponseTime:8.861 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCIFe; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.181 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCJTz; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.180 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCKiI; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.193 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCLwc; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.190 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCN8w; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.192 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCONE; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.190 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCPbZ; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.232 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCQpv; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.191 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCS2E; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.298 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCTGa; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.712 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCUUx; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.213 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCVjF; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.205 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCWxa; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.341 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCY9x; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.179 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCZOH; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.248 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCacd; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.204 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCbqy; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.187 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCd3G; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.184 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCeHb; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.182 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCfVy; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.187 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCgkE; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.252 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXChyY; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.170 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCjAr; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.372 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCkPA; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.185 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCldU; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.188 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCmrq; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.179 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCo47; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.186 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCpIR; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.190 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCqWn; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.182 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCrl5; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.217 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCszP; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.181 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCuBi; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.209 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCvQ1; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.182 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCweM; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.249 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCxsf; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.190 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXCz4z; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.256 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXC-JH; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.188 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXC_Xc; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.186 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXD0lx; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.175 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXD1-G; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.183 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXD3Ca; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.278 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXD4Qv; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.217 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXD5fD; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.222 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXD6te; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.297 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXD860; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.253 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXD9KN; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.179 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDAYf; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.256 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDBzt; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.188 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDDS_; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.324 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDF7O; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.349 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDGba; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.284 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDI3h; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.184 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDJXg; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.187 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDK_U; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.216 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDMTK; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.193 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDNxJ; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.190 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDP9i; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.171 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDQO2; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.249 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDRcQ; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.168 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDSql; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.250 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDU37; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.193 ms
+Method:GET; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime:h12/05/2021; ResponseTime:1.250 ms
+Method:GET; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime:h12/05/2021; ResponseTime:0.403 ms
+Method:GET; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime:h12/05/2021; ResponseTime:0.245 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDVHQ; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.181 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDWVn; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.173 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDXk7; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.309 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDYyX; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.196 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDaAw; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.199 ms
+Method:GET; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime:h12/05/2021; ResponseTime:0.234 ms
+Method:GET; URL:/api/transactions; Status:200; Message:OK; DateTime:h12/05/2021; ResponseTime:18.650 ms
+Method:GET; URL:/api/transactions; Status:200; Message:OK; DateTime:h12/05/2021; ResponseTime:4.687 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDbPH; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.176 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDcdd; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.183 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDdrx; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.187 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDf4H; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.186 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDgIb; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.176 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDhWw; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.205 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDilE; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.183 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDjzZ; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.180 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDlBv; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.281 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDmQL; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.912 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDnen; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.319 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDot9; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.180 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDq5V; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.217 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDrJr; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.167 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDsYA; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.165 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDtmW; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:1.342 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDu-v; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.167 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDwDF; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.252 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDxYJ; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.320 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXDz4I; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.306 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXD-YL; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.223 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXE00P; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.179 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXE1UO; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.278 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXE2yO; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.316 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXE4S_; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.305 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXE5wv; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.729 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXE7Ow; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.711 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXE8sl; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.307 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXEAKo; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.299 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXEBov; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.148 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXEDGl; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.181 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXEEky; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.169 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXEGIU; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.279 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXEHmj; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.309 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXEJEt; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.297 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXEKiz; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.157 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXEMB3; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.272 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXENf8; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.159 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXEP71; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.219 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXEQeK; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.292 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXES6V; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.275 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXETbc; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.272 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXEV3j; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.199 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXEWXy; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.280 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXEY3f; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.225 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXEZYG; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.164 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXEb0d; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.278 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXEcUe; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.164 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXEdyS; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.164 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXEfQU; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.404 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXEgud; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.152 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXEiMf; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.159 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXEjqj; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.172 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXElLf; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.230 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXEmqf; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.256 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXEoIV; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.146 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXEpmY; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.967 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXErEg; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.285 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXEsip; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.154 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXEuAt; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.150 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXEvev; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.188 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXEx6y; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.149 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXEyaz; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.153 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXE-37; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.143 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXE_Wy; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.165 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXF0_0; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.151 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXF2T4; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.157 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXF3x3; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.271 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXF59Q; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.230 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXF6Np; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.154 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXF7cC; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.250 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXF8qZ; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.151 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFA2x; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.275 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFBHI; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.353 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFCVf; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.158 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFDk0; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.949 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFEyU; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.149 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFGAr; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.248 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFHPW; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.226 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFIdx; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.219 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFJsJ; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.259 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFL4g; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.241 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFMJ3; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.145 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFNXN; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.193 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFOlm; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.140 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFP-6; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:3.262 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFRCm; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.331 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFSR9; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.447 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFTfZ; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.264 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFUya; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.542 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFWB4; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.354 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFXPV; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.278 ms
+Method:POST; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime:h12/05/2021; ResponseTime:14.638 ms
+Method:POST; URL:/api/transactions; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:88.503 ms
+Method:POST; URL:/api/transactions; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:16.674 ms
+Method:POST; URL:/api/transactions; Status:403; Message:Forbidden; DateTime:h12/05/2021; ResponseTime:4.080 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFYdr; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.300 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFZsA; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.249 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFb4Z; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.304 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFcIw; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.372 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFdXI; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.235 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFelf; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.195 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFfz_; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.206 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFhCK; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.245 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFiQm; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.198 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFjf7; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.260 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFktY; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.442 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFm5w; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.364 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFnKI; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.305 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFoYh; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.209 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFpn5; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.503 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFq_T; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.296 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFsDq; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.216 ms
+Method:POST; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime:h12/05/2021; ResponseTime:1.227 ms
+Method:POST; URL:/api/transactions; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:19.318 ms
+Method:POST; URL:/api/transactions; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:13.580 ms
+Method:POST; URL:/api/transactions; Status:403; Message:Forbidden; DateTime:h12/05/2021; ResponseTime:5.162 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFtSB; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.376 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFugd; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.658 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFvu_; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.249 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFx7J; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.200 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFyLh; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.193 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXFza4; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.213 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXF-oR; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.203 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXG00m; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.198 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXG1F5; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.203 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXG2TR; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.274 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXG3hp; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.184 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXG4w7; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:4.308 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXG6tv; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.415 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXG86G; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.709 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXG9Km; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.390 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGAZL; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:3.117 ms
+Method:POST; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime:h12/05/2021; ResponseTime:13.023 ms
+Method:POST; URL:/api/transactions; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:132.847 ms
+Method:POST; URL:/api/transactions; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:14.046 ms
+Method:POST; URL:/api/transactions; Status:403; Message:Forbidden; DateTime:h12/05/2021; ResponseTime:4.784 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGBo8; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.528 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGD0Z; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.252 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGEEv; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.358 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGFTF; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.271 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGGhb; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.263 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGHvx; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.364 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGJ8P; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.206 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGKMx; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.434 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGLbf; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.236 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGMq0; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.361 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGO2N; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.434 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGPGo; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.200 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGQV7; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.265 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGRtS; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.246 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGTLZ; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.638 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGUpp; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.221 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGWPr; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.373 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGXtj; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.223 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGZLp; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.203 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGaqM; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.211 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGcIO; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.194 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGdmS; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.202 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGfEa; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.198 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGgia; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.193 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGiE1; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.213 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGjup; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.214 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGlMt; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.234 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGmq-; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.193 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGoJO; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.229 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGpnP; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.211 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGrLC; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.328 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGspS; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.285 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGuHo; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.704 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGvnA; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.191 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGxFA; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.209 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXGyjB; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.186 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXG-CG; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:3.245 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXG_gt; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.439 ms
+Method:POST; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime:h12/05/2021; ResponseTime:19.830 ms
+Method:POST; URL:/api/transactions; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:117.988 ms
+Method:POST; URL:/api/transactions; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:21.745 ms
+Method:POST; URL:/api/transactions; Status:403; Message:Forbidden; DateTime:h12/05/2021; ResponseTime:4.298 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXH19R; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:1.348 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXH2dg; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.319 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXH45d; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.300 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXH5hG; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.305 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXH79a; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.359 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXH8de; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.276 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXHA5h; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.261 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXHBZi; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.217 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXHD1l; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.292 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXHEVn; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.545 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXHG5P; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.214 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXHHeg; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.205 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXHJ6g; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.203 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXHKah; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.250 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXHM2p; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.275 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXHNWq; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.459 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXHO-w; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.227 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXHQSz; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.206 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXHRwz; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.289 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXHTP0; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.375 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXHVED; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.438 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXHWix; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.209 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXHYAx; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.188 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXHZf1; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.206 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXHb7u; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.264 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXHcc8; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:5.684 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXHe6l; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:3.557 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXHfb4; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.332 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXHh35; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.270 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXHiX5; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.383 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXHj_A; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.281 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXHlT1; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.298 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXHmx2; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.501 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXHobH; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.494 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXHqCC; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.424 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXHrhE; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.207 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXHt9P; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.222 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXHudT; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.207 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXHw5W; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.223 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXHxZd; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.432 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXHz1t; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.211 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXH-Vt; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.241 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXH_zj; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.208 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXI1Rq; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.222 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXI2vs; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.226 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXI4Nz; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.194 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXI5s0; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.777 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXI7K0; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.188 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXI8o0; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.208 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXIAG5; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.208 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXIBk5; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.194 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXIDCA; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.343 ms
+Method:POST; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime:h12/05/2021; ResponseTime:18.730 ms
+Method:POST; URL:/api/transactions; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:122.303 ms
+Method:POST; URL:/api/transactions; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:19.510 ms
+Method:POST; URL:/api/transactions; Status:403; Message:Forbidden; DateTime:h12/05/2021; ResponseTime:3.593 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXIEgF; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.207 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXIG8I; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.199 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXIHcL; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.204 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXIJCF; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.207 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXIKgG; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.330 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXIM8e; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.259 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXINhJ; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:5.540 ms
+Method:POST; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime:h12/05/2021; ResponseTime:13.546 ms
+Method:POST; URL:/api/transactions; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:122.696 ms
+Method:POST; URL:/api/transactions; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:17.531 ms
+Method:POST; URL:/api/transactions; Status:403; Message:Forbidden; DateTime:h12/05/2021; ResponseTime:4.076 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXIPAA; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.273 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXIQeD; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.247 ms
+Method:POST; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime:h12/05/2021; ResponseTime:1.345 ms
+Method:POST; URL:/api/transactions; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:24.479 ms
+Method:POST; URL:/api/transactions; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:16.448 ms
+Method:POST; URL:/api/transactions; Status:403; Message:Forbidden; DateTime:h12/05/2021; ResponseTime:3.658 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXIS7m; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.678 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXITbp; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.239 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXIV4-; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.449 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXIWZg; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.343 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXIY1p; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.210 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXIZVm; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.206 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXIazr; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.238 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXIcTc; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.239 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXIdyH; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.198 ms
+Method:POST; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime:h12/05/2021; ResponseTime:0.950 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXIfQH; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.286 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXIgu5; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.234 ms
+Method:POST; URL:/api/transactions; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:17.278 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXIiM4; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.194 ms
+Method:POST; URL:/api/transactions; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:21.633 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXIjpt; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.212 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXIlHv; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.203 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXImlk; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.262 ms
+Method:POST; URL:/api/transactions; Status:403; Message:Forbidden; DateTime:h12/05/2021; ResponseTime:3.680 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXIoDm; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.239 ms
+Method:POST; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime:h12/05/2021; ResponseTime:0.780 ms
+Method:POST; URL:/api/transactions; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:14.751 ms
+Method:POST; URL:/api/transactions; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:4.360 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXIpi3; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.210 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXIr9s; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.259 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXIsdu; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.219 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXIu5w; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.190 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXIvZy; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.205 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXIx2N; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.212 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXIyWP; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.202 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXIz-P; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.311 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXI_SO; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.202 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJ0wQ; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.425 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJ2P4; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.285 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJ3t7; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.312 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJ5LE; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.262 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJ7BC; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:6.219 ms
+Method:POST; URL:/api/transactions; Status:403; Message:Forbidden; DateTime:h12/05/2021; ResponseTime:12.274 ms
+Method:POST; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime:h12/05/2021; ResponseTime:1.550 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJ8gu; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.271 ms
+Method:POST; URL:/api/transactions; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:46.986 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJA8w; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.325 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJBd0; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.260 ms
+Method:POST; URL:/api/transactions; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:3.017 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJD52; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.404 ms
+Method:POST; URL:/api/transactions; Status:403; Message:Forbidden; DateTime:h12/05/2021; ResponseTime:1.738 ms
+Method:POST; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime:h12/05/2021; ResponseTime:0.590 ms
+Method:POST; URL:/api/transactions; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:3.853 ms
+Method:POST; URL:/api/transactions; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:0.818 ms
+Method:POST; URL:/api/transactions; Status:403; Message:Forbidden; DateTime:h12/05/2021; ResponseTime:1.494 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJEZ4; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.448 ms
+Method:POST; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime:h12/05/2021; ResponseTime:0.603 ms
+Method:POST; URL:/api/transactions; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:3.292 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJG1G; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.228 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJHVI; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.210 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJI_p; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.351 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJKT-; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.263 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJLyd; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.218 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJNRQ; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.368 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJOv_; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.228 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJQOC; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.503 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJRs0; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.438 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJTKC; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.294 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJUrN; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:3.734 ms
+Method:POST; URL:/api/transactions; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:13.143 ms
+Method:POST; URL:/api/transactions; Status:403; Message:Forbidden; DateTime:h12/05/2021; ResponseTime:1.845 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJWJh; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.317 ms
+Method:POST; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime:h12/05/2021; ResponseTime:0.766 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJXs9; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.300 ms
+Method:POST; URL:/api/transactions; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:110.000 ms
+Method:POST; URL:/api/transactions; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:1.745 ms
+Method:POST; URL:/api/transactions; Status:403; Message:Forbidden; DateTime:h12/05/2021; ResponseTime:0.931 ms
+Method:POST; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime:h12/05/2021; ResponseTime:0.970 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJZKA; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.288 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJarW; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.235 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJcJn; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.253 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJdnp; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.291 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJfFd; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.377 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJgjh; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.364 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJiBj; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.211 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJjgA; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:3.407 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJlBS; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:3.609 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJmfH; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.844 ms
+Method:POST; URL:/api/transactions; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:90.626 ms
+Method:POST; URL:/api/transactions; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:2.015 ms
+Method:POST; URL:/api/transactions; Status:403; Message:Forbidden; DateTime:h12/05/2021; ResponseTime:1.998 ms
+Method:POST; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime:h12/05/2021; ResponseTime:1.252 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJo7Z; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.289 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJpdZ; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.273 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJr9T; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.540 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJsdd; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.267 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJu5g; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.352 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJvZj; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.228 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJx3T; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.584 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJzEW; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.207 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXJ-iU; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.220 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXK0E-; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.231 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXK1j6; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.211 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXK3Qb; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.223 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXK4uf; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.201 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXK6Mi; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.212 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXK7rL; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.421 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXK9JT; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.327 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXKAnf; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.270 ms
+Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXKCTh; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.265 ms

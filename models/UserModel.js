@@ -18,13 +18,12 @@ module.exports = {
             return err;
         }
     },
-    update: async function (data, id) {
+    update: async function (price, id) {
         try {
             let result = await db.query(
-                `update users set ? where id = '${id}'`,
-                data
+                `update users set balance = (balance - ${price}) where id = '${id}'`
             );
-            if (result.affectedRows > 0) return data;
+            if (result.affectedRows > 0) return result;
             else return null;
         } catch (err) {
             return err;
