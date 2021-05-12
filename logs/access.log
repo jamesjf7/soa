@@ -488,3 +488,7 @@ Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime:h12/
 Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:71.547 ms
 Method:POST; URL:/api/users/register; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:52.338 ms
 Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:19.824 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:62.891 ms
+Method:POST; URL:/api/users/register; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:60.099 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:19.638 ms
+Method:POST; URL:/api/users/login; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:9.817 ms

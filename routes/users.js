@@ -183,7 +183,7 @@ router.post(
             password: password,
             token: "",
             image: req.file == null ? null : "/uploads/" + filename,
-            age: age,
+            age: parseInt(age),
             role: role,
             balance: 0,
             api_hit: 100,
