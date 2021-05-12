@@ -484,3 +484,7 @@ Method:GET; URL:/api/users/; Status:403; Message:Forbidden; DateTime:h12/05/2021
 Method:GET; URL:/api/recipes?search=pasta&number=5; Status:200; Message:OK; DateTime:h12/05/2021; ResponseTime:1116.799 ms
 Method:GET; URL:/api/recipes/123415; Status:401; Message:Unauthorized; DateTime:h12/05/2021; ResponseTime:0.358 ms
 Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100; Status:200; Message:OK; DateTime:h12/05/2021; ResponseTime:1135.527 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:57.406 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:71.547 ms
+Method:POST; URL:/api/users/register; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:52.338 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:19.824 ms

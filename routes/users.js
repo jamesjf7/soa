@@ -1,4 +1,5 @@
 const express = require("express");
+const crypto = require("crypto");
 const path = require("path");
 const multer = require("multer");
 const jwt = require("jsonwebtoken");
@@ -17,18 +18,20 @@ const UserModel = require("../models/UserModel");
 router.use(express.json());
 router.use(express.urlencoded({ extended: true }));
 
+var filename = "";
 const storage = multer.diskStorage({
     destination: (req, file, cb) => {
         cb(null, "./uploads");
     },
-    // filename: (req, file, cb) => {
-    //     console.log(file);
-    //     if (file != null) {
-    //         let filename = req.body.id;
-    //         let extension = file.originalname.split(".").slice(-1)[0];
-    //         cb(null, new Date() + "." + extension);
-    //     }
-    // },
+    filename: (req, file, cb) => {
+        if (file != null) {
+            // console.log(file);
+            let extension = file.originalname.split(".").slice(-1)[0];
+            filename = crypto.randomBytes(20).toString("hex") + "." + extension;
+            // cb(null, file.originalname + "." + extension);
+            cb(null, filename);
+        }
+    },
     fileFilter: function (req, file, callback) {
         console.log(file);
         if (file != null) {
@@ -179,8 +182,7 @@ router.post(
             username: username,
             password: password,
             token: "",
-            image:
-                req.file == null ? null : "/uploads/" + req.file.originalname,
+            image: req.file == null ? null : "/uploads/" + filename,
             age: age,
             role: role,
             balance: 0,
