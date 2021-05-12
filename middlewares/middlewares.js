@@ -1,6 +1,7 @@
 const { validationResult } = require("express-validator");
 const jwt = require("jsonwebtoken");
 const db = require("../database/database");
+const moment = require("moment");
 
 module.exports = {
     inputValidation: (req, res, next) => {
@@ -46,16 +47,35 @@ module.exports = {
             let user = (
                 await db.query(`select * from users where id = ${req.user.id}`)
             )[0];
+
+            var today = moment();
+            var last_hit = moment(user.last_hit.substr(0,10));
+            if(last_hit.diff(today, 'days') <= -1) {
+                // RESET API HIT
+                let api_hit_value = await db.query(`SELECT * FROM transactions 
+                JOIN plans ON plans.id = transactions.plan_id 
+                WHERE user_id = ${req.user.id} AND
+                DATEDIFF(CURRENT_TIMESTAMP, created_at) < duration
+                ORDER BY created_at DESC 
+                LIMIT 1`);
+                api_hit_value = api_hit_value[0].api_hit;
+                await db.query(
+                    `update users set api_hit = ${api_hit_value}, last_hit = CURRENT_DATETIME where id = ${req.user.id}`
+                );
+            }
+
             if (user.api_hit - api_hit > 0) {
                 await db.query(
                     `update users set api_hit = api_hit - ${api_hit} where id = ${req.user.id}`
                 );
                 next();
-            } else
+            } else {
                 return res.status(429).json({
                     message:
                         "Access Denied: Not enough apihit to perform this operation",
                 });
+            }
+            
         };
     },
 };
