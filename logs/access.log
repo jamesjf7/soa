@@ -104,3 +104,14 @@ Method:GET; URL:/; Status:304; Message:Not Modified; DateTime:h06/05/2021; Respo
 Method:GET; URL:/; Status:200; Message:OK; DateTime:h06/05/2021; ResponseTime:1.930 ms
 Method:GET; URL:/; Status:200; Message:OK; DateTime:h06/05/2021; ResponseTime:2.031 ms
 Method:GET; URL:/; Status:200; Message:OK; DateTime:h06/05/2021; ResponseTime:2.143 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime:h12/05/2021; ResponseTime:1510.338 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime:h12/05/2021; ResponseTime:1580.090 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime:h12/05/2021; ResponseTime:1121.810 ms
+Method:POST; URL:/api/users/login; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:0.813 ms
+Method:POST; URL:/api/users/login; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:0.580 ms
+Method:POST; URL:/api/users/login; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:1.183 ms
+Method:POST; URL:/api/users/login; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:1.326 ms
+Method:POST; URL:/api/users/login; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:0.507 ms
+Method:POST; URL:/api/users/login; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:0.543 ms
+Method:POST; URL:/api/users/login; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:0.580 ms
+Method:POST; URL:/api/users/login; Status:400; Message:Bad Request; DateTime:h12/05/2021; ResponseTime:0.882 ms

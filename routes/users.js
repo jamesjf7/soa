@@ -104,6 +104,7 @@ router.post(
             return res.status(200).json({
                 message: "Welcome, " + user.name,
                 token: user.token,
+                role: user.role,
             });
         }
     }
@@ -222,7 +223,9 @@ router.post(
 router.put(
     "/profile",
     [
-        upload.single("image"), authenticate, authorize([1]),
+        upload.single("image"),
+        authenticate,
+        authorize([1]),
         [
             check("name", "name is empty").notEmpty().trim().escape(),
             check("password")
@@ -240,7 +243,7 @@ router.put(
                 .isInt()
                 .withMessage("age must be number")
                 .trim()
-                .escape()
+                .escape(),
         ],
         inputValidation,
     ],
@@ -252,7 +255,7 @@ router.put(
             image:
                 req.file == null ? null : "/uploads/" + req.file.originalname,
             password: password,
-            age: age
+            age: age,
         };
 
         let result = await UserModel.update(user, req.user.id);
@@ -268,7 +271,8 @@ router.put(
 router.put(
     "/balance",
     [
-        authenticate, authorize([1]),
+        authenticate,
+        authorize([1]),
         [
             check("balance")
                 .notEmpty()
@@ -276,7 +280,7 @@ router.put(
                 .isInt()
                 .withMessage("balance must be number")
                 .trim()
-                .escape()
+                .escape(),
         ],
         inputValidation,
     ],
@@ -284,7 +288,7 @@ router.put(
         let { balance } = req.body;
 
         let user = {
-            balance: balance
+            balance: balance,
         };
 
         let result = await UserModel.update(user, req.user.id);
