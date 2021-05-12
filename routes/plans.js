@@ -19,9 +19,17 @@ router.get("/", [[], authenticate, inputValidation], async (req, res) => {
 });
 
 /* create */
-router.post("/", [authenticate, inputValidation, authorize([0])], async (req, res) => {
+router.post("/", [
+        [
+        check("name").not().isEmpty().withMessage("name is empty"),
+        check("price").not().isEmpty().withMessage("price is empty").toInt(),
+        check("duration").not().isEmpty().withMessage("duration is empty").toInt(),
+        ], 
+        authenticate, 
+        inputValidation, 
+        authorize([0])
+    ], async (req, res) => {
     let { name, price, duration } = req.body;
-
     let plan = {
         name,
         price,
