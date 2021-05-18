@@ -51,13 +51,13 @@ module.exports = {
             var today = moment();
             if(user.last_hit == null) {
                 await db.query(
-                    `update users set last_hit = CURRENT_DATETIME where id = ${req.user.id}`
+                    `update users set last_hit = NOW() where id = ${req.user.id}`
                 );
                 user = (
                     await db.query(`select * from users where id = ${req.user.id}`)
                 )[0];
             }
-            var last_hit = moment(user.last_hit.substr(0,10));
+            var last_hit = moment(user.last_hit.toString().substr(0,10));
             if(last_hit.diff(today, 'days') <= -1) {
                 // RESET API HIT
                 let api_hit_value = await db.query(`SELECT * FROM transactions 
@@ -73,7 +73,7 @@ module.exports = {
                     api_hit_value = 50;
                 }
                 await db.query(
-                    `update users set api_hit = ${api_hit_value}, last_hit = CURRENT_DATETIME where id = ${req.user.id}`
+                    `update users set api_hit = ${api_hit_value}, last_hit = NOW() where id = ${req.user.id}`
                 );
             }
 
