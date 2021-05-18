@@ -57,7 +57,10 @@ module.exports = {
                     await db.query(`select * from users where id = ${req.user.id}`)
                 )[0];
             }
-            var last_hit = moment(user.last_hit.toString().substr(0,10));
+            // console.log(user.last_hit );
+            var last_hit = moment(user.last_hit);
+            last_hit.set({hour:0,minute:0,second:0,millisecond:0});
+            // console.log(last_hit);
             if(last_hit.diff(today, 'days') <= -1) {
                 // RESET API HIT
                 let api_hit_value = await db.query(`SELECT * FROM transactions 
