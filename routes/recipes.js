@@ -87,6 +87,7 @@ router.get(
         let recipes = null;
         try {
             recipes = await RecipeModel.recommendation(req.query);
+            console.log(recipes);
         } catch (e) {
             return res.status(400).json({ message: "Bad request!" });
         }
@@ -97,6 +98,7 @@ router.get(
                 message: "no recipes found!",
             });
 
+        console.log(recipes.results);
         results = [];
         recipes.results.forEach((result) => {
             results.push({
