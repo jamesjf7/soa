@@ -59,6 +59,7 @@ module.exports = {
                     )
                 )[0];
             }
+            console.log(user.last_hit.substr(0, 10));
             var last_hit = moment(user.last_hit.substr(0, 10));
             if (last_hit.diff(today, "days") <= -1) {
                 // RESET API HIT

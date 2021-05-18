@@ -94,8 +94,8 @@ router.get(
     "/:recipe_id",
     [
         [param("recipe_id").trim().escape().notEmpty()],
-        authenticate,
         inputValidation,
+        authenticate,
         apihit([5]),
     ],
     async (req, res) => {
