@@ -1,3 +1,4 @@
+logs/access.log
 Logs
 logs
 *.log
@@ -55,8 +56,7 @@ typings/
 # Optional eslint cache
 .eslintcache
 
-# Microbundle cache
-.rpt2_cache/
+# Microbundle cache.rpt2_cache/
 .rts2_cache_cjs/
 .rts2_cache_es/
 .rts2_cache_umd/
@@ -104,8 +104,12 @@ dist
 
 # TernJS port file
 <<<<<<< HEAD
+<<<<<<< HEAD
 .tern-port
 =======
 .tern-port
 logs/access.log
 >>>>>>> df490351e70eb8bc2eff404dc0dc0e9c3a64dbb5
+=======
+.tern-port
+>>>>>>> 2a8cf87e23c825fc8664812d55423ae0e01bfc2c
