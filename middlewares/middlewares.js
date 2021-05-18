@@ -49,16 +49,18 @@ module.exports = {
             )[0];
 
             var today = moment();
-            if(user.last_hit == null) {
+            if (user.last_hit == null) {
                 await db.query(
                     `update users set last_hit = CURRENT_DATETIME where id = ${req.user.id}`
                 );
                 user = (
-                    await db.query(`select * from users where id = ${req.user.id}`)
+                    await db.query(
+                        `select * from users where id = ${req.user.id}`
+                    )
                 )[0];
             }
-            var last_hit = moment(user.last_hit.substr(0,10));
-            if(last_hit.diff(today, 'days') <= -1) {
+            var last_hit = moment(user.last_hit.substr(0, 10));
+            if (last_hit.diff(today, "days") <= -1) {
                 // RESET API HIT
                 let api_hit_value = await db.query(`SELECT * FROM transactions 
                 JOIN plans ON plans.id = transactions.plan_id 
@@ -66,7 +68,7 @@ module.exports = {
                 DATEDIFF(CURRENT_TIMESTAMP, created_at) < duration
                 ORDER BY created_at DESC 
                 LIMIT 1`);
-                if(api_hit_value.length > 0) {
+                if (api_hit_value.length > 0) {
                     api_hit_value = api_hit_value[0].api_hit;
                 } else {
                     // DEFAULT VALUE UNTUK API HIT NORMAL (TANPA TRANSAKSI)
@@ -88,7 +90,6 @@ module.exports = {
                         "Access Denied: Not enough apihit to perform this operation",
                 });
             }
-            
         };
     },
 };
