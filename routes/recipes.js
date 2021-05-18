@@ -14,8 +14,12 @@ router.get(
     "/",
     [
         [
-            check("search").notEmpty().trim().escape(),
-            check("number").toInt().trim().escape(),
+            check("search").trim().escape(),
+            check("number")
+                .isNumeric()
+                .withMessage("number must be number!")
+                .trim()
+                .escape(),
         ],
         authenticate,
         inputValidation,
@@ -26,7 +30,10 @@ router.get(
             search: req.query.search,
             number: req.query.number || 5,
         });
-
+        if (recipes.totalResults == 0)
+            return res.status(404).json({
+                message: "no recipes found!",
+            });
         return res.status(200).send(recipes);
     }
 );
@@ -35,13 +42,49 @@ router.get(
 router.get(
     "/recommendation",
     [
-        [check("number").toInt().trim().escape()],
+        [
+            check("number")
+                .isNumeric()
+                .withMessage("number must be number!")
+                .trim()
+                .escape(),
+            check("minFat")
+                .isNumeric()
+                .withMessage("minFat must be number!")
+                .trim()
+                .escape(),
+            check("maxFat")
+                .isNumeric()
+                .withMessage("maxFat must be number!")
+                .trim()
+                .escape(),
+            check("minCarbs")
+                .isNumeric()
+                .withMessage("minCarbs must be number!")
+                .trim()
+                .escape(),
+            check("maxCarbs")
+                .isNumeric()
+                .withMessage("maxCarbs must be number!")
+                .trim()
+                .escape(),
+        ],
         authenticate,
         inputValidation,
         apihit([5]),
     ],
     async (req, res) => {
-        let recipes = await RecipeModel.recommendation(req.query);
+        let recipes = null;
+        try {
+            recipes = await RecipeModel.recommendation(req.query);
+        } catch (e) {
+            return res.status(400).send("Bad request!");
+        }
+        if (recipes == null) return res.status(400).send("Bad request!");
+        if (recipes.totalResults == 0)
+            return res.status(404).json({
+                message: "no recipes found!",
+            });
         return res.status(200).send(recipes);
     }
 );
@@ -49,10 +92,24 @@ router.get(
 /* recipe's detail */
 router.get(
     "/:id",
-    [[check("id").trim().escape()], authenticate, inputValidation, apihit([5])],
+    [
+        [check("id").trim().escape().notEmpty()],
+        authenticate,
+        inputValidation,
+        apihit([5]),
+    ],
     async (req, res) => {
         let { id } = req.params;
-        let recipes = await RecipeModel.detail(id);
+        let recipes = null;
+        try {
+            recipes = await RecipeModel.detail(id);
+        } catch (e) {
+            return res.status(404).json({ message: "no recipes found!" });
+        }
+
+        if (recipes == null)
+            return res.status(404).json({ message: "no recipes found!" });
+
         return res.status(200).send(recipes);
     }
 );

@@ -7,6 +7,8 @@ logs
 # yarn-error.log*
 # lerna-debug.log*
 
+/logs
+
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
@@ -101,4 +103,13 @@ dist
 .dynamodb/
 
 # TernJS port file
+<<<<<<< HEAD
+<<<<<<< HEAD
 .tern-port
+=======
+.tern-port
+logs/access.log
+>>>>>>> df490351e70eb8bc2eff404dc0dc0e9c3a64dbb5
+=======
+.tern-port
+>>>>>>> 2a8cf87e23c825fc8664812d55423ae0e01bfc2c

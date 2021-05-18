@@ -26,10 +26,10 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(cors());
 morgan.token("message", (req, res) => res.statusMessage);
-morgan.token("datetime", () => moment().format("DD/MM/yyyy"));
+morgan.token("datetime", () => moment().format("HH:mm:ss DD/MM/yyyy"));
 app.use(
     morgan(
-        "Method::method; URL::url; Status::status; Message::message; DateTime:h:datetime; ResponseTime::response-time ms",
+        "Method::method; URL::url; Status::status; Message::message; DateTime:datetime; ResponseTime::response-time ms",
         {
             stream: fs.createWriteStream(
                 // `./logs/${moment().format("Y.MM.D")}.log`,
