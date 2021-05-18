@@ -2087,4 +2087,82 @@ Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXK9JT; Status:404; Messa
 Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXKAnf; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.270 ms
 Method:GET; URL:/socket.io/?EIO=3&transport=polling&t=NbXKCTh; Status:404; Message:Not Found; DateTime:h12/05/2021; ResponseTime:0.265 ms
 >>>>>>> 2a8cf87e23c825fc8664812d55423ae0e01bfc2c
+<<<<<<< HEAD
 Method:GET; URL:/api/recipes?search=pasta&number=1; Status:-; Message:-; DateTime15:21:36 18/05/2021; ResponseTime:- ms
+=======
+Method:GET; URL:/api/recipes/123415; Status:401; Message:Unauthorized; DateTime14:11:56 18/05/2021; ResponseTime:5.405 ms
+Method:GET; URL:/api/recipes/123415; Status:-; Message:-; DateTime14:12:28 18/05/2021; ResponseTime:- ms
+Method:GET; URL:/api/recipes/123415; Status:401; Message:Unauthorized; DateTime14:14:09 18/05/2021; ResponseTime:5.190 ms
+Method:GET; URL:/api/recipes/123415; Status:401; Message:Unauthorized; DateTime14:14:57 18/05/2021; ResponseTime:5.277 ms
+Method:GET; URL:/api/recipes/123415; Status:401; Message:Unauthorized; DateTime14:15:55 18/05/2021; ResponseTime:5.685 ms
+Method:GET; URL:/api/recipes/123415; Status:401; Message:Unauthorized; DateTime14:17:00 18/05/2021; ResponseTime:4.940 ms
+Method:GET; URL:/api/recipes/123415; Status:401; Message:Unauthorized; DateTime14:18:08 18/05/2021; ResponseTime:5.216 ms
+Method:GET; URL:/api/recipes/123415; Status:200; Message:OK; DateTime14:18:35 18/05/2021; ResponseTime:1303.305 ms
+Method:GET; URL:/api/recipes/123415; Status:401; Message:Unauthorized; DateTime14:27:45 18/05/2021; ResponseTime:5.340 ms
+Method:GET; URL:/api/recipes/1231231903; Status:404; Message:Not Found; DateTime14:27:50 18/05/2021; ResponseTime:1546.225 ms
+Method:GET; URL:/api/recipes/123415; Status:200; Message:OK; DateTime14:27:59 18/05/2021; ResponseTime:931.743 ms
+Method:GET; URL:/api/recipes/123415; Status:401; Message:Unauthorized; DateTime14:28:51 18/05/2021; ResponseTime:5.234 ms
+Method:GET; URL:/api/recipes/1231231903; Status:404; Message:Not Found; DateTime14:28:53 18/05/2021; ResponseTime:989.406 ms
+Method:GET; URL:/api/recipes/123415; Status:200; Message:OK; DateTime14:29:04 18/05/2021; ResponseTime:920.319 ms
+Method:GET; URL:/api/recipes/123415; Status:401; Message:Unauthorized; DateTime14:29:10 18/05/2021; ResponseTime:0.819 ms
+Method:GET; URL:/api/recipes/1231231903; Status:404; Message:Not Found; DateTime14:29:11 18/05/2021; ResponseTime:933.213 ms
+Method:GET; URL:/api/recipes/123415; Status:200; Message:OK; DateTime14:29:15 18/05/2021; ResponseTime:939.671 ms
+Method:GET; URL:/api/recipes/123415; Status:401; Message:Unauthorized; DateTime14:30:51 18/05/2021; ResponseTime:5.132 ms
+Method:GET; URL:/api/recipes/1231231903; Status:404; Message:Not Found; DateTime14:30:53 18/05/2021; ResponseTime:970.773 ms
+Method:GET; URL:/api/recipes/123415; Status:200; Message:OK; DateTime14:31:00 18/05/2021; ResponseTime:934.286 ms
+Method:GET; URL:/api/recipes/123415; Status:401; Message:Unauthorized; DateTime14:31:17 18/05/2021; ResponseTime:4.972 ms
+Method:GET; URL:/api/recipes/1231231903; Status:404; Message:Not Found; DateTime14:31:19 18/05/2021; ResponseTime:1258.304 ms
+Method:GET; URL:/api/recipes/123415; Status:200; Message:OK; DateTime14:31:20 18/05/2021; ResponseTime:945.352 ms
+Method:GET; URL:/api/recipes/123415; Status:401; Message:Unauthorized; DateTime14:31:27 18/05/2021; ResponseTime:4.668 ms
+Method:GET; URL:/api/recipes/1231231903; Status:404; Message:Not Found; DateTime14:31:29 18/05/2021; ResponseTime:954.956 ms
+Method:GET; URL:/api/recipes/123415; Status:200; Message:OK; DateTime14:31:59 18/05/2021; ResponseTime:1060.495 ms
+Method:GET; URL:/api/recipes/123415; Status:401; Message:Unauthorized; DateTime14:33:49 18/05/2021; ResponseTime:6.377 ms
+Method:GET; URL:/api/recipes/1231231903; Status:404; Message:Not Found; DateTime14:33:52 18/05/2021; ResponseTime:1114.878 ms
+Method:GET; URL:/api/recipes/123415; Status:200; Message:OK; DateTime14:34:00 18/05/2021; ResponseTime:968.794 ms
+Method:GET; URL:/api/recipes/123415; Status:401; Message:Unauthorized; DateTime14:35:32 18/05/2021; ResponseTime:5.760 ms
+Method:GET; URL:/api/recipes/1231231903; Status:404; Message:Not Found; DateTime14:35:36 18/05/2021; ResponseTime:891.760 ms
+Method:GET; URL:/api/recipes/123415; Status:401; Message:Unauthorized; DateTime14:35:48 18/05/2021; ResponseTime:7.744 ms
+Method:GET; URL:/api/recipes/1231231903; Status:404; Message:Not Found; DateTime14:35:50 18/05/2021; ResponseTime:1272.633 ms
+Method:GET; URL:/api/recipes/123415; Status:401; Message:Unauthorized; DateTime14:36:15 18/05/2021; ResponseTime:4.978 ms
+Method:GET; URL:/api/recipes/1231231903; Status:429; Message:Too Many Requests; DateTime14:36:16 18/05/2021; ResponseTime:32.498 ms
+Method:GET; URL:/api/recipes/123415; Status:429; Message:Too Many Requests; DateTime14:36:18 18/05/2021; ResponseTime:2.261 ms
+Method:GET; URL:/api/recipes/123415; Status:401; Message:Unauthorized; DateTime14:36:19 18/05/2021; ResponseTime:0.573 ms
+Method:GET; URL:/api/recipes/1231231903; Status:429; Message:Too Many Requests; DateTime14:36:20 18/05/2021; ResponseTime:1.983 ms
+Method:GET; URL:/api/recipes/123415; Status:429; Message:Too Many Requests; DateTime14:36:20 18/05/2021; ResponseTime:1.854 ms
+Method:GET; URL:/api/recipes/123415; Status:401; Message:Unauthorized; DateTime14:36:53 18/05/2021; ResponseTime:0.662 ms
+Method:GET; URL:/api/recipes/1231231903; Status:429; Message:Too Many Requests; DateTime14:36:54 18/05/2021; ResponseTime:3.042 ms
+Method:GET; URL:/api/recipes/123415; Status:429; Message:Too Many Requests; DateTime14:36:55 18/05/2021; ResponseTime:1.863 ms
+Method:GET; URL:/api/recipes/123415; Status:401; Message:Unauthorized; DateTime14:36:55 18/05/2021; ResponseTime:0.518 ms
+Method:GET; URL:/api/recipes/1231231903; Status:429; Message:Too Many Requests; DateTime14:36:57 18/05/2021; ResponseTime:2.008 ms
+Method:GET; URL:/api/recipes/123415; Status:401; Message:Unauthorized; DateTime14:37:14 18/05/2021; ResponseTime:0.512 ms
+Method:GET; URL:/api/recipes/123415; Status:200; Message:OK; DateTime14:37:16 18/05/2021; ResponseTime:1012.437 ms
+Method:GET; URL:/api/recipes/123415; Status:401; Message:Unauthorized; DateTime14:37:47 18/05/2021; ResponseTime:5.381 ms
+Method:GET; URL:/api/recipes/1231231903; Status:404; Message:Not Found; DateTime14:37:49 18/05/2021; ResponseTime:1325.456 ms
+Method:GET; URL:/api/recipes/123415; Status:401; Message:Unauthorized; DateTime14:37:50 18/05/2021; ResponseTime:0.552 ms
+Method:GET; URL:/api/recipes/123415; Status:200; Message:OK; DateTime14:37:52 18/05/2021; ResponseTime:1256.678 ms
+Method:GET; URL:/api/recipes/123415; Status:401; Message:Unauthorized; DateTime14:38:10 18/05/2021; ResponseTime:4.644 ms
+Method:GET; URL:/api/recipes/1231231903; Status:404; Message:Not Found; DateTime14:38:12 18/05/2021; ResponseTime:959.589 ms
+Method:GET; URL:/api/recipes/123415; Status:401; Message:Unauthorized; DateTime14:38:12 18/05/2021; ResponseTime:0.694 ms
+Method:GET; URL:/api/recipes/123415; Status:200; Message:OK; DateTime14:38:14 18/05/2021; ResponseTime:981.218 ms
+Method:GET; URL:/api/recipes/123415; Status:401; Message:Unauthorized; DateTime14:38:59 18/05/2021; ResponseTime:4.734 ms
+Method:GET; URL:/api/recipes/1231231903; Status:404; Message:Not Found; DateTime14:39:01 18/05/2021; ResponseTime:1281.944 ms
+Method:GET; URL:/api/recipes/123415; Status:401; Message:Unauthorized; DateTime14:39:01 18/05/2021; ResponseTime:0.930 ms
+Method:GET; URL:/api/recipes/123415; Status:200; Message:OK; DateTime14:39:03 18/05/2021; ResponseTime:1054.474 ms
+Method:GET; URL:/api/recipes/123415; Status:401; Message:Unauthorized; DateTime14:41:25 18/05/2021; ResponseTime:4.789 ms
+Method:GET; URL:/api/recipes/1231231903; Status:404; Message:Not Found; DateTime14:41:28 18/05/2021; ResponseTime:971.892 ms
+Method:GET; URL:/api/recipes/123415; Status:401; Message:Unauthorized; DateTime14:41:28 18/05/2021; ResponseTime:0.630 ms
+Method:GET; URL:/api/recipes/123415; Status:200; Message:OK; DateTime14:41:30 18/05/2021; ResponseTime:1054.934 ms
+Method:GET; URL:/api/recipes/123415; Status:401; Message:Unauthorized; DateTime14:44:46 18/05/2021; ResponseTime:5.380 ms
+Method:GET; URL:/api/recipes/1231231903; Status:404; Message:Not Found; DateTime14:44:49 18/05/2021; ResponseTime:1277.511 ms
+Method:GET; URL:/api/recipes/123415; Status:401; Message:Unauthorized; DateTime14:44:50 18/05/2021; ResponseTime:0.553 ms
+Method:GET; URL:/api/recipes/123415; Status:200; Message:OK; DateTime14:44:52 18/05/2021; ResponseTime:1341.397 ms
+Method:GET; URL:/api/recipes/123415; Status:401; Message:Unauthorized; DateTime15:02:27 18/05/2021; ResponseTime:5.465 ms
+Method:GET; URL:/api/recipes/1231231903; Status:404; Message:Not Found; DateTime15:02:30 18/05/2021; ResponseTime:1183.606 ms
+Method:GET; URL:/api/recipes/123415; Status:401; Message:Unauthorized; DateTime15:02:31 18/05/2021; ResponseTime:0.597 ms
+Method:GET; URL:/api/recipes/716429; Status:200; Message:OK; DateTime15:02:33 18/05/2021; ResponseTime:960.159 ms
+Method:GET; URL:/api/recipes/716429; Status:401; Message:Unauthorized; DateTime15:03:49 18/05/2021; ResponseTime:5.277 ms
+Method:GET; URL:/api/recipes/1231231903; Status:404; Message:Not Found; DateTime15:03:52 18/05/2021; ResponseTime:954.174 ms
+Method:GET; URL:/api/recipes/716429; Status:401; Message:Unauthorized; DateTime15:03:53 18/05/2021; ResponseTime:0.571 ms
+Method:GET; URL:/api/recipes/716429; Status:200; Message:OK; DateTime15:03:54 18/05/2021; ResponseTime:1191.790 ms
+Method:GET; URL:/api/recipes/716429; Status:401; Message:Unauthorized; DateTime15:07:01 18/05/2021; ResponseTime:4.991 ms
+>>>>>>> eb5a20e7388e7ddb0b7dfed809e2bd3eb538e73f

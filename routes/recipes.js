@@ -4,7 +4,7 @@ const {
     inputValidation,
     apihit,
 } = require("../middlewares/middlewares");
-const { check } = require("express-validator");
+const { check, param } = require("express-validator");
 const RecipeModel = require("../models/RecipeModel");
 const router = express.Router();
 // model
@@ -91,26 +91,48 @@ router.get(
 
 /* recipe's detail */
 router.get(
-    "/:id",
+    "/:recipe_id",
     [
-        [check("id").trim().escape().notEmpty()],
+        [param("recipe_id").trim().escape().notEmpty()],
         authenticate,
         inputValidation,
         apihit([5]),
     ],
     async (req, res) => {
-        let { id } = req.params;
+        let { recipe_id } = req.params;
         let recipes = null;
         try {
-            recipes = await RecipeModel.detail(id);
+            recipes = await RecipeModel.detail(recipe_id);
         } catch (e) {
             return res.status(404).json({ message: "no recipes found!" });
         }
 
         if (recipes == null)
             return res.status(404).json({ message: "no recipes found!" });
-
-        return res.status(200).send(recipes);
+        console.log(recipes);
+        return res.status(200).json({
+            id: recipes.id,
+            title: recipes.title,
+            dishTypes: recipes.dishTypes,
+            readyInMinutes: recipes.readyInMinutes,
+            servings: recipes.servings,
+            image: recipes.image,
+            summary: recipes.summary,
+            caloricBreakdown: recipes.caloricBreakdown,
+            nutrition: recipes.nutrition,
+            ingredients: recipes.nutrition.ingredients,
+            extendedIngredients: recipes.extendedIngredients,
+            instructions: recipes.instructions,
+            analyzedInstructions: recipes.analyzedInstructions,
+            dairyFree: recipes.dairyFree,
+            glutenFree: recipes.glutenFree,
+            ketogenic: recipes.ketogenic,
+            sustainable: recipes.sustainable,
+            vegan: recipes.vegan,
+            vegetarian: recipes.vegetarian,
+            veryHealthy: recipes.veryHealthy,
+            veryPopular: recipes.veryPopular,
+        });
     }
 );
 
