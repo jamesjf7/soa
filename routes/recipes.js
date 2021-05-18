@@ -34,7 +34,17 @@ router.get(
             return res.status(404).json({
                 message: "no recipes found!",
             });
-        return res.status(200).send(recipes);
+
+        results = [];
+        recipes.results.forEach((recipe) => {
+            results.push({
+                id: recipe.id,
+                title: recipe.title,
+                image: recipe.image,
+            });
+        });
+
+        return res.status(200).send(results);
     }
 );
 
@@ -78,14 +88,25 @@ router.get(
         try {
             recipes = await RecipeModel.recommendation(req.query);
         } catch (e) {
-            return res.status(400).send("Bad request!");
+            return res.status(400).json({ message: "Bad request!" });
         }
-        if (recipes == null) return res.status(400).send("Bad request!");
+        if (recipes == null)
+            return res.status(400).json({ message: "Bad request!" });
         if (recipes.totalResults == 0)
             return res.status(404).json({
                 message: "no recipes found!",
             });
-        return res.status(200).send(recipes);
+
+        results = [];
+        recipes.results.forEach((result) => {
+            results.push({
+                id: result.id,
+                title: result.title,
+                image: result.image,
+                nutrition: result.nutrition,
+            });
+        });
+        return res.status(200).json(results);
     }
 );
 
@@ -118,9 +139,7 @@ router.get(
             servings: recipes.servings,
             image: recipes.image,
             summary: recipes.summary,
-            caloricBreakdown: recipes.caloricBreakdown,
             nutrition: recipes.nutrition,
-            ingredients: recipes.nutrition.ingredients,
             extendedIngredients: recipes.extendedIngredients,
             instructions: recipes.instructions,
             analyzedInstructions: recipes.analyzedInstructions,

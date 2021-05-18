@@ -2,6 +2,7 @@ const express = require("express");
 const crypto = require("crypto");
 const path = require("path");
 const multer = require("multer");
+const moment = require("moment");
 const jwt = require("jsonwebtoken");
 const fs = require("fs");
 const {
@@ -123,6 +124,7 @@ router.post(
                 message: "Welcome, " + user.name,
                 token: user.token,
                 role: user.role,
+                apihit: user.api_hit,
             });
         }
     }

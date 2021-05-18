@@ -2166,3 +2166,235 @@ Method:GET; URL:/api/recipes/716429; Status:401; Message:Unauthorized; DateTime1
 Method:GET; URL:/api/recipes/716429; Status:401; Message:Unauthorized; DateTime15:12:52 18/05/2021; ResponseTime:5.620 ms
 Method:GET; URL:/api/recipes/716429; Status:401; Message:Unauthorized; DateTime15:13:53 18/05/2021; ResponseTime:4.973 ms
 Method:GET; URL:/api/recipes/716429; Status:401; Message:Unauthorized; DateTime15:14:30 18/05/2021; ResponseTime:5.516 ms
+Method:GET; URL:/api/recipes/716429; Status:401; Message:Unauthorized; DateTime15:51:29 18/05/2021; ResponseTime:5.622 ms
+Method:GET; URL:/api/recipes/1231231903; Status:404; Message:Not Found; DateTime15:51:30 18/05/2021; ResponseTime:1006.163 ms
+Method:GET; URL:/api/recipes/716429; Status:401; Message:Unauthorized; DateTime15:51:30 18/05/2021; ResponseTime:0.645 ms
+Method:GET; URL:/api/recipes/716429; Status:200; Message:OK; DateTime15:51:31 18/05/2021; ResponseTime:991.948 ms
+Method:GET; URL:/api/recipes/716429; Status:401; Message:Unauthorized; DateTime15:56:18 18/05/2021; ResponseTime:5.049 ms
+Method:GET; URL:/api/recipes/1231231903; Status:404; Message:Not Found; DateTime15:56:22 18/05/2021; ResponseTime:2260.477 ms
+Method:GET; URL:/api/recipes/716429; Status:401; Message:Unauthorized; DateTime15:56:23 18/05/2021; ResponseTime:0.616 ms
+Method:GET; URL:/api/recipes/716429; Status:429; Message:Too Many Requests; DateTime15:56:25 18/05/2021; ResponseTime:2.442 ms
+Method:GET; URL:/api/recipes/716429; Status:401; Message:Unauthorized; DateTime16:00:02 18/05/2021; ResponseTime:4.730 ms
+Method:GET; URL:/api/recipes/1231231903; Status:429; Message:Too Many Requests; DateTime16:00:03 18/05/2021; ResponseTime:29.528 ms
+Method:GET; URL:/api/recipes/716429; Status:401; Message:Unauthorized; DateTime16:00:10 18/05/2021; ResponseTime:0.628 ms
+Method:GET; URL:/api/recipes/716429; Status:200; Message:OK; DateTime16:00:13 18/05/2021; ResponseTime:1047.543 ms
+Method:GET; URL:/api/recipes/716429; Status:401; Message:Unauthorized; DateTime16:02:22 18/05/2021; ResponseTime:5.112 ms
+Method:GET; URL:/api/recipes/1231231903; Status:404; Message:Not Found; DateTime16:02:24 18/05/2021; ResponseTime:1000.923 ms
+Method:GET; URL:/api/recipes/716429; Status:401; Message:Unauthorized; DateTime16:02:24 18/05/2021; ResponseTime:0.668 ms
+Method:GET; URL:/api/recipes/716429; Status:200; Message:OK; DateTime16:02:26 18/05/2021; ResponseTime:871.744 ms
+Method:GET; URL:/api/recipes/716429; Status:401; Message:Unauthorized; DateTime16:03:44 18/05/2021; ResponseTime:1.277 ms
+Method:GET; URL:/api/recipes/1231231903; Status:404; Message:Not Found; DateTime16:03:46 18/05/2021; ResponseTime:935.442 ms
+Method:GET; URL:/api/recipes/716429; Status:401; Message:Unauthorized; DateTime16:03:47 18/05/2021; ResponseTime:0.549 ms
+Method:GET; URL:/api/recipes/716429; Status:200; Message:OK; DateTime16:03:48 18/05/2021; ResponseTime:1001.106 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime16:05:39 18/05/2021; ResponseTime:2.537 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:05:40 18/05/2021; ResponseTime:1.965 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:05:41 18/05/2021; ResponseTime:1.569 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime16:05:41 18/05/2021; ResponseTime:2.133 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime16:05:48 18/05/2021; ResponseTime:1.443 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:05:50 18/05/2021; ResponseTime:1.419 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:05:51 18/05/2021; ResponseTime:1.400 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime16:06:24 18/05/2021; ResponseTime:1.640 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime16:06:25 18/05/2021; ResponseTime:1.388 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:06:26 18/05/2021; ResponseTime:1.586 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:06:27 18/05/2021; ResponseTime:1.638 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime16:06:28 18/05/2021; ResponseTime:1.586 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime16:06:29 18/05/2021; ResponseTime:1.417 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:06:29 18/05/2021; ResponseTime:1.598 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:09:03 18/05/2021; ResponseTime:31.384 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime16:09:04 18/05/2021; ResponseTime:4.258 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime16:09:05 18/05/2021; ResponseTime:1.528 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:09:06 18/05/2021; ResponseTime:2.051 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:09:11 18/05/2021; ResponseTime:2.795 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime16:09:17 18/05/2021; ResponseTime:1.624 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime16:09:18 18/05/2021; ResponseTime:1.527 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:09:19 18/05/2021; ResponseTime:1.697 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:09:20 18/05/2021; ResponseTime:1.745 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime16:09:21 18/05/2021; ResponseTime:2.316 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime16:09:28 18/05/2021; ResponseTime:1.602 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:09:28 18/05/2021; ResponseTime:1.556 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:09:29 18/05/2021; ResponseTime:1.496 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime16:09:29 18/05/2021; ResponseTime:2.615 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime16:09:43 18/05/2021; ResponseTime:1.369 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:09:43 18/05/2021; ResponseTime:1.400 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:09:44 18/05/2021; ResponseTime:1.557 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime16:09:45 18/05/2021; ResponseTime:1.629 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime16:12:44 18/05/2021; ResponseTime:1.466 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:12:45 18/05/2021; ResponseTime:1.596 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:12:45 18/05/2021; ResponseTime:1.343 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime16:12:46 18/05/2021; ResponseTime:1.987 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime16:13:43 18/05/2021; ResponseTime:1.294 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:13:43 18/05/2021; ResponseTime:1.795 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:13:43 18/05/2021; ResponseTime:2.284 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime16:13:43 18/05/2021; ResponseTime:1.282 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime16:14:16 18/05/2021; ResponseTime:1.396 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:14:17 18/05/2021; ResponseTime:1.996 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:14:17 18/05/2021; ResponseTime:2.418 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:14:18 18/05/2021; ResponseTime:1.313 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime16:16:22 18/05/2021; ResponseTime:31.984 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:16:25 18/05/2021; ResponseTime:4.345 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:16:25 18/05/2021; ResponseTime:1.888 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:16:26 18/05/2021; ResponseTime:1.838 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime16:17:11 18/05/2021; ResponseTime:2.288 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:17:12 18/05/2021; ResponseTime:1.431 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:17:12 18/05/2021; ResponseTime:1.824 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:17:13 18/05/2021; ResponseTime:1.758 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime16:17:13 18/05/2021; ResponseTime:1.658 ms
+Method:GET; URL:/api/recipes/716429; Status:401; Message:Unauthorized; DateTime16:17:23 18/05/2021; ResponseTime:0.650 ms
+Method:GET; URL:/api/recipes/1231231903; Status:404; Message:Not Found; DateTime16:17:25 18/05/2021; ResponseTime:1136.444 ms
+Method:GET; URL:/api/recipes/716429; Status:401; Message:Unauthorized; DateTime16:17:26 18/05/2021; ResponseTime:0.466 ms
+Method:GET; URL:/api/recipes/716429; Status:200; Message:OK; DateTime16:17:27 18/05/2021; ResponseTime:977.761 ms
+Method:GET; URL:/api/recipes/716429; Status:401; Message:Unauthorized; DateTime16:17:29 18/05/2021; ResponseTime:0.357 ms
+Method:GET; URL:/api/recipes/1231231903; Status:404; Message:Not Found; DateTime16:17:31 18/05/2021; ResponseTime:949.439 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:18:31 18/05/2021; ResponseTime:1.453 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:18:31 18/05/2021; ResponseTime:1.857 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:18:31 18/05/2021; ResponseTime:2.022 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime16:18:31 18/05/2021; ResponseTime:1.508 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:19:19 18/05/2021; ResponseTime:32.970 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:19:19 18/05/2021; ResponseTime:2.805 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:19:19 18/05/2021; ResponseTime:1.870 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime16:19:19 18/05/2021; ResponseTime:1.527 ms
+Method:GET; URL:/api/recipes/716429; Status:401; Message:Unauthorized; DateTime16:19:38 18/05/2021; ResponseTime:0.950 ms
+Method:GET; URL:/api/recipes/716429; Status:200; Message:OK; DateTime16:19:43 18/05/2021; ResponseTime:998.347 ms
+Method:GET; URL:/api/recipes/716429; Status:401; Message:Unauthorized; DateTime16:19:46 18/05/2021; ResponseTime:0.473 ms
+Method:GET; URL:/api/recipes/1231231903; Status:404; Message:Not Found; DateTime16:19:48 18/05/2021; ResponseTime:922.396 ms
+Method:GET; URL:/api/recipes/716429; Status:429; Message:Too Many Requests; DateTime16:19:49 18/05/2021; ResponseTime:1.638 ms
+Method:GET; URL:/api/plans; Status:401; Message:Unauthorized; DateTime16:20:47 18/05/2021; ResponseTime:0.318 ms
+Method:GET; URL:/api/plans; Status:200; Message:OK; DateTime16:20:51 18/05/2021; ResponseTime:1.733 ms
+Method:GET; URL:/api/plans; Status:401; Message:Unauthorized; DateTime16:20:51 18/05/2021; ResponseTime:0.204 ms
+Method:GET; URL:/api/plans; Status:200; Message:OK; DateTime16:20:52 18/05/2021; ResponseTime:1.264 ms
+Method:GET; URL:/api/plans; Status:401; Message:Unauthorized; DateTime16:20:59 18/05/2021; ResponseTime:0.194 ms
+Method:GET; URL:/api/plans; Status:200; Message:OK; DateTime16:20:59 18/05/2021; ResponseTime:1.447 ms
+Method:GET; URL:/api/plans; Status:401; Message:Unauthorized; DateTime16:21:00 18/05/2021; ResponseTime:0.263 ms
+Method:GET; URL:/api/plans; Status:200; Message:OK; DateTime16:21:01 18/05/2021; ResponseTime:1.585 ms
+Method:GET; URL:/api/plans; Status:401; Message:Unauthorized; DateTime16:21:03 18/05/2021; ResponseTime:0.185 ms
+Method:GET; URL:/api/plans; Status:200; Message:OK; DateTime16:21:05 18/05/2021; ResponseTime:1.287 ms
+Method:GET; URL:/api/plans; Status:401; Message:Unauthorized; DateTime16:22:47 18/05/2021; ResponseTime:0.222 ms
+Method:GET; URL:/api/plans; Status:200; Message:OK; DateTime16:22:47 18/05/2021; ResponseTime:1.100 ms
+Method:GET; URL:/api/plans; Status:401; Message:Unauthorized; DateTime16:23:28 18/05/2021; ResponseTime:0.182 ms
+Method:GET; URL:/api/plans; Status:200; Message:OK; DateTime16:23:31 18/05/2021; ResponseTime:1.582 ms
+Method:GET; URL:/api/plans; Status:401; Message:Unauthorized; DateTime16:23:32 18/05/2021; ResponseTime:0.195 ms
+Method:GET; URL:/api/plans; Status:200; Message:OK; DateTime16:23:32 18/05/2021; ResponseTime:1.374 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=0&maxFat=0&minCarbs=0&maxCarbs=0; Status:404; Message:Not Found; DateTime16:24:11 18/05/2021; ResponseTime:1258.150 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=a&maxFat=100&minCarbs=50&maxCarbs=100; Status:400; Message:Bad Request; DateTime16:24:13 18/05/2021; ResponseTime:1.108 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100; Status:401; Message:Unauthorized; DateTime16:24:15 18/05/2021; ResponseTime:0.822 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100; Status:200; Message:OK; DateTime16:24:17 18/05/2021; ResponseTime:966.332 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=0&maxFat=0&minCarbs=0&maxCarbs=0; Status:404; Message:Not Found; DateTime16:24:50 18/05/2021; ResponseTime:925.536 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=a&maxFat=100&minCarbs=50&maxCarbs=100; Status:400; Message:Bad Request; DateTime16:24:51 18/05/2021; ResponseTime:1.847 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100; Status:401; Message:Unauthorized; DateTime16:24:52 18/05/2021; ResponseTime:0.848 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100; Status:200; Message:OK; DateTime16:24:53 18/05/2021; ResponseTime:955.827 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=0&maxFat=0&minCarbs=0&maxCarbs=0; Status:404; Message:Not Found; DateTime16:25:24 18/05/2021; ResponseTime:972.359 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=a&maxFat=100&minCarbs=50&maxCarbs=100; Status:400; Message:Bad Request; DateTime16:25:28 18/05/2021; ResponseTime:1.866 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100; Status:401; Message:Unauthorized; DateTime16:25:28 18/05/2021; ResponseTime:0.904 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100; Status:200; Message:OK; DateTime16:25:30 18/05/2021; ResponseTime:1050.250 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=0&maxFat=0&minCarbs=0&maxCarbs=0; Status:404; Message:Not Found; DateTime16:29:38 18/05/2021; ResponseTime:1529.376 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=a&maxFat=100&minCarbs=50&maxCarbs=100; Status:400; Message:Bad Request; DateTime16:29:40 18/05/2021; ResponseTime:1.874 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100; Status:401; Message:Unauthorized; DateTime16:29:40 18/05/2021; ResponseTime:0.894 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100; Status:200; Message:OK; DateTime16:29:42 18/05/2021; ResponseTime:972.516 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=0&maxFat=0&minCarbs=0&maxCarbs=0; Status:404; Message:Not Found; DateTime16:29:58 18/05/2021; ResponseTime:1262.796 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=a&maxFat=100&minCarbs=50&maxCarbs=100; Status:400; Message:Bad Request; DateTime16:29:59 18/05/2021; ResponseTime:2.271 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100; Status:401; Message:Unauthorized; DateTime16:29:59 18/05/2021; ResponseTime:0.862 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100; Status:200; Message:OK; DateTime16:30:01 18/05/2021; ResponseTime:951.934 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=0&maxFat=0&minCarbs=0&maxCarbs=0; Status:429; Message:Too Many Requests; DateTime16:30:26 18/05/2021; ResponseTime:33.986 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=a&maxFat=100&minCarbs=50&maxCarbs=100; Status:400; Message:Bad Request; DateTime16:30:26 18/05/2021; ResponseTime:1.839 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100; Status:401; Message:Unauthorized; DateTime16:30:27 18/05/2021; ResponseTime:0.954 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100; Status:429; Message:Too Many Requests; DateTime16:30:28 18/05/2021; ResponseTime:2.998 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=0&maxFat=0&minCarbs=0&maxCarbs=0; Status:429; Message:Too Many Requests; DateTime16:30:28 18/05/2021; ResponseTime:1.835 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=a&maxFat=100&minCarbs=50&maxCarbs=100; Status:400; Message:Bad Request; DateTime16:30:29 18/05/2021; ResponseTime:0.948 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100; Status:401; Message:Unauthorized; DateTime16:30:30 18/05/2021; ResponseTime:0.906 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100; Status:429; Message:Too Many Requests; DateTime16:30:30 18/05/2021; ResponseTime:1.936 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=0&maxFat=0&minCarbs=0&maxCarbs=0; Status:429; Message:Too Many Requests; DateTime16:30:31 18/05/2021; ResponseTime:2.418 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=a&maxFat=100&minCarbs=50&maxCarbs=100; Status:400; Message:Bad Request; DateTime16:30:32 18/05/2021; ResponseTime:0.956 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100; Status:401; Message:Unauthorized; DateTime16:30:33 18/05/2021; ResponseTime:0.820 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100; Status:429; Message:Too Many Requests; DateTime16:30:33 18/05/2021; ResponseTime:2.006 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=0&maxFat=0&minCarbs=0&maxCarbs=0; Status:429; Message:Too Many Requests; DateTime16:32:04 18/05/2021; ResponseTime:2.895 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=a&maxFat=100&minCarbs=50&maxCarbs=100; Status:400; Message:Bad Request; DateTime16:32:21 18/05/2021; ResponseTime:1.027 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100; Status:401; Message:Unauthorized; DateTime16:32:22 18/05/2021; ResponseTime:0.834 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100; Status:200; Message:OK; DateTime16:32:25 18/05/2021; ResponseTime:978.876 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=0&maxFat=0&minCarbs=0&maxCarbs=0; Status:404; Message:Not Found; DateTime16:36:12 18/05/2021; ResponseTime:1309.093 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100; Status:429; Message:Too Many Requests; DateTime16:36:58 18/05/2021; ResponseTime:2.821 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=a&maxFat=100&minCarbs=50&maxCarbs=100; Status:400; Message:Bad Request; DateTime16:36:59 18/05/2021; ResponseTime:0.910 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100; Status:401; Message:Unauthorized; DateTime16:38:31 18/05/2021; ResponseTime:0.873 ms
+Method:GET; URL:/api/recipes/recommendation?number=null&minFat=null&maxFat=null&minCarbs=null&maxCarbs=null; Status:401; Message:Unauthorized; DateTime16:39:12 18/05/2021; ResponseTime:0.919 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100; Status:200; Message:OK; DateTime16:39:18 18/05/2021; ResponseTime:944.322 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=0&maxFat=0&minCarbs=0&maxCarbs=0; Status:404; Message:Not Found; DateTime16:39:21 18/05/2021; ResponseTime:886.360 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100; Status:429; Message:Too Many Requests; DateTime16:39:22 18/05/2021; ResponseTime:2.593 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=a&maxFat=100&minCarbs=50&maxCarbs=100; Status:400; Message:Bad Request; DateTime16:39:22 18/05/2021; ResponseTime:0.899 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100; Status:401; Message:Unauthorized; DateTime16:39:24 18/05/2021; ResponseTime:0.818 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100; Status:200; Message:OK; DateTime16:39:43 18/05/2021; ResponseTime:946.053 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=0&maxFat=0&minCarbs=0&maxCarbs=0; Status:404; Message:Not Found; DateTime16:39:45 18/05/2021; ResponseTime:853.969 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100; Status:429; Message:Too Many Requests; DateTime16:39:46 18/05/2021; ResponseTime:1.821 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=a&maxFat=100&minCarbs=50&maxCarbs=100; Status:400; Message:Bad Request; DateTime16:39:47 18/05/2021; ResponseTime:1.481 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100; Status:401; Message:Unauthorized; DateTime16:39:47 18/05/2021; ResponseTime:1.386 ms
+Method:GET; URL:/api/recipes?search=pasta&number=5; Status:200; Message:OK; DateTime16:42:31 18/05/2021; ResponseTime:1003.990 ms
+Method:GET; URL:/api/recipes?search=&number=5; Status:200; Message:OK; DateTime16:45:59 18/05/2021; ResponseTime:935.901 ms
+Method:GET; URL:/api/recipes?search=qwerqsdvasdvqerqwer12rqwfdzxv&number=5; Status:404; Message:Not Found; DateTime16:46:03 18/05/2021; ResponseTime:937.798 ms
+Method:GET; URL:/api/recipes?search=a&number=5; Status:429; Message:Too Many Requests; DateTime16:46:43 18/05/2021; ResponseTime:3.219 ms
+Method:GET; URL:/api/recipes?search=asdfadfqwer&number=5; Status:401; Message:Unauthorized; DateTime16:46:55 18/05/2021; ResponseTime:0.684 ms
+Method:GET; URL:/api/recipes?search=&number=5; Status:200; Message:OK; DateTime16:47:35 18/05/2021; ResponseTime:1069.092 ms
+Method:GET; URL:/api/recipes?search=qwerqsdvasdvqerqwer12rqwfdzxv&number=5; Status:404; Message:Not Found; DateTime16:47:48 18/05/2021; ResponseTime:930.844 ms
+Method:GET; URL:/api/recipes?search=a&number=5; Status:429; Message:Too Many Requests; DateTime16:47:51 18/05/2021; ResponseTime:2.028 ms
+Method:GET; URL:/api/recipes?search=asdfadfqwer&number=5; Status:401; Message:Unauthorized; DateTime16:47:51 18/05/2021; ResponseTime:0.552 ms
+Method:GET; URL:/api/recipes?search=pasta&number=5; Status:200; Message:OK; DateTime16:47:53 18/05/2021; ResponseTime:987.317 ms
+Method:GET; URL:/api/recipes?search=&number=5; Status:200; Message:OK; DateTime16:47:55 18/05/2021; ResponseTime:1021.669 ms
+Method:GET; URL:/api/recipes?search=qwerqsdvasdvqerqwer12rqwfdzxv&number=5; Status:404; Message:Not Found; DateTime16:48:22 18/05/2021; ResponseTime:1215.399 ms
+Method:GET; URL:/api/recipes?search=a&number=5; Status:429; Message:Too Many Requests; DateTime16:48:33 18/05/2021; ResponseTime:2.151 ms
+Method:GET; URL:/api/recipes?search=asdfadfqwer&number=5; Status:401; Message:Unauthorized; DateTime16:49:11 18/05/2021; ResponseTime:0.489 ms
+Method:GET; URL:/api/recipes?search=pasta&number=5; Status:200; Message:OK; DateTime16:49:17 18/05/2021; ResponseTime:3139.085 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=null&maxFat=null&minCarbs=null&maxCarbs=null; Status:400; Message:Bad Request; DateTime16:49:46 18/05/2021; ResponseTime:1.942 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=null&maxFat=null&minCarbs=null&maxCarbs=null; Status:400; Message:Bad Request; DateTime16:49:46 18/05/2021; ResponseTime:1.227 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=null&maxFat=null&minCarbs=null&maxCarbs=null; Status:400; Message:Bad Request; DateTime16:50:00 18/05/2021; ResponseTime:1.022 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=null&maxFat=null&minCarbs=null&maxCarbs=null; Status:401; Message:Unauthorized; DateTime16:50:19 18/05/2021; ResponseTime:0.882 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100; Status:200; Message:OK; DateTime16:50:23 18/05/2021; ResponseTime:941.755 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=0&maxFat=0&minCarbs=0&maxCarbs=0; Status:404; Message:Not Found; DateTime16:50:28 18/05/2021; ResponseTime:900.126 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100; Status:429; Message:Too Many Requests; DateTime16:50:30 18/05/2021; ResponseTime:1.932 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=a&maxFat=100&minCarbs=50&maxCarbs=100; Status:400; Message:Bad Request; DateTime16:50:33 18/05/2021; ResponseTime:1.370 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100; Status:401; Message:Unauthorized; DateTime16:50:34 18/05/2021; ResponseTime:0.920 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100; Status:200; Message:OK; DateTime16:50:36 18/05/2021; ResponseTime:930.606 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=0&maxFat=0&minCarbs=0&maxCarbs=0; Status:429; Message:Too Many Requests; DateTime16:50:37 18/05/2021; ResponseTime:1.939 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100; Status:429; Message:Too Many Requests; DateTime16:50:41 18/05/2021; ResponseTime:2.203 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=a&maxFat=100&minCarbs=50&maxCarbs=100; Status:400; Message:Bad Request; DateTime16:50:42 18/05/2021; ResponseTime:1.724 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100; Status:401; Message:Unauthorized; DateTime16:51:04 18/05/2021; ResponseTime:0.864 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100; Status:429; Message:Too Many Requests; DateTime16:51:07 18/05/2021; ResponseTime:2.846 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=0&maxFat=0&minCarbs=0&maxCarbs=0; Status:429; Message:Too Many Requests; DateTime16:51:09 18/05/2021; ResponseTime:2.226 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100; Status:429; Message:Too Many Requests; DateTime16:51:12 18/05/2021; ResponseTime:2.310 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:53:37 18/05/2021; ResponseTime:2.367 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:53:38 18/05/2021; ResponseTime:2.151 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:53:39 18/05/2021; ResponseTime:1.348 ms
+Method:POST; URL:/api/users/login; Status:400; Message:Bad Request; DateTime16:53:39 18/05/2021; ResponseTime:0.493 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime16:53:41 18/05/2021; ResponseTime:2.356 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:53:46 18/05/2021; ResponseTime:2.506 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:53:46 18/05/2021; ResponseTime:1.767 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:53:47 18/05/2021; ResponseTime:1.755 ms
+Method:POST; URL:/api/users/login; Status:400; Message:Bad Request; DateTime16:53:48 18/05/2021; ResponseTime:0.566 ms
+Method:GET; URL:/api/users/null; Status:403; Message:Forbidden; DateTime16:54:49 18/05/2021; ResponseTime:0.720 ms
+Method:GET; URL:/api/users/null; Status:401; Message:Unauthorized; DateTime16:54:50 18/05/2021; ResponseTime:0.340 ms
+Method:GET; URL:/api/users/1; Status:200; Message:OK; DateTime16:54:51 18/05/2021; ResponseTime:1.405 ms
+Method:GET; URL:/api/users/132451; Status:404; Message:Not Found; DateTime16:54:52 18/05/2021; ResponseTime:1.176 ms
+Method:GET; URL:/api/users/1; Status:403; Message:Forbidden; DateTime16:55:03 18/05/2021; ResponseTime:0.492 ms
+Method:GET; URL:/api/users/1; Status:401; Message:Unauthorized; DateTime16:55:04 18/05/2021; ResponseTime:0.380 ms
+Method:GET; URL:/api/users/1; Status:200; Message:OK; DateTime16:55:05 18/05/2021; ResponseTime:1.449 ms
+Method:GET; URL:/api/users/132451; Status:404; Message:Not Found; DateTime16:55:05 18/05/2021; ResponseTime:1.442 ms
+Method:GET; URL:/api/users/1; Status:403; Message:Forbidden; DateTime16:55:05 18/05/2021; ResponseTime:0.437 ms
+Method:GET; URL:/api/users/1; Status:401; Message:Unauthorized; DateTime16:55:07 18/05/2021; ResponseTime:0.329 ms
+Method:GET; URL:/api/users/1; Status:200; Message:OK; DateTime16:55:08 18/05/2021; ResponseTime:2.424 ms
+Method:GET; URL:/api/users/132451; Status:404; Message:Not Found; DateTime16:55:09 18/05/2021; ResponseTime:1.220 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime16:57:03 18/05/2021; ResponseTime:1.401 ms
+Method:POST; URL:/api/users/register; Status:400; Message:Bad Request; DateTime16:57:03 18/05/2021; ResponseTime:16.318 ms
+Method:GET; URL:/api/users; Status:403; Message:Forbidden; DateTime16:57:03 18/05/2021; ResponseTime:0.331 ms
+Method:GET; URL:/api/users/1; Status:403; Message:Forbidden; DateTime16:57:03 18/05/2021; ResponseTime:0.536 ms
+Method:GET; URL:/api/recipes?search=null&number=5; Status:404; Message:Not Found; DateTime16:57:04 18/05/2021; ResponseTime:1127.163 ms
+Method:GET; URL:/api/recipes/null; Status:401; Message:Unauthorized; DateTime16:57:04 18/05/2021; ResponseTime:0.442 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100; Status:200; Message:OK; DateTime16:57:05 18/05/2021; ResponseTime:920.708 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime16:57:05 18/05/2021; ResponseTime:1.654 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime17:00:14 18/05/2021; ResponseTime:1.892 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime17:00:15 18/05/2021; ResponseTime:1.227 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime17:00:15 18/05/2021; ResponseTime:1.252 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime17:00:16 18/05/2021; ResponseTime:1.275 ms
+Method:POST; URL:/api/users/login; Status:400; Message:Bad Request; DateTime17:00:16 18/05/2021; ResponseTime:0.432 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime17:00:17 18/05/2021; ResponseTime:1.595 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime17:00:18 18/05/2021; ResponseTime:1.350 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime17:00:19 18/05/2021; ResponseTime:1.248 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime17:00:20 18/05/2021; ResponseTime:1.276 ms
+Method:POST; URL:/api/users/login; Status:400; Message:Bad Request; DateTime17:00:20 18/05/2021; ResponseTime:0.506 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime17:00:21 18/05/2021; ResponseTime:1.280 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime17:00:21 18/05/2021; ResponseTime:1.302 ms
