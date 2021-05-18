@@ -10,7 +10,7 @@ const {
     apihit,
     inputValidation,
 } = require("../middlewares/middlewares");
-const { check } = require("express-validator");
+const { check, param } = require("express-validator");
 const router = express.Router();
 // model
 const UserModel = require("../models/UserModel");
@@ -67,13 +67,28 @@ router.get("/", [authenticate, authorize([0])], async (req, res) => {
 });
 
 /* view user detail */
-router.get("/:id", [authenticate, authorize([0])], async (req, res) => {
-    let users = await UserModel.select(`where id = ${req.params.id}`);
-    if (users.length == 0)
-        return res.status(404).send({ message: "no user found!" });
-    let user = users[0];
-    return res.status(200).send(user);
-});
+router.get(
+    "/:id",
+    [
+        [
+            param("id")
+                .notEmpty()
+                .withMessage("id can not be empty")
+                .trim()
+                .escape(),
+        ],
+        inputValidation,
+        authenticate,
+        authorize([0]),
+    ],
+    async (req, res) => {
+        let users = await UserModel.select(`where id = ${req.params.id}`);
+        if (users.length == 0)
+            return res.status(404).send({ message: "no user found!" });
+        let user = users[0];
+        return res.status(200).send(user);
+    }
+);
 
 /* login */
 router.post(
@@ -187,6 +202,7 @@ router.post(
             role: role,
             balance: 0,
             api_hit: 100,
+            last_hit: moment(),
         };
 
         let result = await UserModel.insert(user);

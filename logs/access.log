@@ -901,3 +901,109 @@ Method:POST; URL:/api/plans; Status:401; Message:Unauthorized; DateTime:h12/05/2
 Method:POST; URL:/api/plans; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:50.324 ms
 Method:POST; URL:/api/plans; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:5.393 ms
 >>>>>>> df490351e70eb8bc2eff404dc0dc0e9c3a64dbb5
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:73.021 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime:h12/05/2021; ResponseTime:15.025 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime:h18/05/2021; ResponseTime:130.590 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime:h18/05/2021; ResponseTime:4.474 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime:h18/05/2021; ResponseTime:2.968 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime:h18/05/2021; ResponseTime:3.924 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime:h18/05/2021; ResponseTime:3.456 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime:h18/05/2021; ResponseTime:2.670 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime:h18/05/2021; ResponseTime:7.853 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime:h18/05/2021; ResponseTime:2.908 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime:h18/05/2021; ResponseTime:2.179 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime:h18/05/2021; ResponseTime:3.571 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime:h18/05/2021; ResponseTime:2.393 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime:h18/05/2021; ResponseTime:4.983 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime:h18/05/2021; ResponseTime:2.697 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime:h18/05/2021; ResponseTime:2.051 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime:h18/05/2021; ResponseTime:4.230 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime:h18/05/2021; ResponseTime:2.180 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime:h18/05/2021; ResponseTime:3.510 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime:h18/05/2021; ResponseTime:1.906 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime:h18/05/2021; ResponseTime:3.942 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime:h18/05/2021; ResponseTime:2.941 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime:h18/05/2021; ResponseTime:4.014 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime:h18/05/2021; ResponseTime:1.852 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime:h18/05/2021; ResponseTime:2.120 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime:h18/05/2021; ResponseTime:2.437 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime:h18/05/2021; ResponseTime:2.975 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime:h18/05/2021; ResponseTime:41.771 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime:h18/05/2021; ResponseTime:16.181 ms
+Method:POST; URL:/api/users/register; Status:400; Message:Bad Request; DateTime:h18/05/2021; ResponseTime:11.503 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime:h18/05/2021; ResponseTime:20.893 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime:h18/05/2021; ResponseTime:17.498 ms
+Method:POST; URL:/api/users/register; Status:400; Message:Bad Request; DateTime:h18/05/2021; ResponseTime:11.525 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime:h18/05/2021; ResponseTime:15.171 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime:h18/05/2021; ResponseTime:22.700 ms
+Method:POST; URL:/api/users/register; Status:400; Message:Bad Request; DateTime:h18/05/2021; ResponseTime:9.955 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime:h18/05/2021; ResponseTime:15.552 ms
+Method:GET; URL:/api/users; Status:401; Message:Unauthorized; DateTime:h18/05/2021; ResponseTime:0.410 ms
+Method:GET; URL:/api/users; Status:200; Message:OK; DateTime:h18/05/2021; ResponseTime:4.163 ms
+Method:GET; URL:/api/users; Status:403; Message:Forbidden; DateTime:h18/05/2021; ResponseTime:0.577 ms
+Method:GET; URL:/api/users; Status:401; Message:Unauthorized; DateTime:h18/05/2021; ResponseTime:0.246 ms
+Method:GET; URL:/api/users; Status:200; Message:OK; DateTime:h18/05/2021; ResponseTime:2.067 ms
+Method:GET; URL:/api/users; Status:403; Message:Forbidden; DateTime:h18/05/2021; ResponseTime:0.938 ms
+Method:GET; URL:/api/users; Status:401; Message:Unauthorized; DateTime:h18/05/2021; ResponseTime:1.455 ms
+Method:GET; URL:/api/users; Status:200; Message:OK; DateTime:h18/05/2021; ResponseTime:1.718 ms
+Method:GET; URL:/api/users; Status:403; Message:Forbidden; DateTime:h18/05/2021; ResponseTime:0.589 ms
+Method:GET; URL:/api/users; Status:401; Message:Unauthorized; DateTime:h18/05/2021; ResponseTime:0.322 ms
+Method:GET; URL:/api/users; Status:200; Message:OK; DateTime:h18/05/2021; ResponseTime:1.682 ms
+Method:GET; URL:/api/users; Status:403; Message:Forbidden; DateTime:h18/05/2021; ResponseTime:0.388 ms
+Method:GET; URL:/api/users; Status:401; Message:Unauthorized; DateTime:h18/05/2021; ResponseTime:0.388 ms
+Method:GET; URL:/api/users; Status:200; Message:OK; DateTime:h18/05/2021; ResponseTime:2.450 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime:h18/05/2021; ResponseTime:16.321 ms
+Method:GET; URL:/api/users; Status:403; Message:Forbidden; DateTime:h18/05/2021; ResponseTime:0.414 ms
+Method:GET; URL:/api/users; Status:401; Message:Unauthorized; DateTime:h18/05/2021; ResponseTime:0.269 ms
+Method:GET; URL:/api/users; Status:200; Message:OK; DateTime:h18/05/2021; ResponseTime:1.971 ms
+Method:GET; URL:/api/users; Status:403; Message:Forbidden; DateTime:h18/05/2021; ResponseTime:0.605 ms
+Method:GET; URL:/api/users; Status:401; Message:Unauthorized; DateTime:h18/05/2021; ResponseTime:0.248 ms
+Method:GET; URL:/api/users; Status:200; Message:OK; DateTime:h18/05/2021; ResponseTime:2.761 ms
+Method:GET; URL:/api/users; Status:403; Message:Forbidden; DateTime:h18/05/2021; ResponseTime:5.770 ms
+Method:GET; URL:/api/users; Status:401; Message:Unauthorized; DateTime:h18/05/2021; ResponseTime:0.257 ms
+Method:GET; URL:/api/users; Status:200; Message:OK; DateTime:h18/05/2021; ResponseTime:2.199 ms
+Method:GET; URL:/api/users/; Status:401; Message:Unauthorized; DateTime:h18/05/2021; ResponseTime:0.261 ms
+Method:GET; URL:/api/users/; Status:200; Message:OK; DateTime:h18/05/2021; ResponseTime:2.102 ms
+Method:GET; URL:/api/users/; Status:403; Message:Forbidden; DateTime:h18/05/2021; ResponseTime:0.584 ms
+Method:GET; URL:/api/users/; Status:401; Message:Unauthorized; DateTime:h18/05/2021; ResponseTime:0.289 ms
+Method:GET; URL:/api/users/; Status:200; Message:OK; DateTime:h18/05/2021; ResponseTime:2.841 ms
+Method:GET; URL:/api/users/; Status:403; Message:Forbidden; DateTime:h18/05/2021; ResponseTime:0.404 ms
+Method:GET; URL:/api/users/; Status:401; Message:Unauthorized; DateTime:h18/05/2021; ResponseTime:0.247 ms
+Method:GET; URL:/api/users/; Status:200; Message:OK; DateTime:h18/05/2021; ResponseTime:1.558 ms
+Method:GET; URL:/api/users/; Status:403; Message:Forbidden; DateTime11:24:58 18/05/2021; ResponseTime:6.149 ms
+Method:GET; URL:/api/users/; Status:401; Message:Unauthorized; DateTime11:24:59 18/05/2021; ResponseTime:0.424 ms
+Method:GET; URL:/api/users/; Status:200; Message:OK; DateTime11:25:00 18/05/2021; ResponseTime:34.809 ms
+Method:GET; URL:/api/users/; Status:401; Message:Unauthorized; DateTime11:28:49 18/05/2021; ResponseTime:3.025 ms
+Method:GET; URL:/api/users/; Status:200; Message:OK; DateTime11:28:50 18/05/2021; ResponseTime:50.190 ms
+Method:GET; URL:/api/users/; Status:403; Message:Forbidden; DateTime11:28:50 18/05/2021; ResponseTime:1.120 ms
+Method:GET; URL:/api/users/; Status:401; Message:Unauthorized; DateTime11:28:52 18/05/2021; ResponseTime:0.405 ms
+Method:GET; URL:/api/users/; Status:200; Message:OK; DateTime11:28:52 18/05/2021; ResponseTime:2.768 ms
+Method:GET; URL:/api/users/; Status:403; Message:Forbidden; DateTime11:29:19 18/05/2021; ResponseTime:5.180 ms
+Method:GET; URL:/api/users/; Status:401; Message:Unauthorized; DateTime11:29:21 18/05/2021; ResponseTime:0.656 ms
+Method:GET; URL:/api/users/; Status:200; Message:OK; DateTime11:29:21 18/05/2021; ResponseTime:40.069 ms
+Method:GET; URL:/api/users/1; Status:403; Message:Forbidden; DateTime11:29:58 18/05/2021; ResponseTime:5.646 ms
+Method:GET; URL:/api/users/1; Status:401; Message:Unauthorized; DateTime11:29:59 18/05/2021; ResponseTime:1.323 ms
+Method:GET; URL:/api/users/1; Status:200; Message:OK; DateTime11:30:00 18/05/2021; ResponseTime:11.003 ms
+Method:GET; URL:/api/users/1; Status:403; Message:Forbidden; DateTime11:31:44 18/05/2021; ResponseTime:0.844 ms
+Method:GET; URL:/api/users/1; Status:401; Message:Unauthorized; DateTime11:31:45 18/05/2021; ResponseTime:1.183 ms
+Method:GET; URL:/api/users/1; Status:200; Message:OK; DateTime11:31:46 18/05/2021; ResponseTime:3.435 ms
+Method:GET; URL:/api/users/1; Status:403; Message:Forbidden; DateTime11:32:08 18/05/2021; ResponseTime:0.739 ms
+Method:GET; URL:/api/users/1; Status:401; Message:Unauthorized; DateTime11:32:11 18/05/2021; ResponseTime:0.862 ms
+Method:GET; URL:/api/users/1; Status:200; Message:OK; DateTime11:32:12 18/05/2021; ResponseTime:4.456 ms
+Method:GET; URL:/api/users/1; Status:403; Message:Forbidden; DateTime11:32:12 18/05/2021; ResponseTime:1.012 ms
+Method:GET; URL:/api/users/1; Status:401; Message:Unauthorized; DateTime11:32:13 18/05/2021; ResponseTime:0.869 ms
+Method:GET; URL:/api/users/1; Status:200; Message:OK; DateTime11:32:13 18/05/2021; ResponseTime:3.314 ms
+Method:GET; URL:/api/users/1; Status:403; Message:Forbidden; DateTime11:32:14 18/05/2021; ResponseTime:0.671 ms
+Method:GET; URL:/api/users/1; Status:401; Message:Unauthorized; DateTime11:32:14 18/05/2021; ResponseTime:0.565 ms
+Method:GET; URL:/api/users/1; Status:200; Message:OK; DateTime11:32:15 18/05/2021; ResponseTime:2.711 ms
+Method:GET; URL:/api/users/1; Status:403; Message:Forbidden; DateTime11:32:15 18/05/2021; ResponseTime:0.809 ms
+Method:GET; URL:/api/users/1; Status:401; Message:Unauthorized; DateTime11:32:16 18/05/2021; ResponseTime:0.832 ms
+Method:GET; URL:/api/users/1; Status:200; Message:OK; DateTime11:32:16 18/05/2021; ResponseTime:2.504 ms
+Method:GET; URL:/api/users/1; Status:403; Message:Forbidden; DateTime11:32:17 18/05/2021; ResponseTime:1.123 ms
+Method:GET; URL:/api/users/1; Status:401; Message:Unauthorized; DateTime11:32:17 18/05/2021; ResponseTime:0.508 ms
+Method:GET; URL:/api/users/1; Status:200; Message:OK; DateTime11:32:18 18/05/2021; ResponseTime:2.604 ms
+Method:GET; URL:/api/users/1; Status:200; Message:OK; DateTime11:32:18 18/05/2021; ResponseTime:2.462 ms
+Method:GET; URL:/api/users/null; Status:403; Message:Forbidden; DateTime11:33:21 18/05/2021; ResponseTime:0.644 ms
+Method:GET; URL:/api/users/null; Status:401; Message:Unauthorized; DateTime11:33:21 18/05/2021; ResponseTime:0.487 ms
+Method:GET; URL:/api/users/1; Status:200; Message:OK; DateTime11:33:21 18/05/2021; ResponseTime:4.819 ms
+Method:GET; URL:/api/recipes/123415; Status:401; Message:Unauthorized; DateTime13:08:52 18/05/2021; ResponseTime:10.364 ms
