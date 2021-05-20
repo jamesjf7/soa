@@ -12,6 +12,7 @@ const users = require("./routes/users");
 const recipes = require("./routes/recipes");
 const plans = require("./routes/plans");
 const transactions = require("./routes/transactions");
+const { authenticate } = require("./middlewares/middlewares");
 
 require("dotenv").config();
 
@@ -60,7 +61,7 @@ app.use("/api/recipes", recipes);
 app.use("/api/plans", plans);
 app.use("/api/transactions", transactions);
 /* view bmi user */
-app.get("/api/bmi", async (req, res) => {
+app.get("/api/bmi", [authenticate], async (req, res) => {
     let { age, weight, height } = req.query;
 
     const options = {

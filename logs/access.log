@@ -2398,3 +2398,513 @@ Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime17:00:20 18/0
 Method:POST; URL:/api/users/login; Status:400; Message:Bad Request; DateTime17:00:20 18/05/2021; ResponseTime:0.506 ms
 Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime17:00:21 18/05/2021; ResponseTime:1.280 ms
 Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime17:00:21 18/05/2021; ResponseTime:1.302 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime12:19:04 20/05/2021; ResponseTime:123.014 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime12:19:04 20/05/2021; ResponseTime:2.902 ms
+Method:GET; URL:/api/users; Status:200; Message:OK; DateTime12:19:04 20/05/2021; ResponseTime:4.891 ms
+Method:GET; URL:/api/users/1; Status:200; Message:OK; DateTime12:19:04 20/05/2021; ResponseTime:2.441 ms
+Method:PUT; URL:/api/users/balance; Status:401; Message:Unauthorized; DateTime12:19:04 20/05/2021; ResponseTime:0.679 ms
+Method:PUT; URL:/api/users/profile; Status:401; Message:Unauthorized; DateTime12:19:05 20/05/2021; ResponseTime:0.297 ms
+Method:PUT; URL:/api/users/plans; Status:200; Message:OK; DateTime12:19:05 20/05/2021; ResponseTime:1.458 ms
+Method:GET; URL:/api/plans; Status:401; Message:Unauthorized; DateTime12:19:05 20/05/2021; ResponseTime:0.301 ms
+Method:POST; URL:/api/plans; Status:201; Message:Created; DateTime12:19:05 20/05/2021; ResponseTime:5.663 ms
+Method:DELETE; URL:/api/plans/4; Status:401; Message:Unauthorized; DateTime12:19:05 20/05/2021; ResponseTime:0.206 ms
+Method:GET; URL:/api/transactions; Status:200; Message:OK; DateTime12:19:05 20/05/2021; ResponseTime:108.967 ms
+Method:POST; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime12:19:05 20/05/2021; ResponseTime:0.430 ms
+Method:GET; URL:/api/recipes?search=pasta&number=5; Status:401; Message:Unauthorized; DateTime12:19:05 20/05/2021; ResponseTime:0.710 ms
+Method:GET; URL:/api/recipes/716429; Status:401; Message:Unauthorized; DateTime12:19:05 20/05/2021; ResponseTime:0.501 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100&minSugar=50&maxSugar=100&minCholesterol=50&maxCholesterol=100&minProtein=0&maxProtein=150&minCalcium=0&maxCalcium=300; Status:401; Message:Unauthorized; DateTime12:19:05 20/05/2021; ResponseTime:1.183 ms
+Method:GET; URL:/api/bmi?age=21&height=168&weight=55; Status:200; Message:OK; DateTime12:19:17 20/05/2021; ResponseTime:11458.876 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime12:19:17 20/05/2021; ResponseTime:13.149 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime12:19:17 20/05/2021; ResponseTime:1.470 ms
+Method:GET; URL:/api/users; Status:401; Message:Unauthorized; DateTime12:19:17 20/05/2021; ResponseTime:0.198 ms
+Method:GET; URL:/api/users/132451; Status:404; Message:Not Found; DateTime12:19:17 20/05/2021; ResponseTime:1.368 ms
+Method:PUT; URL:/api/users/balance; Status:401; Message:Unauthorized; DateTime12:19:17 20/05/2021; ResponseTime:0.185 ms
+Method:PUT; URL:/api/users/profile; Status:401; Message:Unauthorized; DateTime12:19:17 20/05/2021; ResponseTime:0.186 ms
+Method:PUT; URL:/api/users/plans; Status:200; Message:OK; DateTime12:19:17 20/05/2021; ResponseTime:0.330 ms
+Method:GET; URL:/api/plans; Status:401; Message:Unauthorized; DateTime12:19:18 20/05/2021; ResponseTime:0.193 ms
+Method:POST; URL:/api/plans; Status:400; Message:Bad Request; DateTime12:19:18 20/05/2021; ResponseTime:1.194 ms
+Method:DELETE; URL:/api/plans/4; Status:401; Message:Unauthorized; DateTime12:19:18 20/05/2021; ResponseTime:0.197 ms
+Method:GET; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime12:19:18 20/05/2021; ResponseTime:0.192 ms
+Method:POST; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime12:19:18 20/05/2021; ResponseTime:0.298 ms
+Method:GET; URL:/api/recipes?search=&number=5; Status:401; Message:Unauthorized; DateTime12:19:18 20/05/2021; ResponseTime:1.052 ms
+Method:GET; URL:/api/recipes/716429; Status:401; Message:Unauthorized; DateTime12:19:18 20/05/2021; ResponseTime:0.349 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=0&maxFat=0&minCarbs=0&maxCarbs=0&minSugar=50&maxSugar=100&minCholesterol=50&maxCholesterol=100&minProtein=0&maxProtein=100&minCalcium=0&maxCalcium=100; Status:401; Message:Unauthorized; DateTime12:19:18 20/05/2021; ResponseTime:0.843 ms
+Method:GET; URL:/api/bmi?age=21&height=168&weight=55; Status:200; Message:OK; DateTime12:19:19 20/05/2021; ResponseTime:1083.332 ms
+Method:POST; URL:/api/users/register; Status:400; Message:Bad Request; DateTime12:19:19 20/05/2021; ResponseTime:8.832 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime12:19:19 20/05/2021; ResponseTime:1.639 ms
+Method:GET; URL:/api/users; Status:401; Message:Unauthorized; DateTime12:19:19 20/05/2021; ResponseTime:0.201 ms
+Method:GET; URL:/api/users/1; Status:401; Message:Unauthorized; DateTime12:19:20 20/05/2021; ResponseTime:0.337 ms
+Method:PUT; URL:/api/users/balance; Status:400; Message:Bad Request; DateTime12:19:20 20/05/2021; ResponseTime:0.872 ms
+Method:PUT; URL:/api/users/profile; Status:400; Message:Bad Request; DateTime12:19:20 20/05/2021; ResponseTime:1.396 ms
+Method:PUT; URL:/api/users/plans; Status:200; Message:OK; DateTime12:19:20 20/05/2021; ResponseTime:0.217 ms
+Method:GET; URL:/api/plans; Status:200; Message:OK; DateTime12:19:20 20/05/2021; ResponseTime:1.250 ms
+Method:POST; URL:/api/plans; Status:401; Message:Unauthorized; DateTime12:19:20 20/05/2021; ResponseTime:0.474 ms
+Method:DELETE; URL:/api/plans/0; Status:400; Message:Bad Request; DateTime12:19:20 20/05/2021; ResponseTime:3.215 ms
+Method:GET; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime12:19:20 20/05/2021; ResponseTime:0.207 ms
+Method:POST; URL:/api/transactions; Status:403; Message:Forbidden; DateTime12:19:20 20/05/2021; ResponseTime:0.431 ms
+Method:GET; URL:/api/recipes?search=qwerqsdvasdvqerqwer12rqwfdzxv&number=5; Status:401; Message:Unauthorized; DateTime12:19:20 20/05/2021; ResponseTime:0.462 ms
+Method:GET; URL:/api/recipes/1231231903; Status:401; Message:Unauthorized; DateTime12:19:20 20/05/2021; ResponseTime:0.341 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100&minSugar=50&maxSugar=100&minCholesterol=50&maxCholesterol=100&minProtein=0&maxProtein=100&minCalcium=0&maxCalcium=100; Status:401; Message:Unauthorized; DateTime12:19:20 20/05/2021; ResponseTime:1.429 ms
+Method:GET; URL:/api/bmi?age=21&height=168&weight=55; Status:200; Message:OK; DateTime12:19:21 20/05/2021; ResponseTime:1039.332 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime12:19:22 20/05/2021; ResponseTime:9.944 ms
+Method:POST; URL:/api/users/login; Status:400; Message:Bad Request; DateTime12:19:22 20/05/2021; ResponseTime:0.465 ms
+Method:GET; URL:/api/users; Status:200; Message:OK; DateTime12:19:22 20/05/2021; ResponseTime:2.350 ms
+Method:GET; URL:/api/users/1; Status:401; Message:Unauthorized; DateTime12:19:22 20/05/2021; ResponseTime:0.345 ms
+Method:PUT; URL:/api/users/balance; Status:401; Message:Unauthorized; DateTime12:19:22 20/05/2021; ResponseTime:0.170 ms
+Method:PUT; URL:/api/users/profile; Status:401; Message:Unauthorized; DateTime12:19:22 20/05/2021; ResponseTime:0.193 ms
+Method:PUT; URL:/api/users/plans; Status:200; Message:OK; DateTime12:19:22 20/05/2021; ResponseTime:0.207 ms
+Method:GET; URL:/api/plans; Status:401; Message:Unauthorized; DateTime12:19:22 20/05/2021; ResponseTime:0.209 ms
+Method:POST; URL:/api/plans; Status:401; Message:Unauthorized; DateTime12:19:22 20/05/2021; ResponseTime:0.577 ms
+Method:DELETE; URL:/api/plans/4; Status:200; Message:OK; DateTime12:19:22 20/05/2021; ResponseTime:3.551 ms
+Method:GET; URL:/api/transactions; Status:200; Message:OK; DateTime12:19:22 20/05/2021; ResponseTime:2.771 ms
+Method:POST; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime12:19:22 20/05/2021; ResponseTime:0.359 ms
+Method:GET; URL:/api/recipes?search=a&number=5; Status:401; Message:Unauthorized; DateTime12:19:23 20/05/2021; ResponseTime:0.606 ms
+Method:GET; URL:/api/recipes/716429; Status:401; Message:Unauthorized; DateTime12:19:23 20/05/2021; ResponseTime:0.443 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=a&maxFat=100&minCarbs=50&maxCarbs=100&minSugar=50&maxSugar=100&minCholesterol=50&maxCholesterol=100&minProtein=0&maxProtein=100&minCalcium=0&maxCalcium=100; Status:401; Message:Unauthorized; DateTime12:19:23 20/05/2021; ResponseTime:0.927 ms
+Method:GET; URL:/api/bmi?age=21&height=168&weight=55; Status:200; Message:OK; DateTime12:19:24 20/05/2021; ResponseTime:1278.545 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime12:19:24 20/05/2021; ResponseTime:10.060 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime12:19:24 20/05/2021; ResponseTime:1.536 ms
+Method:GET; URL:/api/users; Status:403; Message:Forbidden; DateTime12:19:24 20/05/2021; ResponseTime:0.293 ms
+Method:GET; URL:/api/users/1; Status:200; Message:OK; DateTime12:19:24 20/05/2021; ResponseTime:1.415 ms
+Method:PUT; URL:/api/users/balance; Status:400; Message:Bad Request; DateTime12:19:24 20/05/2021; ResponseTime:0.559 ms
+Method:PUT; URL:/api/users/profile; Status:400; Message:Bad Request; DateTime12:19:24 20/05/2021; ResponseTime:0.859 ms
+Method:PUT; URL:/api/users/plans; Status:200; Message:OK; DateTime12:19:25 20/05/2021; ResponseTime:0.211 ms
+Method:GET; URL:/api/plans; Status:200; Message:OK; DateTime12:19:25 20/05/2021; ResponseTime:1.334 ms
+Method:POST; URL:/api/plans; Status:201; Message:Created; DateTime12:19:25 20/05/2021; ResponseTime:2.771 ms
+Method:DELETE; URL:/api/plans/5; Status:403; Message:Forbidden; DateTime12:19:25 20/05/2021; ResponseTime:0.320 ms
+Method:GET; URL:/api/transactions; Status:200; Message:OK; DateTime12:19:25 20/05/2021; ResponseTime:1.888 ms
+Method:POST; URL:/api/transactions; Status:400; Message:Bad Request; DateTime12:19:25 20/05/2021; ResponseTime:6.766 ms
+Method:GET; URL:/api/recipes?search=asdfadfqwer&number=5; Status:401; Message:Unauthorized; DateTime12:19:25 20/05/2021; ResponseTime:0.468 ms
+Method:GET; URL:/api/recipes/716429; Status:200; Message:OK; DateTime12:19:26 20/05/2021; ResponseTime:706.087 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100&minSugar=50&maxSugar=100&minCholesterol=50&maxCholesterol=100&minProtein=0&maxProtein=100&minCalcium=0&maxCalcium=100; Status:401; Message:Unauthorized; DateTime12:19:26 20/05/2021; ResponseTime:0.778 ms
+Method:GET; URL:/api/bmi?age=21&height=168&weight=55; Status:200; Message:OK; DateTime12:19:27 20/05/2021; ResponseTime:989.385 ms
+Method:POST; URL:/api/users/register; Status:400; Message:Bad Request; DateTime12:21:14 20/05/2021; ResponseTime:6.532 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime12:21:14 20/05/2021; ResponseTime:2.167 ms
+Method:GET; URL:/api/users; Status:401; Message:Unauthorized; DateTime12:21:14 20/05/2021; ResponseTime:0.402 ms
+Method:GET; URL:/api/users/132451; Status:404; Message:Not Found; DateTime12:21:14 20/05/2021; ResponseTime:2.377 ms
+Method:PUT; URL:/api/users/balance; Status:401; Message:Unauthorized; DateTime12:21:14 20/05/2021; ResponseTime:0.236 ms
+Method:PUT; URL:/api/users/profile; Status:401; Message:Unauthorized; DateTime12:21:14 20/05/2021; ResponseTime:0.667 ms
+Method:PUT; URL:/api/users/plans; Status:200; Message:OK; DateTime12:21:14 20/05/2021; ResponseTime:0.555 ms
+Method:GET; URL:/api/plans; Status:401; Message:Unauthorized; DateTime12:21:14 20/05/2021; ResponseTime:0.225 ms
+Method:POST; URL:/api/plans; Status:400; Message:Bad Request; DateTime12:21:14 20/05/2021; ResponseTime:0.900 ms
+Method:DELETE; URL:/api/plans/5; Status:401; Message:Unauthorized; DateTime12:21:14 20/05/2021; ResponseTime:0.325 ms
+Method:GET; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime12:21:14 20/05/2021; ResponseTime:0.257 ms
+Method:POST; URL:/api/transactions; Status:400; Message:Bad Request; DateTime12:21:14 20/05/2021; ResponseTime:0.519 ms
+Method:GET; URL:/api/recipes?search=pasta&number=5; Status:200; Message:OK; DateTime12:21:15 20/05/2021; ResponseTime:667.450 ms
+Method:GET; URL:/api/recipes/716429; Status:401; Message:Unauthorized; DateTime12:21:15 20/05/2021; ResponseTime:0.411 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100&minSugar=50&maxSugar=100&minCholesterol=50&maxCholesterol=100&minProtein=0&maxProtein=150&minCalcium=0&maxCalcium=300; Status:200; Message:OK; DateTime12:21:16 20/05/2021; ResponseTime:821.470 ms
+Method:GET; URL:/api/bmi?age=21&height=168&weight=55; Status:200; Message:OK; DateTime12:21:18 20/05/2021; ResponseTime:1302.522 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime12:21:18 20/05/2021; ResponseTime:9.858 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime12:21:18 20/05/2021; ResponseTime:1.712 ms
+Method:GET; URL:/api/users; Status:200; Message:OK; DateTime12:21:18 20/05/2021; ResponseTime:1.944 ms
+Method:GET; URL:/api/users/1; Status:403; Message:Forbidden; DateTime12:21:18 20/05/2021; ResponseTime:0.455 ms
+Method:PUT; URL:/api/users/balance; Status:400; Message:Bad Request; DateTime12:21:18 20/05/2021; ResponseTime:0.559 ms
+Method:PUT; URL:/api/users/profile; Status:400; Message:Bad Request; DateTime12:21:18 20/05/2021; ResponseTime:1.824 ms
+Method:PUT; URL:/api/users/plans; Status:200; Message:OK; DateTime12:21:18 20/05/2021; ResponseTime:0.194 ms
+Method:GET; URL:/api/plans; Status:200; Message:OK; DateTime12:21:18 20/05/2021; ResponseTime:1.402 ms
+Method:POST; URL:/api/plans; Status:403; Message:Forbidden; DateTime12:21:18 20/05/2021; ResponseTime:0.609 ms
+Method:DELETE; URL:/api/plans/0; Status:400; Message:Bad Request; DateTime12:21:18 20/05/2021; ResponseTime:1.333 ms
+Method:GET; URL:/api/transactions; Status:200; Message:OK; DateTime12:21:19 20/05/2021; ResponseTime:2.595 ms
+Method:POST; URL:/api/transactions; Status:403; Message:Forbidden; DateTime12:21:19 20/05/2021; ResponseTime:0.468 ms
+Method:GET; URL:/api/recipes?search=&number=5; Status:200; Message:OK; DateTime12:21:20 20/05/2021; ResponseTime:965.281 ms
+Method:GET; URL:/api/recipes/1231231903; Status:404; Message:Not Found; DateTime12:21:20 20/05/2021; ResponseTime:498.472 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=0&maxFat=0&minCarbs=0&maxCarbs=0&minSugar=50&maxSugar=100&minCholesterol=50&maxCholesterol=100&minProtein=0&maxProtein=100&minCalcium=0&maxCalcium=100; Status:404; Message:Not Found; DateTime12:21:21 20/05/2021; ResponseTime:680.902 ms
+Method:GET; URL:/api/bmi?age=21&height=168&weight=55; Status:200; Message:OK; DateTime12:21:22 20/05/2021; ResponseTime:1202.995 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime12:21:22 20/05/2021; ResponseTime:10.572 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime12:21:22 20/05/2021; ResponseTime:1.693 ms
+Method:GET; URL:/api/users; Status:403; Message:Forbidden; DateTime12:21:23 20/05/2021; ResponseTime:0.322 ms
+Method:GET; URL:/api/users/1; Status:401; Message:Unauthorized; DateTime12:21:23 20/05/2021; ResponseTime:0.430 ms
+Method:PUT; URL:/api/users/balance; Status:401; Message:Unauthorized; DateTime12:21:23 20/05/2021; ResponseTime:0.304 ms
+Method:PUT; URL:/api/users/profile; Status:401; Message:Unauthorized; DateTime12:21:23 20/05/2021; ResponseTime:0.178 ms
+Method:PUT; URL:/api/users/plans; Status:200; Message:OK; DateTime12:21:23 20/05/2021; ResponseTime:0.232 ms
+Method:GET; URL:/api/plans; Status:401; Message:Unauthorized; DateTime12:21:23 20/05/2021; ResponseTime:0.174 ms
+Method:POST; URL:/api/plans; Status:401; Message:Unauthorized; DateTime12:21:23 20/05/2021; ResponseTime:0.560 ms
+Method:DELETE; URL:/api/plans/5; Status:200; Message:OK; DateTime12:21:23 20/05/2021; ResponseTime:2.277 ms
+Method:GET; URL:/api/transactions; Status:200; Message:OK; DateTime12:21:23 20/05/2021; ResponseTime:2.265 ms
+Method:POST; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime12:21:23 20/05/2021; ResponseTime:0.307 ms
+Method:GET; URL:/api/recipes?search=qwerqsdvasdvqerqwer12rqwfdzxv&number=5; Status:404; Message:Not Found; DateTime12:21:25 20/05/2021; ResponseTime:1078.877 ms
+Method:GET; URL:/api/recipes/716429; Status:429; Message:Too Many Requests; DateTime12:21:25 20/05/2021; ResponseTime:4.587 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100&minSugar=50&maxSugar=100&minCholesterol=50&maxCholesterol=100&minProtein=0&maxProtein=100&minCalcium=0&maxCalcium=100; Status:404; Message:Not Found; DateTime12:21:25 20/05/2021; ResponseTime:752.121 ms
+Method:GET; URL:/api/bmi?age=21&height=168&weight=55; Status:200; Message:OK; DateTime12:21:27 20/05/2021; ResponseTime:1187.322 ms
+Method:POST; URL:/api/users/register; Status:400; Message:Bad Request; DateTime12:21:27 20/05/2021; ResponseTime:6.849 ms
+Method:POST; URL:/api/users/login; Status:400; Message:Bad Request; DateTime12:21:27 20/05/2021; ResponseTime:0.504 ms
+Method:GET; URL:/api/users; Status:401; Message:Unauthorized; DateTime12:21:27 20/05/2021; ResponseTime:0.183 ms
+Method:GET; URL:/api/users/1; Status:200; Message:OK; DateTime12:21:27 20/05/2021; ResponseTime:1.349 ms
+Method:PUT; URL:/api/users/balance; Status:400; Message:Bad Request; DateTime12:21:27 20/05/2021; ResponseTime:0.605 ms
+Method:PUT; URL:/api/users/profile; Status:400; Message:Bad Request; DateTime12:21:27 20/05/2021; ResponseTime:0.807 ms
+Method:PUT; URL:/api/users/plans; Status:200; Message:OK; DateTime12:21:27 20/05/2021; ResponseTime:0.305 ms
+Method:GET; URL:/api/plans; Status:200; Message:OK; DateTime12:21:27 20/05/2021; ResponseTime:1.478 ms
+Method:POST; URL:/api/plans; Status:201; Message:Created; DateTime12:21:27 20/05/2021; ResponseTime:2.460 ms
+Method:DELETE; URL:/api/plans/6; Status:403; Message:Forbidden; DateTime12:21:28 20/05/2021; ResponseTime:0.277 ms
+Method:GET; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime12:21:28 20/05/2021; ResponseTime:0.171 ms
+Method:POST; URL:/api/transactions; Status:400; Message:Bad Request; DateTime12:21:28 20/05/2021; ResponseTime:4.425 ms
+Method:GET; URL:/api/recipes?search=a&number=5; Status:200; Message:OK; DateTime12:21:29 20/05/2021; ResponseTime:1059.012 ms
+Method:GET; URL:/api/recipes/716429; Status:200; Message:OK; DateTime12:21:29 20/05/2021; ResponseTime:566.379 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=a&maxFat=100&minCarbs=50&maxCarbs=100&minSugar=50&maxSugar=100&minCholesterol=50&maxCholesterol=100&minProtein=0&maxProtein=100&minCalcium=0&maxCalcium=100; Status:400; Message:Bad Request; DateTime12:21:30 20/05/2021; ResponseTime:0.894 ms
+Method:GET; URL:/api/bmi?age=21&height=168&weight=55; Status:200; Message:OK; DateTime12:21:31 20/05/2021; ResponseTime:1219.917 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime12:21:31 20/05/2021; ResponseTime:9.588 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime12:21:31 20/05/2021; ResponseTime:2.410 ms
+Method:GET; URL:/api/users; Status:200; Message:OK; DateTime12:21:31 20/05/2021; ResponseTime:1.739 ms
+Method:GET; URL:/api/users/132451; Status:404; Message:Not Found; DateTime12:21:31 20/05/2021; ResponseTime:1.978 ms
+Method:PUT; URL:/api/users/balance; Status:401; Message:Unauthorized; DateTime12:21:31 20/05/2021; ResponseTime:0.163 ms
+Method:PUT; URL:/api/users/profile; Status:401; Message:Unauthorized; DateTime12:21:31 20/05/2021; ResponseTime:0.208 ms
+Method:PUT; URL:/api/users/plans; Status:200; Message:OK; DateTime12:21:31 20/05/2021; ResponseTime:0.182 ms
+Method:GET; URL:/api/plans; Status:401; Message:Unauthorized; DateTime12:21:31 20/05/2021; ResponseTime:0.188 ms
+Method:POST; URL:/api/plans; Status:400; Message:Bad Request; DateTime12:21:32 20/05/2021; ResponseTime:0.571 ms
+Method:DELETE; URL:/api/plans/6; Status:401; Message:Unauthorized; DateTime12:21:32 20/05/2021; ResponseTime:0.223 ms
+Method:GET; URL:/api/transactions; Status:200; Message:OK; DateTime12:21:32 20/05/2021; ResponseTime:2.394 ms
+Method:POST; URL:/api/transactions; Status:400; Message:Bad Request; DateTime12:21:32 20/05/2021; ResponseTime:0.371 ms
+Method:GET; URL:/api/recipes?search=asdfadfqwer&number=5; Status:401; Message:Unauthorized; DateTime12:21:32 20/05/2021; ResponseTime:0.503 ms
+Method:GET; URL:/api/recipes/716429; Status:401; Message:Unauthorized; DateTime12:21:32 20/05/2021; ResponseTime:0.324 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100&minSugar=50&maxSugar=100&minCholesterol=50&maxCholesterol=100&minProtein=0&maxProtein=100&minCalcium=0&maxCalcium=100; Status:401; Message:Unauthorized; DateTime12:21:32 20/05/2021; ResponseTime:0.870 ms
+Method:GET; URL:/api/bmi?age=21&height=168&weight=55; Status:200; Message:OK; DateTime12:21:33 20/05/2021; ResponseTime:1266.087 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime12:24:41 20/05/2021; ResponseTime:54.289 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime12:24:41 20/05/2021; ResponseTime:2.414 ms
+Method:GET; URL:/api/users; Status:403; Message:Forbidden; DateTime12:24:41 20/05/2021; ResponseTime:1.808 ms
+Method:GET; URL:/api/users/1; Status:403; Message:Forbidden; DateTime12:24:41 20/05/2021; ResponseTime:0.701 ms
+Method:PUT; URL:/api/users/balance; Status:400; Message:Bad Request; DateTime12:24:41 20/05/2021; ResponseTime:1.465 ms
+Method:PUT; URL:/api/users/profile; Status:400; Message:Bad Request; DateTime12:24:41 20/05/2021; ResponseTime:1.593 ms
+Method:PUT; URL:/api/users/plans; Status:200; Message:OK; DateTime12:24:41 20/05/2021; ResponseTime:0.615 ms
+Method:GET; URL:/api/plans; Status:200; Message:OK; DateTime12:24:41 20/05/2021; ResponseTime:1.843 ms
+Method:POST; URL:/api/plans; Status:403; Message:Forbidden; DateTime12:24:41 20/05/2021; ResponseTime:1.234 ms
+Method:DELETE; URL:/api/plans/0; Status:400; Message:Bad Request; DateTime12:24:42 20/05/2021; ResponseTime:2.517 ms
+Method:GET; URL:/api/transactions; Status:200; Message:OK; DateTime12:24:42 20/05/2021; ResponseTime:2.853 ms
+Method:POST; URL:/api/transactions; Status:403; Message:Forbidden; DateTime12:24:42 20/05/2021; ResponseTime:0.561 ms
+Method:GET; URL:/api/recipes?search=pasta&number=5; Status:200; Message:OK; DateTime12:24:43 20/05/2021; ResponseTime:755.424 ms
+Method:GET; URL:/api/recipes/1231231903; Status:404; Message:Not Found; DateTime12:24:44 20/05/2021; ResponseTime:1170.911 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100&minSugar=50&maxSugar=100&minCholesterol=50&maxCholesterol=100&minProtein=0&maxProtein=150&minCalcium=0&maxCalcium=300; Status:200; Message:OK; DateTime12:24:45 20/05/2021; ResponseTime:755.897 ms
+Method:GET; URL:/api/bmi?age=21&height=168&weight=55; Status:401; Message:Unauthorized; DateTime12:24:45 20/05/2021; ResponseTime:0.227 ms
+Method:POST; URL:/api/users/register; Status:400; Message:Bad Request; DateTime12:24:45 20/05/2021; ResponseTime:7.873 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime12:24:45 20/05/2021; ResponseTime:1.651 ms
+Method:GET; URL:/api/users; Status:401; Message:Unauthorized; DateTime12:24:45 20/05/2021; ResponseTime:0.186 ms
+Method:GET; URL:/api/users/1; Status:401; Message:Unauthorized; DateTime12:24:45 20/05/2021; ResponseTime:0.378 ms
+Method:PUT; URL:/api/users/balance; Status:401; Message:Unauthorized; DateTime12:24:45 20/05/2021; ResponseTime:0.211 ms
+Method:PUT; URL:/api/users/profile; Status:401; Message:Unauthorized; DateTime12:24:45 20/05/2021; ResponseTime:0.217 ms
+Method:PUT; URL:/api/users/plans; Status:200; Message:OK; DateTime12:24:45 20/05/2021; ResponseTime:0.266 ms
+Method:GET; URL:/api/plans; Status:401; Message:Unauthorized; DateTime12:24:45 20/05/2021; ResponseTime:0.258 ms
+Method:POST; URL:/api/plans; Status:401; Message:Unauthorized; DateTime12:24:45 20/05/2021; ResponseTime:0.673 ms
+Method:DELETE; URL:/api/plans/6; Status:200; Message:OK; DateTime12:24:46 20/05/2021; ResponseTime:2.050 ms
+Method:GET; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime12:24:46 20/05/2021; ResponseTime:0.204 ms
+Method:POST; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime12:24:46 20/05/2021; ResponseTime:0.306 ms
+Method:GET; URL:/api/recipes?search=&number=5; Status:200; Message:OK; DateTime12:24:46 20/05/2021; ResponseTime:636.781 ms
+Method:GET; URL:/api/recipes/716429; Status:429; Message:Too Many Requests; DateTime12:24:46 20/05/2021; ResponseTime:1.415 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=0&maxFat=0&minCarbs=0&maxCarbs=0&minSugar=50&maxSugar=100&minCholesterol=50&maxCholesterol=100&minProtein=0&maxProtein=100&minCalcium=0&maxCalcium=100; Status:404; Message:Not Found; DateTime12:24:47 20/05/2021; ResponseTime:660.788 ms
+Method:GET; URL:/api/bmi?age=21&height=168&weight=55; Status:401; Message:Unauthorized; DateTime12:24:47 20/05/2021; ResponseTime:0.319 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime12:24:47 20/05/2021; ResponseTime:9.329 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime12:24:48 20/05/2021; ResponseTime:1.266 ms
+Method:GET; URL:/api/users; Status:200; Message:OK; DateTime12:24:48 20/05/2021; ResponseTime:2.752 ms
+Method:GET; URL:/api/users/1; Status:200; Message:OK; DateTime12:24:48 20/05/2021; ResponseTime:1.395 ms
+Method:PUT; URL:/api/users/balance; Status:400; Message:Bad Request; DateTime12:24:48 20/05/2021; ResponseTime:0.630 ms
+Method:PUT; URL:/api/users/profile; Status:400; Message:Bad Request; DateTime12:24:48 20/05/2021; ResponseTime:0.845 ms
+Method:PUT; URL:/api/users/plans; Status:200; Message:OK; DateTime12:24:48 20/05/2021; ResponseTime:0.195 ms
+Method:GET; URL:/api/plans; Status:200; Message:OK; DateTime12:24:48 20/05/2021; ResponseTime:1.215 ms
+Method:POST; URL:/api/plans; Status:201; Message:Created; DateTime12:24:48 20/05/2021; ResponseTime:2.752 ms
+Method:DELETE; URL:/api/plans/7; Status:403; Message:Forbidden; DateTime12:24:48 20/05/2021; ResponseTime:0.326 ms
+Method:GET; URL:/api/transactions; Status:200; Message:OK; DateTime12:24:48 20/05/2021; ResponseTime:17.097 ms
+Method:POST; URL:/api/transactions; Status:400; Message:Bad Request; DateTime12:24:48 20/05/2021; ResponseTime:4.978 ms
+Method:GET; URL:/api/recipes?search=qwerqsdvasdvqerqwer12rqwfdzxv&number=5; Status:404; Message:Not Found; DateTime12:24:49 20/05/2021; ResponseTime:456.118 ms
+Method:GET; URL:/api/recipes/716429; Status:200; Message:OK; DateTime12:24:50 20/05/2021; ResponseTime:568.492 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100&minSugar=50&maxSugar=100&minCholesterol=50&maxCholesterol=100&minProtein=0&maxProtein=100&minCalcium=0&maxCalcium=100; Status:429; Message:Too Many Requests; DateTime12:24:50 20/05/2021; ResponseTime:2.665 ms
+Method:GET; URL:/api/bmi?age=21&height=168&weight=55; Status:401; Message:Unauthorized; DateTime12:24:50 20/05/2021; ResponseTime:0.161 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime12:24:50 20/05/2021; ResponseTime:8.970 ms
+Method:POST; URL:/api/users/login; Status:400; Message:Bad Request; DateTime12:24:50 20/05/2021; ResponseTime:0.528 ms
+Method:GET; URL:/api/users; Status:403; Message:Forbidden; DateTime12:24:50 20/05/2021; ResponseTime:0.304 ms
+Method:GET; URL:/api/users/132451; Status:404; Message:Not Found; DateTime12:24:50 20/05/2021; ResponseTime:1.612 ms
+Method:PUT; URL:/api/users/balance; Status:401; Message:Unauthorized; DateTime12:24:50 20/05/2021; ResponseTime:0.172 ms
+Method:PUT; URL:/api/users/profile; Status:401; Message:Unauthorized; DateTime12:24:50 20/05/2021; ResponseTime:0.445 ms
+Method:PUT; URL:/api/users/plans; Status:200; Message:OK; DateTime12:24:50 20/05/2021; ResponseTime:0.307 ms
+Method:GET; URL:/api/plans; Status:401; Message:Unauthorized; DateTime12:24:50 20/05/2021; ResponseTime:0.183 ms
+Method:POST; URL:/api/plans; Status:400; Message:Bad Request; DateTime12:24:50 20/05/2021; ResponseTime:1.049 ms
+Method:DELETE; URL:/api/plans/7; Status:401; Message:Unauthorized; DateTime12:24:51 20/05/2021; ResponseTime:0.214 ms
+Method:GET; URL:/api/transactions; Status:200; Message:OK; DateTime12:24:51 20/05/2021; ResponseTime:2.238 ms
+Method:POST; URL:/api/transactions; Status:400; Message:Bad Request; DateTime12:24:51 20/05/2021; ResponseTime:0.377 ms
+Method:GET; URL:/api/recipes?search=a&number=5; Status:429; Message:Too Many Requests; DateTime12:24:51 20/05/2021; ResponseTime:1.987 ms
+Method:GET; URL:/api/recipes/716429; Status:401; Message:Unauthorized; DateTime12:24:51 20/05/2021; ResponseTime:0.810 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=a&maxFat=100&minCarbs=50&maxCarbs=100&minSugar=50&maxSugar=100&minCholesterol=50&maxCholesterol=100&minProtein=0&maxProtein=100&minCalcium=0&maxCalcium=100; Status:400; Message:Bad Request; DateTime12:24:51 20/05/2021; ResponseTime:1.500 ms
+Method:GET; URL:/api/bmi?age=21&height=168&weight=55; Status:401; Message:Unauthorized; DateTime12:24:51 20/05/2021; ResponseTime:0.175 ms
+Method:POST; URL:/api/users/register; Status:400; Message:Bad Request; DateTime12:24:51 20/05/2021; ResponseTime:6.106 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime12:24:51 20/05/2021; ResponseTime:1.711 ms
+Method:GET; URL:/api/users; Status:401; Message:Unauthorized; DateTime12:24:51 20/05/2021; ResponseTime:0.202 ms
+Method:GET; URL:/api/users/1; Status:403; Message:Forbidden; DateTime12:24:51 20/05/2021; ResponseTime:0.463 ms
+Method:PUT; URL:/api/users/balance; Status:400; Message:Bad Request; DateTime12:24:51 20/05/2021; ResponseTime:0.462 ms
+Method:PUT; URL:/api/users/profile; Status:400; Message:Bad Request; DateTime12:24:51 20/05/2021; ResponseTime:0.823 ms
+Method:PUT; URL:/api/users/plans; Status:200; Message:OK; DateTime12:24:51 20/05/2021; ResponseTime:0.197 ms
+Method:GET; URL:/api/plans; Status:200; Message:OK; DateTime12:24:52 20/05/2021; ResponseTime:1.557 ms
+Method:POST; URL:/api/plans; Status:403; Message:Forbidden; DateTime12:24:52 20/05/2021; ResponseTime:1.023 ms
+Method:DELETE; URL:/api/plans/0; Status:400; Message:Bad Request; DateTime12:24:52 20/05/2021; ResponseTime:1.457 ms
+Method:GET; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime12:24:52 20/05/2021; ResponseTime:0.217 ms
+Method:POST; URL:/api/transactions; Status:403; Message:Forbidden; DateTime12:24:52 20/05/2021; ResponseTime:0.392 ms
+Method:GET; URL:/api/recipes?search=asdfadfqwer&number=5; Status:401; Message:Unauthorized; DateTime12:24:52 20/05/2021; ResponseTime:0.653 ms
+Method:GET; URL:/api/recipes/1231231903; Status:404; Message:Not Found; DateTime12:24:53 20/05/2021; ResponseTime:557.367 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100&minSugar=50&maxSugar=100&minCholesterol=50&maxCholesterol=100&minProtein=0&maxProtein=100&minCalcium=0&maxCalcium=100; Status:401; Message:Unauthorized; DateTime12:24:53 20/05/2021; ResponseTime:0.927 ms
+Method:GET; URL:/api/bmi?age=21&height=168&weight=55; Status:401; Message:Unauthorized; DateTime12:24:53 20/05/2021; ResponseTime:0.153 ms
+Method:PUT; URL:/api/users/balance; Status:401; Message:Unauthorized; DateTime12:27:22 20/05/2021; ResponseTime:0.196 ms
+Method:PUT; URL:/api/users/balance; Status:400; Message:Bad Request; DateTime12:27:25 20/05/2021; ResponseTime:0.477 ms
+Method:PUT; URL:/api/users/balance; Status:400; Message:Bad Request; DateTime12:27:27 20/05/2021; ResponseTime:0.455 ms
+Method:PUT; URL:/api/users/balance; Status:401; Message:Unauthorized; DateTime12:27:29 20/05/2021; ResponseTime:0.178 ms
+Method:PUT; URL:/api/users/balance; Status:400; Message:Bad Request; DateTime12:27:30 20/05/2021; ResponseTime:0.483 ms
+Method:PUT; URL:/api/users/balance; Status:400; Message:Bad Request; DateTime12:27:31 20/05/2021; ResponseTime:0.435 ms
+Method:PUT; URL:/api/users/balance; Status:401; Message:Unauthorized; DateTime12:27:32 20/05/2021; ResponseTime:0.192 ms
+Method:PUT; URL:/api/users/balance; Status:400; Message:Bad Request; DateTime12:27:32 20/05/2021; ResponseTime:0.488 ms
+Method:PUT; URL:/api/users/balance; Status:400; Message:Bad Request; DateTime12:29:53 20/05/2021; ResponseTime:0.525 ms
+Method:PUT; URL:/api/users/balance; Status:401; Message:Unauthorized; DateTime12:29:55 20/05/2021; ResponseTime:0.165 ms
+Method:PUT; URL:/api/users/balance; Status:200; Message:OK; DateTime12:29:56 20/05/2021; ResponseTime:1.903 ms
+Method:PUT; URL:/api/users/profile; Status:401; Message:Unauthorized; DateTime12:31:07 20/05/2021; ResponseTime:0.240 ms
+Method:PUT; URL:/api/users/profile; Status:400; Message:Bad Request; DateTime12:31:08 20/05/2021; ResponseTime:0.752 ms
+Method:PUT; URL:/api/users/profile; Status:401; Message:Unauthorized; DateTime12:32:04 20/05/2021; ResponseTime:0.189 ms
+Method:PUT; URL:/api/users/profile; Status:200; Message:OK; DateTime12:32:04 20/05/2021; ResponseTime:1.595 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime12:33:26 20/05/2021; ResponseTime:14.893 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime12:33:26 20/05/2021; ResponseTime:1.380 ms
+Method:GET; URL:/api/users; Status:200; Message:OK; DateTime12:33:26 20/05/2021; ResponseTime:3.127 ms
+Method:GET; URL:/api/users/1; Status:401; Message:Unauthorized; DateTime12:33:26 20/05/2021; ResponseTime:0.420 ms
+Method:PUT; URL:/api/users/balance; Status:400; Message:Bad Request; DateTime12:33:26 20/05/2021; ResponseTime:0.485 ms
+Method:PUT; URL:/api/users/profile; Status:401; Message:Unauthorized; DateTime12:33:26 20/05/2021; ResponseTime:0.356 ms
+Method:PUT; URL:/api/users/plans; Status:200; Message:OK; DateTime12:33:26 20/05/2021; ResponseTime:0.225 ms
+Method:GET; URL:/api/plans; Status:401; Message:Unauthorized; DateTime12:33:26 20/05/2021; ResponseTime:0.189 ms
+Method:POST; URL:/api/plans; Status:401; Message:Unauthorized; DateTime12:33:26 20/05/2021; ResponseTime:0.649 ms
+Method:DELETE; URL:/api/plans/7; Status:200; Message:OK; DateTime12:33:26 20/05/2021; ResponseTime:2.900 ms
+Method:GET; URL:/api/transactions; Status:200; Message:OK; DateTime12:33:27 20/05/2021; ResponseTime:1.828 ms
+Method:POST; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime12:33:27 20/05/2021; ResponseTime:0.359 ms
+Method:GET; URL:/api/recipes?search=pasta&number=5; Status:200; Message:OK; DateTime12:33:29 20/05/2021; ResponseTime:1805.643 ms
+Method:GET; URL:/api/recipes/716429; Status:429; Message:Too Many Requests; DateTime12:33:29 20/05/2021; ResponseTime:1.447 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100&minSugar=50&maxSugar=100&minCholesterol=50&maxCholesterol=100&minProtein=0&maxProtein=150&minCalcium=0&maxCalcium=300; Status:200; Message:OK; DateTime12:33:30 20/05/2021; ResponseTime:1335.152 ms
+Method:GET; URL:/api/bmi?age=21&height=168&weight=55; Status:401; Message:Unauthorized; DateTime12:33:30 20/05/2021; ResponseTime:0.159 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime12:33:30 20/05/2021; ResponseTime:8.730 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime12:33:30 20/05/2021; ResponseTime:1.579 ms
+Method:GET; URL:/api/users; Status:403; Message:Forbidden; DateTime12:33:30 20/05/2021; ResponseTime:0.277 ms
+Method:GET; URL:/api/users/1; Status:200; Message:OK; DateTime12:33:30 20/05/2021; ResponseTime:1.764 ms
+Method:PUT; URL:/api/users/balance; Status:401; Message:Unauthorized; DateTime12:33:30 20/05/2021; ResponseTime:0.193 ms
+Method:PUT; URL:/api/users/profile; Status:200; Message:OK; DateTime12:33:31 20/05/2021; ResponseTime:1.419 ms
+Method:PUT; URL:/api/users/plans; Status:200; Message:OK; DateTime12:33:31 20/05/2021; ResponseTime:0.301 ms
+Method:GET; URL:/api/plans; Status:200; Message:OK; DateTime12:33:31 20/05/2021; ResponseTime:1.285 ms
+Method:POST; URL:/api/plans; Status:201; Message:Created; DateTime12:33:31 20/05/2021; ResponseTime:2.854 ms
+Method:DELETE; URL:/api/plans/8; Status:403; Message:Forbidden; DateTime12:33:31 20/05/2021; ResponseTime:0.491 ms
+Method:GET; URL:/api/transactions; Status:200; Message:OK; DateTime12:33:31 20/05/2021; ResponseTime:2.019 ms
+Method:POST; URL:/api/transactions; Status:400; Message:Bad Request; DateTime12:33:31 20/05/2021; ResponseTime:4.800 ms
+Method:GET; URL:/api/recipes?search=&number=5; Status:200; Message:OK; DateTime12:33:32 20/05/2021; ResponseTime:632.925 ms
+Method:GET; URL:/api/recipes/716429; Status:200; Message:OK; DateTime12:33:33 20/05/2021; ResponseTime:993.680 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=0&maxFat=0&minCarbs=0&maxCarbs=0&minSugar=50&maxSugar=100&minCholesterol=50&maxCholesterol=100&minProtein=0&maxProtein=100&minCalcium=0&maxCalcium=100; Status:404; Message:Not Found; DateTime12:33:34 20/05/2021; ResponseTime:672.489 ms
+Method:GET; URL:/api/bmi?age=21&height=168&weight=55; Status:401; Message:Unauthorized; DateTime12:33:34 20/05/2021; ResponseTime:0.195 ms
+Method:POST; URL:/api/users/register; Status:400; Message:Bad Request; DateTime12:33:34 20/05/2021; ResponseTime:8.915 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime12:33:34 20/05/2021; ResponseTime:1.598 ms
+Method:GET; URL:/api/users; Status:401; Message:Unauthorized; DateTime12:33:34 20/05/2021; ResponseTime:0.179 ms
+Method:GET; URL:/api/users/132451; Status:404; Message:Not Found; DateTime12:33:34 20/05/2021; ResponseTime:1.303 ms
+Method:PUT; URL:/api/users/balance; Status:200; Message:OK; DateTime12:33:34 20/05/2021; ResponseTime:1.531 ms
+Method:PUT; URL:/api/users/profile; Status:401; Message:Unauthorized; DateTime12:33:34 20/05/2021; ResponseTime:0.291 ms
+Method:PUT; URL:/api/users/plans; Status:200; Message:OK; DateTime12:33:34 20/05/2021; ResponseTime:0.210 ms
+Method:GET; URL:/api/plans; Status:401; Message:Unauthorized; DateTime12:33:34 20/05/2021; ResponseTime:0.175 ms
+Method:POST; URL:/api/plans; Status:400; Message:Bad Request; DateTime12:33:34 20/05/2021; ResponseTime:0.782 ms
+Method:DELETE; URL:/api/plans/8; Status:401; Message:Unauthorized; DateTime12:33:34 20/05/2021; ResponseTime:0.182 ms
+Method:GET; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime12:33:35 20/05/2021; ResponseTime:0.188 ms
+Method:POST; URL:/api/transactions; Status:400; Message:Bad Request; DateTime12:33:35 20/05/2021; ResponseTime:0.793 ms
+Method:GET; URL:/api/recipes?search=qwerqsdvasdvqerqwer12rqwfdzxv&number=5; Status:404; Message:Not Found; DateTime12:33:35 20/05/2021; ResponseTime:484.852 ms
+Method:GET; URL:/api/recipes/716429; Status:401; Message:Unauthorized; DateTime12:33:35 20/05/2021; ResponseTime:0.354 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100&minSugar=50&maxSugar=100&minCholesterol=50&maxCholesterol=100&minProtein=0&maxProtein=100&minCalcium=0&maxCalcium=100; Status:429; Message:Too Many Requests; DateTime12:33:35 20/05/2021; ResponseTime:2.305 ms
+Method:GET; URL:/api/bmi?age=21&height=168&weight=55; Status:401; Message:Unauthorized; DateTime12:33:36 20/05/2021; ResponseTime:0.159 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime12:33:36 20/05/2021; ResponseTime:12.596 ms
+Method:POST; URL:/api/users/login; Status:400; Message:Bad Request; DateTime12:33:36 20/05/2021; ResponseTime:0.418 ms
+Method:GET; URL:/api/users; Status:200; Message:OK; DateTime12:33:36 20/05/2021; ResponseTime:2.357 ms
+Method:GET; URL:/api/users/1; Status:403; Message:Forbidden; DateTime12:33:36 20/05/2021; ResponseTime:0.461 ms
+Method:PUT; URL:/api/users/balance; Status:400; Message:Bad Request; DateTime12:33:36 20/05/2021; ResponseTime:0.436 ms
+Method:PUT; URL:/api/users/profile; Status:200; Message:OK; DateTime12:33:36 20/05/2021; ResponseTime:1.804 ms
+Method:PUT; URL:/api/users/plans; Status:200; Message:OK; DateTime12:33:36 20/05/2021; ResponseTime:0.178 ms
+Method:GET; URL:/api/plans; Status:200; Message:OK; DateTime12:33:36 20/05/2021; ResponseTime:1.226 ms
+Method:POST; URL:/api/plans; Status:403; Message:Forbidden; DateTime12:33:36 20/05/2021; ResponseTime:0.545 ms
+Method:DELETE; URL:/api/plans/0; Status:400; Message:Bad Request; DateTime12:33:36 20/05/2021; ResponseTime:1.018 ms
+Method:GET; URL:/api/transactions; Status:200; Message:OK; DateTime12:33:36 20/05/2021; ResponseTime:2.370 ms
+Method:POST; URL:/api/transactions; Status:403; Message:Forbidden; DateTime12:33:36 20/05/2021; ResponseTime:0.472 ms
+Method:GET; URL:/api/recipes?search=a&number=5; Status:429; Message:Too Many Requests; DateTime12:33:37 20/05/2021; ResponseTime:1.299 ms
+Method:GET; URL:/api/recipes/1231231903; Status:404; Message:Not Found; DateTime12:33:37 20/05/2021; ResponseTime:527.989 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=a&maxFat=100&minCarbs=50&maxCarbs=100&minSugar=50&maxSugar=100&minCholesterol=50&maxCholesterol=100&minProtein=0&maxProtein=100&minCalcium=0&maxCalcium=100; Status:400; Message:Bad Request; DateTime12:33:37 20/05/2021; ResponseTime:0.974 ms
+Method:GET; URL:/api/bmi?age=21&height=168&weight=55; Status:401; Message:Unauthorized; DateTime12:33:37 20/05/2021; ResponseTime:0.229 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime12:33:37 20/05/2021; ResponseTime:8.187 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime12:33:38 20/05/2021; ResponseTime:1.167 ms
+Method:GET; URL:/api/users; Status:403; Message:Forbidden; DateTime12:33:38 20/05/2021; ResponseTime:0.439 ms
+Method:GET; URL:/api/users/1; Status:401; Message:Unauthorized; DateTime12:33:38 20/05/2021; ResponseTime:0.434 ms
+Method:PUT; URL:/api/users/balance; Status:401; Message:Unauthorized; DateTime12:33:38 20/05/2021; ResponseTime:0.147 ms
+Method:PUT; URL:/api/users/profile; Status:401; Message:Unauthorized; DateTime12:33:38 20/05/2021; ResponseTime:0.157 ms
+Method:PUT; URL:/api/users/plans; Status:200; Message:OK; DateTime12:33:38 20/05/2021; ResponseTime:0.249 ms
+Method:GET; URL:/api/plans; Status:401; Message:Unauthorized; DateTime12:33:38 20/05/2021; ResponseTime:0.180 ms
+Method:POST; URL:/api/plans; Status:401; Message:Unauthorized; DateTime12:33:38 20/05/2021; ResponseTime:0.861 ms
+Method:DELETE; URL:/api/plans/8; Status:200; Message:OK; DateTime12:33:38 20/05/2021; ResponseTime:2.490 ms
+Method:GET; URL:/api/transactions; Status:200; Message:OK; DateTime12:33:38 20/05/2021; ResponseTime:3.380 ms
+Method:POST; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime12:33:38 20/05/2021; ResponseTime:0.259 ms
+Method:GET; URL:/api/recipes?search=asdfadfqwer&number=5; Status:401; Message:Unauthorized; DateTime12:33:38 20/05/2021; ResponseTime:0.459 ms
+Method:GET; URL:/api/recipes/716429; Status:429; Message:Too Many Requests; DateTime12:33:38 20/05/2021; ResponseTime:1.719 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100&minSugar=50&maxSugar=100&minCholesterol=50&maxCholesterol=100&minProtein=0&maxProtein=100&minCalcium=0&maxCalcium=100; Status:401; Message:Unauthorized; DateTime12:33:39 20/05/2021; ResponseTime:0.886 ms
+Method:GET; URL:/api/bmi?age=21&height=168&weight=55; Status:401; Message:Unauthorized; DateTime12:33:39 20/05/2021; ResponseTime:0.163 ms
+Method:GET; URL:/api/bmi?age=21&height=189&weight=53; Status:401; Message:Unauthorized; DateTime12:38:29 20/05/2021; ResponseTime:0.162 ms
+Method:GET; URL:/api/bmi?age=21&height=189&weight=53; Status:401; Message:Unauthorized; DateTime12:38:39 20/05/2021; ResponseTime:0.171 ms
+Method:GET; URL:/api/bmi?age=64&height=223&weight=83; Status:401; Message:Unauthorized; DateTime12:38:43 20/05/2021; ResponseTime:0.153 ms
+Method:GET; URL:/api/bmi?age=64&height=223&weight=83; Status:401; Message:Unauthorized; DateTime12:38:44 20/05/2021; ResponseTime:0.153 ms
+Method:GET; URL:/api/bmi?age=57&height=195&weight=122; Status:401; Message:Unauthorized; DateTime12:38:44 20/05/2021; ResponseTime:0.179 ms
+Method:GET; URL:/api/bmi?age=57&height=195&weight=122; Status:401; Message:Unauthorized; DateTime12:38:45 20/05/2021; ResponseTime:0.168 ms
+Method:GET; URL:/api/bmi?age=48&height=259&weight=124; Status:401; Message:Unauthorized; DateTime12:38:45 20/05/2021; ResponseTime:0.182 ms
+Method:GET; URL:/api/bmi?age=48&height=259&weight=124; Status:401; Message:Unauthorized; DateTime12:38:53 20/05/2021; ResponseTime:0.253 ms
+Method:GET; URL:/api/bmi?age=20&height=276&weight=60; Status:401; Message:Unauthorized; DateTime12:38:53 20/05/2021; ResponseTime:0.266 ms
+Method:GET; URL:/api/bmi?age=20&height=276&weight=60; Status:401; Message:Unauthorized; DateTime12:39:42 20/05/2021; ResponseTime:0.165 ms
+Method:GET; URL:/api/bmi?age=24&height=254&weight=51; Status:200; Message:OK; DateTime12:39:46 20/05/2021; ResponseTime:1116.958 ms
+Method:GET; URL:/api/bmi?age=24&height=254&weight=51; Status:401; Message:Unauthorized; DateTime12:40:03 20/05/2021; ResponseTime:0.167 ms
+Method:GET; URL:/api/bmi?age=30&height=195&weight=122; Status:200; Message:OK; DateTime12:40:05 20/05/2021; ResponseTime:992.043 ms
+Method:POST; URL:/api/users/register; Status:400; Message:Bad Request; DateTime12:40:37 20/05/2021; ResponseTime:9.353 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime12:40:37 20/05/2021; ResponseTime:1.306 ms
+Method:GET; URL:/api/users; Status:401; Message:Unauthorized; DateTime12:40:37 20/05/2021; ResponseTime:0.243 ms
+Method:GET; URL:/api/users/1; Status:200; Message:OK; DateTime12:40:37 20/05/2021; ResponseTime:1.790 ms
+Method:PUT; URL:/api/users/balance; Status:200; Message:OK; DateTime12:40:37 20/05/2021; ResponseTime:1.545 ms
+Method:PUT; URL:/api/users/profile; Status:200; Message:OK; DateTime12:40:37 20/05/2021; ResponseTime:1.307 ms
+Method:PUT; URL:/api/users/plans; Status:200; Message:OK; DateTime12:40:38 20/05/2021; ResponseTime:0.196 ms
+Method:GET; URL:/api/plans; Status:200; Message:OK; DateTime12:40:38 20/05/2021; ResponseTime:1.072 ms
+Method:POST; URL:/api/plans; Status:201; Message:Created; DateTime12:40:38 20/05/2021; ResponseTime:3.026 ms
+Method:DELETE; URL:/api/plans/9; Status:403; Message:Forbidden; DateTime12:40:38 20/05/2021; ResponseTime:0.502 ms
+Method:GET; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime12:40:38 20/05/2021; ResponseTime:0.193 ms
+Method:POST; URL:/api/transactions; Status:400; Message:Bad Request; DateTime12:40:38 20/05/2021; ResponseTime:4.861 ms
+Method:GET; URL:/api/recipes?search=pasta&number=5; Status:200; Message:OK; DateTime12:40:39 20/05/2021; ResponseTime:726.286 ms
+Method:GET; URL:/api/recipes/716429; Status:200; Message:OK; DateTime12:40:39 20/05/2021; ResponseTime:629.168 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100&minSugar=50&maxSugar=100&minCholesterol=50&maxCholesterol=100&minProtein=0&maxProtein=150&minCalcium=0&maxCalcium=300; Status:200; Message:OK; DateTime12:40:40 20/05/2021; ResponseTime:788.048 ms
+Method:GET; URL:/api/bmi?age=30&height=195&weight=122; Status:401; Message:Unauthorized; DateTime12:40:40 20/05/2021; ResponseTime:0.237 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime12:40:41 20/05/2021; ResponseTime:8.897 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime12:40:41 20/05/2021; ResponseTime:1.872 ms
+Method:GET; URL:/api/users; Status:200; Message:OK; DateTime12:40:41 20/05/2021; ResponseTime:3.495 ms
+Method:GET; URL:/api/users/132451; Status:404; Message:Not Found; DateTime12:40:41 20/05/2021; ResponseTime:1.628 ms
+Method:PUT; URL:/api/users/balance; Status:400; Message:Bad Request; DateTime12:40:41 20/05/2021; ResponseTime:0.518 ms
+Method:PUT; URL:/api/users/profile; Status:401; Message:Unauthorized; DateTime12:40:41 20/05/2021; ResponseTime:0.227 ms
+Method:PUT; URL:/api/users/plans; Status:200; Message:OK; DateTime12:40:41 20/05/2021; ResponseTime:0.260 ms
+Method:GET; URL:/api/plans; Status:401; Message:Unauthorized; DateTime12:40:41 20/05/2021; ResponseTime:0.338 ms
+Method:POST; URL:/api/plans; Status:400; Message:Bad Request; DateTime12:40:41 20/05/2021; ResponseTime:1.092 ms
+Method:DELETE; URL:/api/plans/9; Status:401; Message:Unauthorized; DateTime12:40:41 20/05/2021; ResponseTime:0.295 ms
+Method:GET; URL:/api/transactions; Status:200; Message:OK; DateTime12:40:41 20/05/2021; ResponseTime:2.326 ms
+Method:POST; URL:/api/transactions; Status:400; Message:Bad Request; DateTime12:40:41 20/05/2021; ResponseTime:0.358 ms
+Method:GET; URL:/api/recipes?search=&number=5; Status:200; Message:OK; DateTime12:40:44 20/05/2021; ResponseTime:2861.263 ms
+Method:GET; URL:/api/recipes/716429; Status:401; Message:Unauthorized; DateTime12:40:44 20/05/2021; ResponseTime:0.321 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=0&maxFat=0&minCarbs=0&maxCarbs=0&minSugar=50&maxSugar=100&minCholesterol=50&maxCholesterol=100&minProtein=0&maxProtein=100&minCalcium=0&maxCalcium=100; Status:404; Message:Not Found; DateTime12:40:45 20/05/2021; ResponseTime:738.573 ms
+Method:GET; URL:/api/bmi?age=56&height=256&weight=51; Status:200; Message:OK; DateTime12:40:46 20/05/2021; ResponseTime:1105.379 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime12:40:47 20/05/2021; ResponseTime:9.281 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime12:40:47 20/05/2021; ResponseTime:1.838 ms
+Method:GET; URL:/api/users; Status:403; Message:Forbidden; DateTime12:40:47 20/05/2021; ResponseTime:0.263 ms
+Method:GET; URL:/api/users/1; Status:403; Message:Forbidden; DateTime12:40:47 20/05/2021; ResponseTime:0.534 ms
+Method:PUT; URL:/api/users/balance; Status:401; Message:Unauthorized; DateTime12:40:47 20/05/2021; ResponseTime:0.154 ms
+Method:PUT; URL:/api/users/profile; Status:200; Message:OK; DateTime12:40:47 20/05/2021; ResponseTime:1.850 ms
+Method:PUT; URL:/api/users/plans; Status:200; Message:OK; DateTime12:40:47 20/05/2021; ResponseTime:0.181 ms
+Method:GET; URL:/api/plans; Status:200; Message:OK; DateTime12:40:47 20/05/2021; ResponseTime:1.429 ms
+Method:POST; URL:/api/plans; Status:403; Message:Forbidden; DateTime12:40:47 20/05/2021; ResponseTime:0.870 ms
+Method:DELETE; URL:/api/plans/0; Status:400; Message:Bad Request; DateTime12:40:47 20/05/2021; ResponseTime:1.265 ms
+Method:GET; URL:/api/transactions; Status:200; Message:OK; DateTime12:40:47 20/05/2021; ResponseTime:2.224 ms
+Method:POST; URL:/api/transactions; Status:403; Message:Forbidden; DateTime12:40:47 20/05/2021; ResponseTime:0.422 ms
+Method:GET; URL:/api/recipes?search=qwerqsdvasdvqerqwer12rqwfdzxv&number=5; Status:404; Message:Not Found; DateTime12:40:48 20/05/2021; ResponseTime:837.649 ms
+Method:GET; URL:/api/recipes/1231231903; Status:404; Message:Not Found; DateTime12:40:49 20/05/2021; ResponseTime:828.605 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100&minSugar=50&maxSugar=100&minCholesterol=50&maxCholesterol=100&minProtein=0&maxProtein=100&minCalcium=0&maxCalcium=100; Status:429; Message:Too Many Requests; DateTime12:40:49 20/05/2021; ResponseTime:1.851 ms
+Method:GET; URL:/api/bmi?age=56&height=256&weight=51; Status:401; Message:Unauthorized; DateTime12:40:49 20/05/2021; ResponseTime:0.159 ms
+Method:POST; URL:/api/users/register; Status:400; Message:Bad Request; DateTime12:40:50 20/05/2021; ResponseTime:5.742 ms
+Method:POST; URL:/api/users/login; Status:400; Message:Bad Request; DateTime12:40:50 20/05/2021; ResponseTime:0.485 ms
+Method:GET; URL:/api/users; Status:401; Message:Unauthorized; DateTime12:40:50 20/05/2021; ResponseTime:0.164 ms
+Method:GET; URL:/api/users/1; Status:401; Message:Unauthorized; DateTime12:40:50 20/05/2021; ResponseTime:0.330 ms
+Method:PUT; URL:/api/users/balance; Status:200; Message:OK; DateTime12:40:50 20/05/2021; ResponseTime:1.787 ms
+Method:PUT; URL:/api/users/profile; Status:401; Message:Unauthorized; DateTime12:40:50 20/05/2021; ResponseTime:0.307 ms
+Method:PUT; URL:/api/users/plans; Status:200; Message:OK; DateTime12:40:50 20/05/2021; ResponseTime:0.189 ms
+Method:GET; URL:/api/plans; Status:401; Message:Unauthorized; DateTime12:40:50 20/05/2021; ResponseTime:0.187 ms
+Method:POST; URL:/api/plans; Status:401; Message:Unauthorized; DateTime12:40:50 20/05/2021; ResponseTime:0.469 ms
+Method:DELETE; URL:/api/plans/9; Status:200; Message:OK; DateTime12:40:50 20/05/2021; ResponseTime:2.096 ms
+Method:GET; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime12:40:50 20/05/2021; ResponseTime:0.212 ms
+Method:POST; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime12:40:50 20/05/2021; ResponseTime:0.336 ms
+Method:GET; URL:/api/recipes?search=a&number=5; Status:429; Message:Too Many Requests; DateTime12:40:50 20/05/2021; ResponseTime:1.865 ms
+Method:GET; URL:/api/recipes/716429; Status:429; Message:Too Many Requests; DateTime12:40:51 20/05/2021; ResponseTime:1.989 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=a&maxFat=100&minCarbs=50&maxCarbs=100&minSugar=50&maxSugar=100&minCholesterol=50&maxCholesterol=100&minProtein=0&maxProtein=100&minCalcium=0&maxCalcium=100; Status:400; Message:Bad Request; DateTime12:40:51 20/05/2021; ResponseTime:1.362 ms
+Method:GET; URL:/api/bmi?age=37&height=325&weight=72; Status:200; Message:OK; DateTime12:40:52 20/05/2021; ResponseTime:975.905 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime12:40:52 20/05/2021; ResponseTime:16.185 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime12:40:52 20/05/2021; ResponseTime:1.756 ms
+Method:GET; URL:/api/users; Status:200; Message:OK; DateTime12:40:52 20/05/2021; ResponseTime:1.758 ms
+Method:GET; URL:/api/users/1; Status:200; Message:OK; DateTime12:40:52 20/05/2021; ResponseTime:1.327 ms
+Method:PUT; URL:/api/users/balance; Status:400; Message:Bad Request; DateTime12:40:52 20/05/2021; ResponseTime:0.417 ms
+Method:PUT; URL:/api/users/profile; Status:200; Message:OK; DateTime12:40:52 20/05/2021; ResponseTime:1.329 ms
+Method:PUT; URL:/api/users/plans; Status:200; Message:OK; DateTime12:40:52 20/05/2021; ResponseTime:0.205 ms
+Method:GET; URL:/api/plans; Status:200; Message:OK; DateTime12:40:52 20/05/2021; ResponseTime:1.212 ms
+Method:POST; URL:/api/plans; Status:201; Message:Created; DateTime12:40:52 20/05/2021; ResponseTime:2.793 ms
+Method:DELETE; URL:/api/plans/10; Status:403; Message:Forbidden; DateTime12:40:53 20/05/2021; ResponseTime:0.404 ms
+Method:GET; URL:/api/transactions; Status:200; Message:OK; DateTime12:40:53 20/05/2021; ResponseTime:3.333 ms
+Method:POST; URL:/api/transactions; Status:400; Message:Bad Request; DateTime12:40:53 20/05/2021; ResponseTime:4.104 ms
+Method:GET; URL:/api/recipes?search=asdfadfqwer&number=5; Status:401; Message:Unauthorized; DateTime12:40:53 20/05/2021; ResponseTime:0.719 ms
+Method:GET; URL:/api/recipes/716429; Status:200; Message:OK; DateTime12:40:54 20/05/2021; ResponseTime:1000.190 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100&minSugar=50&maxSugar=100&minCholesterol=50&maxCholesterol=100&minProtein=0&maxProtein=100&minCalcium=0&maxCalcium=100; Status:401; Message:Unauthorized; DateTime12:40:54 20/05/2021; ResponseTime:0.734 ms
+Method:GET; URL:/api/bmi?age=37&height=325&weight=72; Status:401; Message:Unauthorized; DateTime12:40:54 20/05/2021; ResponseTime:0.169 ms
+Method:GET; URL:/api/bmi?age=48&height=224&weight=111; Status:200; Message:OK; DateTime12:42:32 20/05/2021; ResponseTime:1133.525 ms
+Method:GET; URL:/api/bmi?age=48&height=224&weight=111; Status:401; Message:Unauthorized; DateTime12:42:35 20/05/2021; ResponseTime:0.185 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime12:42:38 20/05/2021; ResponseTime:9.949 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime12:42:38 20/05/2021; ResponseTime:1.493 ms
+Method:GET; URL:/api/users; Status:403; Message:Forbidden; DateTime12:42:38 20/05/2021; ResponseTime:0.461 ms
+Method:GET; URL:/api/users/132451; Status:404; Message:Not Found; DateTime12:42:38 20/05/2021; ResponseTime:1.395 ms
+Method:PUT; URL:/api/users/balance; Status:401; Message:Unauthorized; DateTime12:42:38 20/05/2021; ResponseTime:0.155 ms
+Method:PUT; URL:/api/users/profile; Status:401; Message:Unauthorized; DateTime12:42:38 20/05/2021; ResponseTime:0.239 ms
+Method:PUT; URL:/api/users/plans; Status:200; Message:OK; DateTime12:42:38 20/05/2021; ResponseTime:0.286 ms
+Method:GET; URL:/api/plans; Status:401; Message:Unauthorized; DateTime12:42:38 20/05/2021; ResponseTime:0.311 ms
+Method:POST; URL:/api/plans; Status:400; Message:Bad Request; DateTime12:42:39 20/05/2021; ResponseTime:0.729 ms
+Method:DELETE; URL:/api/plans/10; Status:401; Message:Unauthorized; DateTime12:42:39 20/05/2021; ResponseTime:0.173 ms
+Method:GET; URL:/api/transactions; Status:200; Message:OK; DateTime12:42:39 20/05/2021; ResponseTime:1.531 ms
+Method:POST; URL:/api/transactions; Status:400; Message:Bad Request; DateTime12:42:39 20/05/2021; ResponseTime:0.597 ms
+Method:GET; URL:/api/recipes?search=pasta&number=5; Status:200; Message:OK; DateTime12:42:40 20/05/2021; ResponseTime:1192.185 ms
+Method:GET; URL:/api/recipes/716429; Status:401; Message:Unauthorized; DateTime12:42:40 20/05/2021; ResponseTime:0.562 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100&minSugar=50&maxSugar=100&minCholesterol=50&maxCholesterol=100&minProtein=0&maxProtein=150&minCalcium=0&maxCalcium=300; Status:200; Message:OK; DateTime12:42:42 20/05/2021; ResponseTime:1869.818 ms
+Method:GET; URL:/api/bmi?age=64&height=206&weight=123; Status:200; Message:OK; DateTime12:42:43 20/05/2021; ResponseTime:970.920 ms
+Method:POST; URL:/api/users/register; Status:400; Message:Bad Request; DateTime12:42:43 20/05/2021; ResponseTime:5.643 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime12:42:43 20/05/2021; ResponseTime:1.839 ms
+Method:GET; URL:/api/users; Status:401; Message:Unauthorized; DateTime12:42:43 20/05/2021; ResponseTime:0.170 ms
+Method:GET; URL:/api/users/1; Status:403; Message:Forbidden; DateTime12:42:44 20/05/2021; ResponseTime:0.482 ms
+Method:PUT; URL:/api/users/balance; Status:200; Message:OK; DateTime12:42:44 20/05/2021; ResponseTime:1.990 ms
+Method:PUT; URL:/api/users/profile; Status:200; Message:OK; DateTime12:42:44 20/05/2021; ResponseTime:1.809 ms
+Method:PUT; URL:/api/users/plans; Status:200; Message:OK; DateTime12:42:44 20/05/2021; ResponseTime:0.192 ms
+Method:GET; URL:/api/plans; Status:200; Message:OK; DateTime12:42:44 20/05/2021; ResponseTime:0.950 ms
+Method:POST; URL:/api/plans; Status:403; Message:Forbidden; DateTime12:42:44 20/05/2021; ResponseTime:0.860 ms
+Method:DELETE; URL:/api/plans/0; Status:400; Message:Bad Request; DateTime12:42:44 20/05/2021; ResponseTime:1.193 ms
+Method:GET; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime12:42:44 20/05/2021; ResponseTime:0.173 ms
+Method:POST; URL:/api/transactions; Status:403; Message:Forbidden; DateTime12:42:44 20/05/2021; ResponseTime:0.560 ms
+Method:GET; URL:/api/recipes?search=&number=5; Status:200; Message:OK; DateTime12:42:45 20/05/2021; ResponseTime:716.333 ms
+Method:GET; URL:/api/recipes/1231231903; Status:404; Message:Not Found; DateTime12:42:47 20/05/2021; ResponseTime:1992.617 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=0&maxFat=0&minCarbs=0&maxCarbs=0&minSugar=50&maxSugar=100&minCholesterol=50&maxCholesterol=100&minProtein=0&maxProtein=100&minCalcium=0&maxCalcium=100; Status:404; Message:Not Found; DateTime12:42:48 20/05/2021; ResponseTime:674.172 ms
+Method:GET; URL:/api/bmi?age=64&height=206&weight=123; Status:401; Message:Unauthorized; DateTime12:42:48 20/05/2021; ResponseTime:0.186 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime12:42:48 20/05/2021; ResponseTime:9.344 ms
+Method:POST; URL:/api/users/login; Status:200; Message:OK; DateTime12:42:48 20/05/2021; ResponseTime:1.399 ms
+Method:GET; URL:/api/users; Status:200; Message:OK; DateTime12:42:48 20/05/2021; ResponseTime:1.902 ms
+Method:GET; URL:/api/users/1; Status:401; Message:Unauthorized; DateTime12:42:48 20/05/2021; ResponseTime:0.329 ms
+Method:PUT; URL:/api/users/balance; Status:400; Message:Bad Request; DateTime12:42:48 20/05/2021; ResponseTime:0.726 ms
+Method:PUT; URL:/api/users/profile; Status:401; Message:Unauthorized; DateTime12:42:48 20/05/2021; ResponseTime:0.302 ms
+Method:PUT; URL:/api/users/plans; Status:200; Message:OK; DateTime12:42:48 20/05/2021; ResponseTime:0.204 ms
+Method:GET; URL:/api/plans; Status:401; Message:Unauthorized; DateTime12:42:49 20/05/2021; ResponseTime:0.178 ms
+Method:POST; URL:/api/plans; Status:401; Message:Unauthorized; DateTime12:42:49 20/05/2021; ResponseTime:1.351 ms
+Method:DELETE; URL:/api/plans/10; Status:200; Message:OK; DateTime12:42:49 20/05/2021; ResponseTime:2.147 ms
+Method:GET; URL:/api/transactions; Status:200; Message:OK; DateTime12:42:49 20/05/2021; ResponseTime:3.570 ms
+Method:POST; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime12:42:49 20/05/2021; ResponseTime:0.299 ms
+Method:GET; URL:/api/recipes?search=qwerqsdvasdvqerqwer12rqwfdzxv&number=5; Status:404; Message:Not Found; DateTime12:42:50 20/05/2021; ResponseTime:807.708 ms
+Method:GET; URL:/api/recipes/716429; Status:429; Message:Too Many Requests; DateTime12:42:50 20/05/2021; ResponseTime:1.050 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100&minSugar=50&maxSugar=100&minCholesterol=50&maxCholesterol=100&minProtein=0&maxProtein=100&minCalcium=0&maxCalcium=100; Status:429; Message:Too Many Requests; DateTime12:42:50 20/05/2021; ResponseTime:1.782 ms
+Method:GET; URL:/api/bmi?age=31&height=191&weight=67; Status:200; Message:OK; DateTime12:42:51 20/05/2021; ResponseTime:966.838 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime12:42:51 20/05/2021; ResponseTime:12.619 ms
+Method:POST; URL:/api/users/login; Status:400; Message:Bad Request; DateTime12:42:51 20/05/2021; ResponseTime:0.871 ms
+Method:GET; URL:/api/users; Status:403; Message:Forbidden; DateTime12:42:51 20/05/2021; ResponseTime:0.410 ms
+Method:GET; URL:/api/users/1; Status:200; Message:OK; DateTime12:42:51 20/05/2021; ResponseTime:1.462 ms
+Method:PUT; URL:/api/users/balance; Status:401; Message:Unauthorized; DateTime12:42:51 20/05/2021; ResponseTime:0.158 ms
+Method:PUT; URL:/api/users/profile; Status:200; Message:OK; DateTime12:42:51 20/05/2021; ResponseTime:2.151 ms
+Method:PUT; URL:/api/users/plans; Status:200; Message:OK; DateTime12:42:52 20/05/2021; ResponseTime:0.213 ms
+Method:GET; URL:/api/plans; Status:200; Message:OK; DateTime12:42:52 20/05/2021; ResponseTime:1.342 ms
+Method:POST; URL:/api/plans; Status:201; Message:Created; DateTime12:42:52 20/05/2021; ResponseTime:2.322 ms
+Method:DELETE; URL:/api/plans/11; Status:403; Message:Forbidden; DateTime12:42:52 20/05/2021; ResponseTime:0.468 ms
+Method:GET; URL:/api/transactions; Status:200; Message:OK; DateTime12:42:52 20/05/2021; ResponseTime:1.788 ms
+Method:POST; URL:/api/transactions; Status:400; Message:Bad Request; DateTime12:42:52 20/05/2021; ResponseTime:4.510 ms
+Method:GET; URL:/api/recipes?search=a&number=5; Status:429; Message:Too Many Requests; DateTime12:42:52 20/05/2021; ResponseTime:1.310 ms
+Method:GET; URL:/api/recipes/716429; Status:200; Message:OK; DateTime12:42:53 20/05/2021; ResponseTime:1080.891 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=a&maxFat=100&minCarbs=50&maxCarbs=100&minSugar=50&maxSugar=100&minCholesterol=50&maxCholesterol=100&minProtein=0&maxProtein=100&minCalcium=0&maxCalcium=100; Status:400; Message:Bad Request; DateTime12:42:53 20/05/2021; ResponseTime:0.875 ms
+Method:GET; URL:/api/bmi?age=31&height=191&weight=67; Status:401; Message:Unauthorized; DateTime12:42:53 20/05/2021; ResponseTime:0.291 ms
+Method:POST; URL:/api/users/register; Status:400; Message:Bad Request; DateTime12:42:53 20/05/2021; ResponseTime:5.639 ms
+Method:POST; URL:/api/users/login; Status:401; Message:Unauthorized; DateTime12:42:54 20/05/2021; ResponseTime:1.215 ms
+Method:GET; URL:/api/users; Status:401; Message:Unauthorized; DateTime12:42:54 20/05/2021; ResponseTime:0.263 ms
+Method:GET; URL:/api/users/132451; Status:404; Message:Not Found; DateTime12:42:54 20/05/2021; ResponseTime:1.477 ms
+Method:PUT; URL:/api/users/balance; Status:200; Message:OK; DateTime12:42:54 20/05/2021; ResponseTime:1.074 ms
+Method:PUT; URL:/api/users/profile; Status:401; Message:Unauthorized; DateTime12:42:54 20/05/2021; ResponseTime:0.207 ms
+Method:PUT; URL:/api/users/plans; Status:200; Message:OK; DateTime12:42:54 20/05/2021; ResponseTime:0.191 ms
+Method:GET; URL:/api/plans; Status:401; Message:Unauthorized; DateTime12:42:54 20/05/2021; ResponseTime:0.177 ms
+Method:POST; URL:/api/plans; Status:400; Message:Bad Request; DateTime12:42:54 20/05/2021; ResponseTime:0.881 ms
+Method:DELETE; URL:/api/plans/11; Status:401; Message:Unauthorized; DateTime12:42:54 20/05/2021; ResponseTime:0.272 ms
+Method:GET; URL:/api/transactions; Status:401; Message:Unauthorized; DateTime12:42:54 20/05/2021; ResponseTime:0.394 ms
+Method:POST; URL:/api/transactions; Status:400; Message:Bad Request; DateTime12:42:54 20/05/2021; ResponseTime:0.365 ms
+Method:GET; URL:/api/recipes?search=asdfadfqwer&number=5; Status:401; Message:Unauthorized; DateTime12:42:54 20/05/2021; ResponseTime:0.594 ms
+Method:GET; URL:/api/recipes/716429; Status:401; Message:Unauthorized; DateTime12:42:54 20/05/2021; ResponseTime:0.334 ms
+Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100&minSugar=50&maxSugar=100&minCholesterol=50&maxCholesterol=100&minProtein=0&maxProtein=100&minCalcium=0&maxCalcium=100; Status:401; Message:Unauthorized; DateTime12:42:55 20/05/2021; ResponseTime:0.630 ms
+Method:GET; URL:/api/bmi?age=44&height=222&weight=126; Status:200; Message:OK; DateTime12:42:56 20/05/2021; ResponseTime:968.565 ms
