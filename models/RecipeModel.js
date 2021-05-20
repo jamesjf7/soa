@@ -1,17 +1,21 @@
 const url = require("url");
 const axios = require("axios");
 
-const apiKey = ["335fd33838774c4baec2166c8b06dec2"];
+const listApiKey = [
+    "335fd33838774c4baec2166c8b06dec2",
+    "3989f55aeb8e44309c970d82224327b2",
+    "241f9030d05f47bf98c2bae1f7173670",
+];
+const apiKey = listApiKey[1];
 
 module.exports = {
     search: async (data) => {
         const params = new url.URLSearchParams({
             query: data.search,
-            number: data.number,
             addRecipeInformation: true,
-            apiKey: apiKey[0],
+            apiKey: apiKey,
         });
-
+        console.log(data);
         try {
             let result = await axios.get(
                 `https://api.spoonacular.com/recipes/complexSearch?${params.toString()}`
@@ -24,7 +28,7 @@ module.exports = {
     detail: async (id) => {
         const params = new url.URLSearchParams({
             includeNutrition: true,
-            apiKey: apiKey[0],
+            apiKey: apiKey,
         });
         try {
             let [result] = await Promise.all([
@@ -39,13 +43,11 @@ module.exports = {
     },
     recommendation: async (data) => {
         const params = new url.URLSearchParams({
-            number: data.number,
-            minFat: data.minFat,
-            maxFat: data.maxFat,
-            minCarbs: data.minCarbs,
-            maxCarbs: data.maxCarbs,
-            apiKey: apiKey[0],
+            ...data,
+            apiKey: apiKey,
         });
+
+        console.log(params);
 
         try {
             let result = await axios.get(

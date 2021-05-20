@@ -2,6 +2,7 @@ const express = require("express");
 const crypto = require("crypto");
 const path = require("path");
 const multer = require("multer");
+const moment = require("moment");
 const jwt = require("jsonwebtoken");
 const fs = require("fs");
 const {
@@ -66,30 +67,6 @@ router.get("/", [authenticate, authorize([0])], async (req, res) => {
     return res.status(200).send(users);
 });
 
-/* view user detail */
-router.get(
-    "/:id",
-    [
-        [
-            param("id")
-                .notEmpty()
-                .withMessage("id can not be empty")
-                .trim()
-                .escape(),
-        ],
-        inputValidation,
-        authenticate,
-        authorize([0]),
-    ],
-    async (req, res) => {
-        let users = await UserModel.select(`where id = ${req.params.id}`);
-        if (users.length == 0)
-            return res.status(404).send({ message: "no user found!" });
-        let user = users[0];
-        return res.status(200).send(user);
-    }
-);
-
 /* login */
 router.post(
     "/login",
@@ -123,6 +100,7 @@ router.post(
                 message: "Welcome, " + user.name,
                 token: user.token,
                 role: user.role,
+                apihit: user.api_hit,
             });
         }
     }
@@ -342,5 +320,29 @@ router.put("/plans", async (req, res) => {
         token: "test",
     });
 });
+
+/* view user detail */
+router.get(
+    "/:id",
+    [
+        [
+            param("id")
+                .notEmpty()
+                .withMessage("id can not be empty")
+                .trim()
+                .escape(),
+        ],
+        inputValidation,
+        authenticate,
+        authorize([0]),
+    ],
+    async (req, res) => {
+        let users = await UserModel.select(`where id = ${req.params.id}`);
+        if (users.length == 0)
+            return res.status(404).send({ message: "no user found!" });
+        let user = users[0];
+        return res.status(200).send(user);
+    }
+);
 
 module.exports = router;
