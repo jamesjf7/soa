@@ -46,12 +46,9 @@ CREATE TABLE `transactions` (
   `user_id` int(11) DEFAULT NULL,
   `created_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 /*Data for the table `transactions` */
-
-insert  into `transactions`(`id`,`plan_id`,`user_id`,`created_at`) values 
-(6,1,3,'2021-04-30 17:06:06');
 
 /*Table structure for table `users` */
 
@@ -72,13 +69,14 @@ CREATE TABLE `users` (
   `api_hit` int(11) DEFAULT 0,
   `last_hit` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 
 /*Data for the table `users` */
 
 insert  into `users`(`id`,`name`,`email`,`username`,`password`,`token`,`image`,`age`,`role`,`balance`,`is_active`,`api_hit`,`last_hit`) values 
-(1,'admin','admin1@gmail.com','admin1','admin1','eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbjEiLCJyb2xlIjoiMCIsImlhdCI6MTYyMDgzMTM1M30.30FHfJaLp6mYmv21le_RDaZR1dHbS81VrWbG-n2K6gc',NULL,22,0,0,1,100,NULL),
-(2,'admin','user1@gmail.com','user1','user1','eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwidXNlcm5hbWUiOiJ1c2VyMSIsInJvbGUiOiIxIiwiaWF0IjoxNjIwODMxMzc5fQ.0BdUhYCwRWkCadKP01jSrPwJVqBcFk6Sjee1a238UCQ',NULL,22,1,0,1,1000000000,NULL);
+(1,'admin1','admin@admin.com','admin1','admin1','',NULL,20,0,0,1,100,'0000-00-00 00:00:00'),
+(2,'user1','user1@user1.com','user1','user1','',NULL,20,0,0,1,1000000000,'0000-00-00 00:00:00'),
+(3,'user2','user1@user2.com','user2','user2','',NULL,20,0,0,1,0,'0000-00-00 00:00:00');
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;

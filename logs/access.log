@@ -2908,6 +2908,7 @@ Method:GET; URL:/api/recipes?search=asdfadfqwer&number=5; Status:401; Message:Un
 Method:GET; URL:/api/recipes/716429; Status:401; Message:Unauthorized; DateTime12:42:54 20/05/2021; ResponseTime:0.334 ms
 Method:GET; URL:/api/recipes/recommendation?number=5&minFat=50&maxFat=100&minCarbs=50&maxCarbs=100&minSugar=50&maxSugar=100&minCholesterol=50&maxCholesterol=100&minProtein=0&maxProtein=100&minCalcium=0&maxCalcium=100; Status:401; Message:Unauthorized; DateTime12:42:55 20/05/2021; ResponseTime:0.630 ms
 Method:GET; URL:/api/bmi?age=44&height=222&weight=126; Status:200; Message:OK; DateTime12:42:56 20/05/2021; ResponseTime:968.565 ms
+<<<<<<< HEAD
 Method:GET; URL:/api/users/register; Status:401; Message:Unauthorized; DateTime13:04:10 20/05/2021; ResponseTime:4.997 ms
 Method:GET; URL:/api/users/register; Status:401; Message:Unauthorized; DateTime13:04:55 20/05/2021; ResponseTime:0.815 ms
 Method:GET; URL:/api/users/register; Status:401; Message:Unauthorized; DateTime13:05:04 20/05/2021; ResponseTime:0.744 ms
@@ -2948,3 +2949,13 @@ Method:GET; URL:/api/users/; Status:401; Message:Unauthorized; DateTime13:11:44 
 Method:GET; URL:/api/users/; Status:401; Message:Unauthorized; DateTime13:11:44 20/05/2021; ResponseTime:0.158 ms
 Method:GET; URL:/api/users/; Status:401; Message:Unauthorized; DateTime13:11:46 20/05/2021; ResponseTime:0.170 ms
 Method:GET; URL:/api/users/register; Status:401; Message:Unauthorized; DateTime13:12:09 20/05/2021; ResponseTime:0.325 ms
+=======
+Method:GET; URL:/api/users/register; Status:401; Message:Unauthorized; DateTime13:14:04 20/05/2021; ResponseTime:4.552 ms
+Method:GET; URL:/api/users/register; Status:401; Message:Unauthorized; DateTime13:14:33 20/05/2021; ResponseTime:5.062 ms
+Method:GET; URL:/api/users/register; Status:401; Message:Unauthorized; DateTime13:14:53 20/05/2021; ResponseTime:4.564 ms
+Method:GET; URL:/api/users/register; Status:401; Message:Unauthorized; DateTime13:14:54 20/05/2021; ResponseTime:0.921 ms
+Method:GET; URL:/api/users/register; Status:401; Message:Unauthorized; DateTime13:16:17 20/05/2021; ResponseTime:5.098 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime13:16:27 20/05/2021; ResponseTime:38.807 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime13:18:34 20/05/2021; ResponseTime:9.756 ms
+Method:POST; URL:/api/users/register; Status:201; Message:Created; DateTime13:18:44 20/05/2021; ResponseTime:6.957 ms
+>>>>>>> development
