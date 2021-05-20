@@ -6,7 +6,7 @@ const listApiKey = [
     "3989f55aeb8e44309c970d82224327b2",
     "241f9030d05f47bf98c2bae1f7173670",
 ];
-const apiKey = listApiKey[1];
+const apiKey = listApiKey[0];
 
 module.exports = {
     search: async (data) => {
