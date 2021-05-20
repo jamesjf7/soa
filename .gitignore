@@ -113,3 +113,4 @@ logs/access.log
 =======
 .tern-port
 >>>>>>> 2a8cf87e23c825fc8664812d55423ae0e01bfc2c
+/database/config.js
