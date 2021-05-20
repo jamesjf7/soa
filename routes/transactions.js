@@ -27,7 +27,7 @@ router.get("/", [authenticate, inputValidation], async (req, res) => {
                 plan: transaction.plan_name,
                 price: transaction.price,
                 duration: transaction.duration + " Days",
-                time: time.toLocaleString(),
+                start: time.toLocaleString(),
                 end: time.addDays(transaction.duration).toLocaleString(),
             };
         });
@@ -74,7 +74,7 @@ router.post("/", [[check("plan_id").not().isEmpty().withMessage("plan_id is empt
     };
 
     let result = await transactionModel.insert(transaction);
-    let result2 = await userModel.update(found_plan.price, user_id);
+    let result2 = await userModel.updateBalance(found_plan.price, user_id);
     console.log(result2);
     if (result.affectedRows == 0) {
         return res.status(400).json(result);
