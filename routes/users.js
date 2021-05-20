@@ -180,7 +180,6 @@ router.post(
             role: role,
             balance: 0,
             api_hit: 100,
-            last_hit: moment(),
         };
 
         let result = await UserModel.insert(user);

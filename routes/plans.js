@@ -29,11 +29,12 @@ router.post("/", [
         inputValidation, 
         authorize([0])
     ], async (req, res) => {
-    let { name, price, duration } = req.body;
+    let { name, price, duration, api_hit } = req.body;
     let plan = {
         name,
         price,
         duration,
+        api_hit,
     };
     let result = await planModel.insert(plan);
     if (result.affectedRows == 0) {
@@ -44,6 +45,7 @@ router.post("/", [
             name: plan.name,
             price: plan.price,
             duration: plan.duration,
+            api_hit: plan.api_hit,
         });
     }
 });
