@@ -21,7 +21,8 @@ module.exports = {
     update: async function (data, id) {
         try {
             let result = await db.query(
-                `update users set ? where id = '${id}'`, data
+                `update users set ? where id = '${id}'`,
+                data
             );
             if (result.affectedRows > 0) return result;
             else return null;
