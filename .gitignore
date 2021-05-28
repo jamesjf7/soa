@@ -116,5 +116,6 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+/database/config.js
 /logs/2021.05.1.log
 /logs/access.log
