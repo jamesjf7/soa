@@ -17,5 +17,5 @@ const production = {
     },
 };
 
-module.exports = production;
+module.exports = local;
 // module.exports = production;

@@ -6,6 +6,8 @@ const favicon = require("serve-favicon");
 const morgan = require("morgan");
 const moment = require("moment");
 const path = require("path");
+
+// app
 const app = express();
 
 const users = require("./routes/users");

@@ -12,6 +12,44 @@ const {
     inputValidation,
 } = require("../middlewares/middlewares");
 const { check, param } = require("express-validator");
+
+// multer gdrive
+const { google } = require("googleapis");
+const GoogleDriveStorage = require("multer-google-drive");
+const credentials = require("../credentials.json");
+const scopes = ["https://www.googleapis.com/auth/drive"];
+const auth = new google.auth.JWT(
+    credentials.client_email,
+    null,
+    credentials.private_key,
+    scopes
+);
+const drive = google.drive({ version: "v3", auth });
+const upload = multer({
+    storage: GoogleDriveStorage({
+        drive: drive,
+        parents: "1tkgRWAYKeuxWAZCn8OWsjHID-g15sSK0",
+        fileName: function (req, file, cb) {
+            if (file != null) {
+                // console.log(file);
+                let extension = file.originalname.split(".").slice(-1)[0];
+                if (
+                    extension !== "png" &&
+                    extension !== "jpg" &&
+                    extension !== "gif" &&
+                    extension !== "jpeg"
+                ) {
+                    return callback(new Error("Only images are allowed"));
+                }
+                filename =
+                    crypto.randomBytes(20).toString("hex") + "." + extension;
+                // cb(null, file.originalname + "." + extension);
+                cb(null, filename);
+            }
+        },
+    }),
+});
+
 const router = express.Router();
 // model
 const UserModel = require("../models/UserModel");
@@ -20,37 +58,50 @@ router.use(express.json());
 router.use(express.urlencoded({ extended: true }));
 
 var filename = "";
-const storage = multer.diskStorage({
-    destination: (req, file, cb) => {
-        cb(null, "./uploads");
-    },
-    filename: (req, file, cb) => {
-        if (file != null) {
-            // console.log(file);
-            let extension = file.originalname.split(".").slice(-1)[0];
-            filename = crypto.randomBytes(20).toString("hex") + "." + extension;
-            // cb(null, file.originalname + "." + extension);
-            cb(null, filename);
-        }
-    },
-    fileFilter: function (req, file, callback) {
-        console.log(file);
-        if (file != null) {
-            let extension = path.extname(file.originalname);
-            if (
-                extension !== ".png" &&
-                extension !== ".jpg" &&
-                extension !== ".gif" &&
-                extension !== ".jpeg"
-            ) {
-                return callback(new Error("Only images are allowed"));
-            }
-            callback(null, true);
-        }
-    },
-});
+// const storage = multer.diskStorage({
+//     destination: (req, file, cb) => {
+//         cb(null, "./uploads");
+//     },
+//     filename: (req, file, cb) => {
+//         if (file != null) {
+//             // console.log(file);
+//             let extension = file.originalname.split(".").slice(-1)[0];
+//             filename = crypto.randomBytes(20).toString("hex") + "." + extension;
+//             // cb(null, file.originalname + "." + extension);
+//             cb(null, filename);
+//         }
+//     },
+//     fileFilter: function (req, file, callback) {
+//         console.log(file);
+//         if (file != null) {
+//             let extension = path.extname(file.originalname);
+//             if (
+//                 extension !== ".png" &&
+//                 extension !== ".jpg" &&
+//                 extension !== ".gif" &&
+//                 extension !== ".jpeg"
+//             ) {
+//                 return callback(new Error("Only images are allowed"));
+//             }
+//             callback(null, true);
+//         }
+//     },
+// });
 
-const upload = multer({ storage: storage });
+// const upload = multer({ storage: storage });
+
+async function getUploadedImage() {
+    let image = null;
+    let data = (await drive.files.list({})).data;
+    if (data.files.length) {
+        data.files.map((file) => {
+            if (file.name == filename) {
+                image = `https://drive.google.com/file/d/${file.id}/view?usp=sharing`;
+            }
+        });
+    }
+    return image;
+}
 
 /* view all users */
 /* eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluMUBhZG1pbi5jb20iLCJ1c2VybmFtZSI6ImFkbWluMSIsInBhc3N3b3JkIjoiYWRtaW4xIiwicm9sZSI6IjAiLCJpYXQiOjE2MTkyNDQ1Njd9.f6ShyIAVFSwY9-loZIsSoO9AJx1kTwaHj43DXYKmZgs */
@@ -169,13 +220,15 @@ router.post(
     async (req, res) => {
         let { name, email, username, password, age, role } = req.body;
 
+        let image = await getUploadedImage();
+
         let user = {
             name: name,
             email: email,
             username: username,
             password: password,
             token: "",
-            image: req.file == null ? null : "/uploads/" + filename,
+            image: image,
             age: parseInt(age),
             role: role,
             balance: 0,
@@ -207,6 +260,7 @@ router.post(
                 username: user.username,
                 token: user.token,
                 age: user.age,
+                image: image == null ? "No Image" : image,
                 role: parseInt(user.role) === 1 ? "user" : "admin",
                 balance: 0,
             });
@@ -245,10 +299,11 @@ router.put(
     async (req, res) => {
         let { name, age, password } = req.body;
 
+        let image = await getUploadedImage();
+
         let user = {
             name: name,
-            image:
-                req.file == null ? null : "/uploads/" + req.file.originalname,
+            image: image,
             password: password,
             age: age,
         };
