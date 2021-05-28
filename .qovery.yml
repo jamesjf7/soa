@@ -1,0 +1,11 @@
+---
+application:
+  name: "fit4u"
+  project: "fit4u"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-fit4u"
+  routes:
+  - application_name: "fit4u"
+    paths:
+    - "/*"
