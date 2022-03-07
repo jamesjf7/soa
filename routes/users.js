@@ -337,8 +337,11 @@ router.put(
     async (req, res) => {
         let { balance } = req.body;
 
+        let users = await UserModel.select(`where id = ${req.user.id}`);
+        let logged_user = users[0];
+
         let user = {
-            balance: balance,
+            balance: parseInt(balance)+parseInt(logged_user.balance),
         };
 
         let result = await UserModel.update(user, req.user.id);
